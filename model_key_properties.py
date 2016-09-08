@@ -71,6 +71,7 @@ DETAILS['genealogy'] = {
 }
 
 # TODO: add coupler info and other IT properties (cf https://es-doc.slack.com/archives/nb_screenshots)
+# TODO: add code source link (opt) and references
 
 
 # --------------------------------------------------------------------

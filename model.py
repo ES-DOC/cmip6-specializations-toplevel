@@ -48,14 +48,14 @@ QC_STATUS = 'draft'
 # --------------------------------------------------------------------
 DESCRIPTION = 'Top level model'
 
-# TODO see CIM2 syntax for these properties
+# TODO see CIM2 syntax for these properties:
 
 # --------------------------------------------------------------------
 # MODEL: NAME
 #
 # Official CMIP model name to allow automated links with data and other documents
 # --------------------------------------------------------------------
-NAME = ['']
+NAME = ['source_id']
 
 # --------------------------------------------------------------------
 # MODEL: TUNING
@@ -75,7 +75,12 @@ KEY_PROPERTIES = 'model_key_properties'
 # MODEL: REALM
 #
 # Realms simulated by the model
-# TODO: included on/off switch to allow for partial configurations (AMIP, AOGCM)
+# TODO: included on/off switch to allow for partial configurations (AMIP, AOGCM) or component_name or 'none'
+#  'atmosphere', 'on'
+#  'ocean', 'off'
+# or
+#  'atmosphere', 'HadGAM2'  # alhtough this as a risk of duplicate/conflict with compenent name in atmophere.py
+#  'ocean', 'none'
 # --------------------------------------------------------------------
 REALMS = [
     'atmosphere',
