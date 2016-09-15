@@ -3,7 +3,7 @@
 For further information goto http://wordpress.es-doc.org/cmip6-model-specializations.
 
 """
-
+from collections import OrderedDict
 # --------------------------------------------------------------------
 # CONTACT
 #
@@ -100,7 +100,7 @@ COUPLER = ('software.coupling_framework', '0.1',
 INTERNAL_SOFTWARE_COMPONENTS = ('software.software_component', '0.N',
                                 "Software modules which together provide the functionality for this model."),
 # TODO: isn't this the same as what is asked below in REALMS ?
-SIMULATES = ['linked_to(science.scientific_realm)', '0.N',
+SIMULATES = ('linked_to(science.scientific_realm)', '0.N',
              "The scientific domains which this model simulates.")
 
 # --------------------------------------------------------------------
