@@ -71,6 +71,8 @@ TUNING = 'tuning'
 # --------------------------------------------------------------------
 KEY_PROPERTIES = 'model_key_properties'
 
+# TODO: should we have a Forcings section here ? see related ticket
+
 # --------------------------------------------------------------------
 # MODEL: REALM
 #
@@ -79,8 +81,11 @@ KEY_PROPERTIES = 'model_key_properties'
 #  'atmosphere', 'on'
 #  'ocean', 'off'
 # or
-#  'atmosphere', 'HadGAM2'  # alhtough this as a risk of duplicate/conflict with compenent name in atmophere.py
+#  'atmosphere', 'HadGAM2'  # although there is a risk of duplicate/conflict with component name in atmophere.py
 #  'ocean', 'none'
+#  or
+# 'atmosphere, 'present'
+# 'ocean', 'none'
 # --------------------------------------------------------------------
 REALMS = [
     'atmosphere',
