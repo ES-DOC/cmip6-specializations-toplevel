@@ -76,9 +76,10 @@ CATEGORY = ('ENUM:model_types', '1.1',
 CITATIONS = ('shared.citation', '0.N',
              "Set of pertinent citations."),
 
+# TODO: this is conflict with genealogy in model_key_properties:
 DEVELOPMENT_HISTORY = ('software.development_path', '0.1',
                        "History of the development of this component."),
-
+# TODO: this is conflict with genealogy in model_key_properties:
 RELEASE_DATE = ('time.date_time', '0.1',
                 "The date of publication of the component code (as opposed to the date of publication of the metadata document, or the date of deployment of the model)."),
 
@@ -88,15 +89,17 @@ REPOSITORY = ('shared.online_resource', '0.1',
 VERSION = ('str', '0.1',
            "Version identifier.")
 
+# TODO: question unclear to me:
 COUPLED_COMPONENTS = ('science.model', '0.N',
                       "Software components which are linked together using a coupler to deliver this model."),
 
 COUPLER = ('software.coupling_framework', '0.1',
            "Overarching coupling framework for model."),
 
+# TODO: question unclear to me:
 INTERNAL_SOFTWARE_COMPONENTS = ('software.software_component', '0.N',
                                 "Software modules which together provide the functionality for this model."),
-
+# TODO: isn't this the same as what is asked below in REALMS ?
 SIMULATES = ['linked_to(science.scientific_realm)', '0.N',
              "The scientific domains which this model simulates.")
 
@@ -120,6 +123,7 @@ KEY_PROPERTIES = 'model_key_properties'
 # ***
 # I am thinking that each realm is nillable with nil reason
 # ("nil:inapplicable", "There is no value"),
+# Ok, how would you apply it in the list below ?
 # [https://github.com/ES-DOC/esdoc-cim/blob/master/v2/schema/shared_classes.py#L200]
 # ***
 # --------------------------------------------------------------------
@@ -140,13 +144,13 @@ REALMS = [
 ENUMERATIONS = OrderedDict()
 
 ENUMERATIONS['model_types'] = {
-    'description': 'Defines a set of gross model classes.'
+    'description': 'Defines a set of gross model classes.',
     'is_open': True,
     'members': [
         ("Atm Only", "Atmosphere Only"),
         ("Ocean Only", "Ocean Only"),
         ("Regional", "Regional Model"),
-        ("GCM", "Global Climate Model (Atmosphere, Ocean, no carbon cycle)"),
+        ("CGCM", "Global Coupled Climate Model (Atmosphere, Ocean, Land, Sea-ice no carbon cycle)"),
         ("IGCM", "Intermediate Complexity GCM"),
         ("GCM-MLO", "GCM with mixed layer ocean"),
         ("Mesoscale", "Mesoscale Model"),
