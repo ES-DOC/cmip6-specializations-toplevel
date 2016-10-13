@@ -83,6 +83,8 @@ LONG_NAME = ''
 # --------------------------------------------------------------------
 KEY_PROPERTIES = 'model_key_properties'
 
+#TODO add model forcings section (CIM2 class ?)
+
 # --------------------------------------------------------------------
 # MODEL: SIMULATES
 #
