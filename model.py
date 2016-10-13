@@ -48,61 +48,33 @@ QC_STATUS = 'draft'
 # --------------------------------------------------------------------
 DESCRIPTION = 'Top level model'
 
-# TODO see CIM2 syntax for these properties
+CATEGORY = ('ENUM:model_types', '1.1',
+            "Generic type for this model."),
+
+CITATIONS = ('shared.citation', '0.N', "Set of pertinent citations."),
 
 # --------------------------------------------------------------------
 # MODEL: NAME
 #
-# Official CMIP model name to allow automated links with data and other documents
+# Official CMIP model name ('source_id' in netCDF files)
+# *KEY* to allow automated links with data and other documents
 # --------------------------------------------------------------------
 NAME = ''
 
 # --------------------------------------------------------------------
-# MODEL: LONG_NAME
-#
-# 
+# MODEL: LONG_NAME ('source' in netCDF files)
 # --------------------------------------------------------------------
 LONG_NAME = ''
 
-
-# --------------------------------------------------------------------
-# MODEL: CATEGORY
+# (-------------------------------------------------------------------)
+#DEVELOPMENT_HISTORY = ('software.development_path', '0.1',
+#                       "History of the development of this component."), --> genealogy in model_key_properties
 #
-# Generic type for this model
-# --------------------------------------------------------------------
-CATEGORY = ('ENUM:model_types', '1.1',
-            "Generic type for this model."),
-
-CITATIONS = ('shared.citation', '0.N',
-             "Set of pertinent citations."),
-
-# TODO: this is conflict with genealogy in model_key_properties:
-DEVELOPMENT_HISTORY = ('software.development_path', '0.1',
-                       "History of the development of this component."),
-# TODO: this is conflict with genealogy in model_key_properties:
-RELEASE_DATE = ('time.date_time', '0.1',
-                "The date of publication of the component code (as opposed to the date of publication of the metadata document, or the date of deployment of the model)."),
-
-REPOSITORY = ('shared.online_resource', '0.1',
-              "Location of code for this component."),
-
-VERSION = ('str', '0.1',
-           "Version identifier.")
-
-# TODO: question unclear to me:
-COUPLED_COMPONENTS = ('science.model', '0.N',
-                      "Software components which are linked together using a coupler to deliver this model."),
-
-COUPLER = ('software.coupling_framework', '0.1',
-           "Overarching coupling framework for model."),
-
-# TODO: question unclear to me:
-INTERNAL_SOFTWARE_COMPONENTS = ('software.software_component', '0.N',
-                                "Software modules which together provide the functionality for this model."),
-# TODO: isn't this the same as what is asked below in REALMS ?
-SIMULATES = ('linked_to(science.scientific_realm)', '0.N',
-             "The scientific domains which this model simulates.")
-
+#RELEASE_DATE = ('time.date_time', '0.1', =-> genealogy in model_key_properties
+#                "The date of publication of the component code (as opposed to the date of publication of
+#                 the metadata document, or the date of deployment of the model)."),
+# (-------------------------------------------------------------------)
+#
 # --------------------------------------------------------------------
 # MODEL: KEY PROPERTIES
 #
@@ -114,28 +86,19 @@ KEY_PROPERTIES = 'model_key_properties'
 # --------------------------------------------------------------------
 # MODEL: SIMULATES
 #
-# File names (without the .py suffix) containing the scientific realms
-# which this model simulates.
-
 # Realms simulated by the model
-# TODO: included on/off switch to allow for partial configurations (AMIP, AOGCM)
-#
-# ***
-# I am thinking that each realm is nillable with nil reason
-# ("nil:inapplicable", "There is no value"),
-# Ok, how would you apply it in the list below ?
-# [https://github.com/ES-DOC/esdoc-cim/blob/master/v2/schema/shared_classes.py#L200]
-# ***
+# Official realms names are from https://github.com/WCRP-CMIP/CMIP6_CVs/blob/master/CMIP6_realm.json
+# Creation tool should include an on/off switch to allow for partial configurations (AMIP, AOGCM)
 # --------------------------------------------------------------------
-REALMS = [
-    'atmosphere',
-    'ocean',
-    'seaice',
-    'oceanBGC',
-    'landsurface'
-    'atmos_chem',
-    'aerorols'
-    'ETC.'
+SIMULATES = [
+        "aerosol",
+        "atmos",
+        "atmosChem",
+        "land",
+        "landIce",
+        "ocean",
+        "ocnBgchem",
+        "seaIce",
 ]
 
 # --------------------------------------------------------------------
@@ -150,6 +113,7 @@ ENUMERATIONS['model_types'] = {
         ("Atm Only", "Atmosphere Only"),
         ("Ocean Only", "Ocean Only"),
         ("Regional", "Regional Model"),
+        ("ESM", "Earth System Model (Atmosphere, Ocean, Land, Sea-ice and cycles)"),
         ("CGCM", "Global Coupled Climate Model (Atmosphere, Ocean, Land, Sea-ice no carbon cycle)"),
         ("IGCM", "Intermediate Complexity GCM"),
         ("GCM-MLO", "GCM with mixed layer ocean"),

@@ -70,8 +70,53 @@ DETAILS['genealogy'] = {
     ]
 }
 
-# TODO: add coupler info and other IT properties (cf https://es-doc.slack.com/archives/nb_screenshots)
-# TODO: add code source link (opt) and references
+DETAILS['IT_properties'] = {
+    'description': 'IT and software properties of model',
+    'properties':[
+        ('repository','shared.online_resource', '0.1',
+            "Location of code for this component."),
+        ('code_version','str', '0.1',
+            "Code version identifier."),
+        ('code_languages','str', '0.N',
+            "Code language(s)."),
+        ('coupled_components', '0.N',
+            "List software model components which are linked together using a coupler to deliver this model."),
+        ('coupler','software.coupling_framework', '0.1',
+            "Overarching coupling framework for model."),
+        ('internal_software_components','software.software_component', '0.N',
+            "Software modules which together provide the functionality for this model.")
+    ]
+}
+
+# --------------------------------------------------------------------
+# KEY PROPERTIES: TUNING APPLIED
+#
+# Any tuning used to optimise the parameters in this realm
+# --------------------------------------------------------------------
+TUNING_APPLIED = OrderedDict()
+
+#
+TUNING_APPLIED['tuning_applied'] = {
+    'description': 'Tuning methodology for model',
+    'properties': [
+        ('description', 'str', '1.1',
+            "General overview description of tuning: explain and motivate the main targets and metrics retained. &"
+            "Document the relative weight given to climate performance metrics versus process oriented metrics, &"
+            "and on the possible conflicts with parameterization level tuning. In particular describe any struggle &"
+            "with a parameter value that required pushing it to its limits to solve a particular model deficiency."),
+        ('global_mean_metrics_used', 'str', '0.N',
+            "List set of metrics of the global mean state used in tuning model"),
+        ('regional_metrics_used', 'str', '0.N',
+            "List of regional metrics of mean state (e.g THC, AABW, regional means etc) used in tuning model/component"),
+        ('trend_metrics_used', 'str', '0.N',
+            "List observed trend metrics used in tuning model/component (such as 20th century)"),
+        ('energy_balance','str', '1.1',
+            "Describe how energy balance was obtained in the full system: was it done by tuning the various components independently, or was some final tuning needed?"),
+        ('citations', 'shared.citation', '0.N',
+            "Set of pertinent citations."),
+    ],
+
+}
 
 
 # --------------------------------------------------------------------
