@@ -114,15 +114,3 @@ ENUMERATIONS['model_types'] = {
         ("Planetary", "Non-Earth model"),
     ]
 }
-
-# -------------------------------------------------------------------
-# DO NOT CHANGE - inheritance from CIM2 schema but not used in CMIP6
-# -------------------------------------------------------------------
-
-# Set to 0.0 as moved to genealogy in model_key_properties
-DEVELOPMENT_HISTORY = ('software.development_path', '0.0',
-                       "History of the development of this component."),
-#
-RELEASE_DATE = ('time.date_time', '0.0',
-                "The date of publication of the component code (as opposed to the date of publication of \
-                the metadata document, or the date of deployment of the model)."),
