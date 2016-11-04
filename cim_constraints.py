@@ -3,7 +3,7 @@
 """
 .. module:: cim_constraints.py
    :platform: Unix, Windows
-   :synopsis: Set of CIM constraints pertinenet CMIP6.
+   :synopsis: Set of CIM constraints pertinent to CMIP6.
 
 .. moduleauthor:: Mark Conway-Greenslade <momipsl@ipsl.jussieu.fr>
 
