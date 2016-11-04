@@ -9,9 +9,15 @@
 
 
 """
+from collections import OrderedDict
+
+
+
+# Declare constraints over CIM v2.
+CIM = OrderedDict()
 
 # science.model constraints.
-CONSTRAINTS["science.model"] = {
+CIM["science.model"] = {
 	"include": [
 		"category",
 		"citations",
@@ -35,7 +41,7 @@ CONSTRAINTS["science.model"] = {
 }
 
 # science.realm constraints.
-CONSTRAINTS["science.realm"] = {
+CIM["science.realm"] = {
 	"include": [
 	   "citations",
 	   "grid",
@@ -49,12 +55,12 @@ CONSTRAINTS["science.realm"] = {
 }
 
 # science.process constraints.
-CONSTRAINTS["science.process"] = {
+CIM["science.process"] = {
 	"include": [
 	   "citations",
 	   "details",
 	   "description"
-	   'id',
+	   "id",
 	   "implementation_overview",
 	   "keywords",
 	   "short_name",
@@ -64,14 +70,57 @@ CONSTRAINTS["science.process"] = {
 }
 
 # science.sub_process constraints.
-CONSTRAINTS["science.sub_process"] = {
+CIM["science.sub_process"] = {
 	"include": [
 	   "citations",
 	   "details",
 	   "description"
-	   'id',
+	   "id",
 	   "implementation_overview",
 	   "short_name"
 	],
 	"ignore": []
 }
+
+# science.model.key_properties constraints.
+CIM["science.model.key_properties"] = {
+	"include": [
+	   "citations",
+	   "details",
+	   "description"
+	   "id",
+	   "keywords",
+	   "short_name",
+	   "sub_processes",
+	   "tuning_applied"
+	],
+	"ignore": [
+		"extent",
+		"extra_conservation_properties",
+		"implementation_overview",
+		"keywords",
+		"resolution"
+	]
+}
+
+# science.model[ocean].key_properties constraints.
+CIM["science.realm[ocean].key_properties"] = {
+	"include": [
+		"citations",
+		"details",
+		"description"
+		"extra_conservation_properties",
+		"id",
+		"keywords",
+		"resolution",
+		"short_name",
+		"sub_processes",
+		"tuning_applied"
+	],
+	"ignore": [
+		"extent",
+		"implementation_overview",
+		"keywords",
+	]
+}
+
