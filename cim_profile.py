@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 """
-.. module:: cim_constraints.py
+.. module:: cim_profile.py
    :platform: Unix, Windows
    :synopsis: Set of CIM constraints pertinent to CMIP6.
 
@@ -13,23 +13,23 @@ from collections import OrderedDict
 
 
 
-# Declare constraints over CIM v2.
-CIM = OrderedDict()
+# Declare profile over CIM v2.
+CIM_PROFILE = OrderedDict()
 
 # science.model constraints.
-CIM["science.model"] = {
+CIM_PROFILE["science.model"] = {
 	"include": [
 		"category",
 		"citations",
 		"description",
-		"id",
 		"key_properties",
 		"name",
 		"long_name",
 		"processes",
+		"specialization_id",
 		"version"
 	],
-	"ignore": [
+	"exclude": [
 		"coupled_components",
 		"coupler",
 		"development_history",
@@ -41,60 +41,60 @@ CIM["science.model"] = {
 }
 
 # science.realm constraints.
-CIM["science.realm"] = {
+CIM_PROFILE["science.realm"] = {
 	"include": [
 	   "citations",
 	   "grid",
-	   "id",
 	   "key_properties",
 	   "name",
 	   "overview",
-	   "processes"
+	   "processes",
+	   "specialization_id",
 	],
-	"ignore": []
+	"exclude": []
 }
 
 # science.process constraints.
-CIM["science.process"] = {
+CIM_PROFILE["science.process"] = {
 	"include": [
 	   "citations",
 	   "details",
-	   "description"
-	   "id",
+	   "description",
 	   "implementation_overview",
 	   "keywords",
 	   "short_name",
+	   "specialization_id",
 	   "sub_processes"
 	],
-	"ignore": []
+	"exclude": []
 }
 
 # science.sub_process constraints.
-CIM["science.sub_process"] = {
+CIM_PROFILE["science.sub_process"] = {
 	"include": [
 	   "citations",
 	   "details",
-	   "description"
+	   "description",
 	   "id",
 	   "implementation_overview",
 	   "short_name"
 	],
-	"ignore": []
+	"exclude": []
 }
 
-# science.model.key_properties constraints.
-CIM["science.model.key_properties"] = {
+# science.key_properties constraints.
+CIM_PROFILE["science.key_properties"] = {
 	"include": [
 	   "citations",
 	   "details",
-	   "description"
+	   "description",
 	   "id",
 	   "keywords",
 	   "short_name",
 	   "sub_processes",
 	   "tuning_applied"
 	],
-	"ignore": [
+	"exclude": [
 		"extent",
 		"extra_conservation_properties",
 		"implementation_overview",
@@ -104,7 +104,7 @@ CIM["science.model.key_properties"] = {
 }
 
 # science.model[ocean].key_properties constraints.
-CIM["science.realm[ocean].key_properties"] = {
+CIM_PROFILE["science.realm[ocean].key_properties"] = {
 	"include": [
 		"citations",
 		"details",
@@ -117,10 +117,15 @@ CIM["science.realm[ocean].key_properties"] = {
 		"sub_processes",
 		"tuning_applied"
 	],
-	"ignore": [
+	"exclude": [
 		"extent",
 		"implementation_overview",
 		"keywords",
 	]
 }
 
+# Null constraints used as plahceholders.
+NULL_CIM_PROFILE = {
+	"include": [],
+	"exclude": []
+}
