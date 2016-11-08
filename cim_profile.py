@@ -58,7 +58,7 @@ CIM_PROFILE["science.realm"] = {
 CIM_PROFILE["science.process"] = {
 	"include": [
 	   "citations",
-	   "details",
+	   "detail_sets",
 	   "description",
 	   "implementation_overview",
 	   "keywords",
@@ -73,9 +73,9 @@ CIM_PROFILE["science.process"] = {
 CIM_PROFILE["science.sub_process"] = {
 	"include": [
 	   "citations",
-	   "details",
+	   "detail_sets",
 	   "description",
-	   "id",
+	   "specialization_id",
 	   "implementation_overview",
 	   "short_name"
 	],
@@ -86,11 +86,11 @@ CIM_PROFILE["science.sub_process"] = {
 CIM_PROFILE["science.key_properties"] = {
 	"include": [
 	   "citations",
-	   "details",
+	   "detail_sets",
 	   "description",
-	   "id",
 	   "keywords",
 	   "short_name",
+	   "specialization_id",
 	   "sub_processes",
 	   "tuning_applied"
 	],
@@ -99,8 +99,7 @@ CIM_PROFILE["science.key_properties"] = {
 		"extra_conservation_properties",
 		"implementation_overview",
 		"keywords",
-		"resolution",
-		'time_step',
+		"resolution"
 	]
 }
 
@@ -108,13 +107,13 @@ CIM_PROFILE["science.key_properties"] = {
 CIM_PROFILE["science.realm[ocean].key_properties"] = {
 	"include": [
 		"citations",
-		"details",
+		"detail_sets",
 		"description"
 		"extra_conservation_properties",
-		"id",
 		"keywords",
 		"resolution",
 		"short_name",
+		"specialization_id",
 		"sub_processes",
 		"tuning_applied"
 	],
@@ -123,10 +122,4 @@ CIM_PROFILE["science.realm[ocean].key_properties"] = {
 		"implementation_overview",
 		"keywords",
 	]
-}
-
-# Null constraints used as plahceholders.
-NULL_CIM_PROFILE = {
-	"include": [],
-	"exclude": []
 }
