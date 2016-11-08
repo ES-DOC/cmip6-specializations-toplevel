@@ -47,9 +47,9 @@ DETAILS = OrderedDict()
 DETAILS['flux_correction'] = {
     'description': 'Flux correction properties of the model',
     'properties':[
-        ('type', 'bool', '1.1',
+        ('is_corrected', 'bool', '1.1',
             'Is there any flux correction in the model ?'),
-        ('flux_correction_details', 'str', '0.1',
+        ('details', 'str', '0.1',
             'Describe any flux correction applied in the model ?'),
 
     ]
@@ -70,21 +70,20 @@ DETAILS['genealogy'] = {
     ]
 }
 
-DETAILS['IT_properties'] = {
-    'description': 'IT and software properties of model',
+DETAILS['software_properties'] = {
+    'description': 'Software properties of model',
     'properties':[
-        ('repository','shared.online_resource', '0.1',
+        ('repository','str', '0.1',
             "Location of code for this component."),
         ('code_version','str', '0.1',
             "Code version identifier."),
         ('code_languages','str', '0.N',
             "Code language(s)."),
-        ('coupled_components', '0.N',
-            "List software model components which are linked together using a coupler to deliver this model."),
-        ('coupler','software.coupling_framework', '0.1',
+        ('components_structure','str', '0.1',
+            "Describe how model realms are structured into independent software "
+            "components (coupled via a coupler) and internal software components."),
+        ('coupler','ENUM:coupler_framework', '0.1',
             "Overarching coupling framework for model."),
-        ('internal_software_components','software.software_component', '0.N',
-            "Software modules which together provide the functionality for this model.")
     ]
 }
 
@@ -93,10 +92,9 @@ DETAILS['IT_properties'] = {
 #
 # Any tuning used to optimise the parameters in this realm
 # --------------------------------------------------------------------
-TUNING_APPLIED = OrderedDict()
 
 #
-TUNING_APPLIED['tuning_applied'] = {
+DETAILS['tuning_applied'] = {
     'description': 'Tuning methodology for model',
     'properties': [
         ('description', 'str', '1.1',
@@ -125,11 +123,9 @@ TUNING_APPLIED['tuning_applied'] = {
 # Sets of discrete portions of the process
 # --------------------------------------------------------------------
 
-SUB_PROCESS = OrderedDict()
-
-SUB_PROCESS['conservation'] = {
+DETAILS['conservation'] = {
     'description': 'Global convervation properties of the model',
-    'details':[
+    'detail_sets':[
         'heat',
         'fresh_water',
         'salt',
@@ -145,9 +141,7 @@ SUB_PROCESS['conservation'] = {
 # Sets of details for the sub processes
 # --------------------------------------------------------------------
 
-SUB_PROCESS_DETAILS = OrderedDict()
-
-SUB_PROCESS_DETAILS['conservation:heat'] = {
+DETAILS['conservation:heat'] = {
     'description':'Global heat convervation properties of the model',
     'properties': [
         ('atmos_ocean_interface', 'str', '0.1',
@@ -162,7 +156,7 @@ SUB_PROCESS_DETAILS['conservation:heat'] = {
             'Describe if/how heat is conserved at the land/ocean interface'),
         ]
 }
-SUB_PROCESS_DETAILS['conservation:fresh_water'] = {
+DETAILS['conservation:fresh_water'] = {
     'description':'Global fresh water convervation properties of the model',
     'properties': [
         ('atmos_ocean_interface', 'str', '0.1',
@@ -183,18 +177,34 @@ SUB_PROCESS_DETAILS['conservation:fresh_water'] = {
             'Describe how snow accumulation over land and over sea-ice is treated'),
          ]
 }
-SUB_PROCESS_DETAILS['conservation:salt'] = {
+DETAILS['conservation:salt'] = {
     'description':'Global salt convervation properties of the model',
     'properties': [
         ('ocean_seaice_interface', 'str', '0.1',
             'Describe if/how salt is conserved at the ocean/sea-ice interface'),
         ]
 }
-SUB_PROCESS_DETAILS['conservation:momentum'] = {
+DETAILS['conservation:momentum'] = {
     'description':'Global momentum convervation properties of the model',
     'properties': [
         ('momentum', 'str', '0.1',
             'Describe if/how momentum is conserved in the model'),
         ]
 }
+# --------------------------------------------------------------------
+# MODEL KEY PROPERTIES: ENUMERATIONS
+# --------------------------------------------------------------------
+ENUMERATIONS = OrderedDict()
 
+ENUMERATIONS['coupler_framework'] = {
+    'description': 'Coupling software framework.',
+    'is_open': True,
+    'members': [
+        ("OASIS", "The OASIS coupler - prior to OASIS-MCT"),
+        ("OASIS3-MCT", "The MCT variant of the OASIS coupler"),
+        ("ESMF", "Vanilla Earth System Modelling Framework"),
+        ("NUOPC", "National Unified Operational Prediction Capability variant of ESMF"),
+        ("Bespoke", "Customised coupler developed for this model"),
+        ("Unknown", "It is not known what/if-a coupler is used"),
+        ("None", "No coupler is used")     ]
+}

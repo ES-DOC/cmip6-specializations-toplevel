@@ -99,7 +99,8 @@ CIM_PROFILE["science.key_properties"] = {
 		"extra_conservation_properties",
 		"implementation_overview",
 		"keywords",
-		"resolution"
+		"resolution",
+		'time_step',
 	]
 }
 
