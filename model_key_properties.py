@@ -3,47 +3,37 @@
 For further information goto http://wordpress.es-doc.org/cmip6-model-specializations.
 
 """
-
 # --------------------------------------------------------------------
 # INTERNAL (do not change)
 # --------------------------------------------------------------------
 from collections import OrderedDict
 
+DETAILS = OrderedDict()
+ENUMERATIONS = OrderedDict()
+
 # --------------------------------------------------------------------
-# CONTACT
-#
-# Set to model co-ordinator.
+# CONTACT: Set to top-level specialization co-ordinator.
 # --------------------------------------------------------------------
 CONTACT = 'Eric Guilyardi'
 
 # --------------------------------------------------------------------
-# AUTHORS
-#
-# Set to model authors (comma delimited).
+# AUTHORS: Set to top-level specialization authors (comma delimited).
 # --------------------------------------------------------------------
 AUTHORS = 'Eric Guilyardi'
 
 # --------------------------------------------------------------------
-# QUALITY CONTROL STATUS
-#
-# Set to 'draft' or 'complete'
+# QUALITY CONTROL STATUS: Set to 'draft' or 'complete'
 # --------------------------------------------------------------------
 QC_STATUS = 'draft'
 
 # --------------------------------------------------------------------
-# KEY PROPERTIES: DESCRIPTION
-#
-# Scientific context of the key properties
+# DESCRIPTION: Short description of the specialization.
 # --------------------------------------------------------------------
 DESCRIPTION = 'Key properties of the model'
 
 # --------------------------------------------------------------------
-# KEY PROPERTIES: DETAILS
-#
-# Sets of details for the key properties
+# KEY PROPERTIES: top level
 # --------------------------------------------------------------------
-DETAILS = OrderedDict()
-
 DETAILS['flux_correction'] = {
     'description': 'Flux correction properties of the model',
     'properties':[
@@ -51,9 +41,8 @@ DETAILS['flux_correction'] = {
             'Is there any flux correction in the model ?'),
         ('details', 'str', '0.1',
             'Describe any flux correction applied in the model ?'),
-
-    ]
-}
+        ]
+    }
 
 DETAILS['genealogy'] = {
     'description': 'Genealogy and history of the model',
@@ -66,9 +55,8 @@ DETAILS['genealogy'] = {
             'CMIP5 parent if any'),
         ('previous_name', 'str', '0.1',
             'Previously known as'),
-
-    ]
-}
+        ]
+    }
 
 DETAILS['software_properties'] = {
     'description': 'Software properties of model',
@@ -80,28 +68,24 @@ DETAILS['software_properties'] = {
         ('code_languages','str', '0.N',
             "Code language(s)."),
         ('components_structure','str', '0.1',
-            "Describe how model realms are structured into independent software "
-            "components (coupled via a coupler) and internal software components."),
+            """Describe how model realms are structured into independent software components
+               (coupled via a coupler) and internal software components."""),
         ('coupler','ENUM:coupler_framework', '0.1',
             "Overarching coupling framework for model."),
-    ]
-}
+        ]
+    }
 
 # --------------------------------------------------------------------
-# KEY PROPERTIES: TUNING APPLIED
-#
-# Any tuning used to optimise the parameters in this realm
+# TUNING APPLIED: Any tuning used to optimise the parameters in this realm
 # --------------------------------------------------------------------
-
-#
 DETAILS['tuning_applied'] = {
     'description': 'Tuning methodology for model',
     'properties': [
         ('description', 'str', '1.1',
-            "General overview description of tuning: explain and motivate the main targets and metrics retained. &"
-            "Document the relative weight given to climate performance metrics versus process oriented metrics, &"
-            "and on the possible conflicts with parameterization level tuning. In particular describe any struggle &"
-            "with a parameter value that required pushing it to its limits to solve a particular model deficiency."),
+            """General overview description of tuning: explain and motivate the main targets and metrics retained.
+            Document the relative weight given to climate performance metrics versus process oriented metrics,
+            and on the possible conflicts with parameterization level tuning. In particular describe any struggle
+            with a parameter value that required pushing it to its limits to solve a particular model deficiency."""),
         ('global_mean_metrics_used', 'str', '0.N',
             "List set of metrics of the global mean state used in tuning model"),
         ('regional_metrics_used', 'str', '0.N',
@@ -112,17 +96,15 @@ DETAILS['tuning_applied'] = {
             "Describe how energy balance was obtained in the full system: was it done by tuning the various components independently, or was some final tuning needed?"),
         ('citations', 'shared.citation', '0.N',
             "Set of pertinent citations."),
-    ],
+        ]
+    }
 
-}
 
+#TODO add model forcings section
 
 # --------------------------------------------------------------------
-# PROCESS: SUB PROCESSES
-#
-# Sets of discrete portions of the process
+# CONSERVATION PROPERTIES: Global conservation properties of the model.
 # --------------------------------------------------------------------
-
 DETAILS['conservation'] = {
     'description': 'Global convervation properties of the model',
     'detail_sets':[
@@ -130,16 +112,8 @@ DETAILS['conservation'] = {
         'fresh_water',
         'salt',
         'momentum'
-    ]
-}
-#TODO add model forcings section
-
-
-# --------------------------------------------------------------------
-# PROCESS: SUB PROCESSES: DETAILS
-#
-# Sets of details for the sub processes
-# --------------------------------------------------------------------
+        ]
+    },
 
 DETAILS['conservation:heat'] = {
     'description':'Global heat convervation properties of the model',
@@ -155,7 +129,8 @@ DETAILS['conservation:heat'] = {
         ('land_ocean_interface', 'str', '0.1',
             'Describe if/how heat is conserved at the land/ocean interface'),
         ]
-}
+    }
+
 DETAILS['conservation:fresh_water'] = {
     'description':'Global fresh water convervation properties of the model',
     'properties': [
@@ -175,27 +150,28 @@ DETAILS['conservation:fresh_water'] = {
             'Describe if/how endoreic basins (no ocean access) are treated'),
         ('snow_accumulation', 'str', '0.1',
             'Describe how snow accumulation over land and over sea-ice is treated'),
-         ]
-}
+        ]
+    }
+
 DETAILS['conservation:salt'] = {
     'description':'Global salt convervation properties of the model',
     'properties': [
         ('ocean_seaice_interface', 'str', '0.1',
             'Describe if/how salt is conserved at the ocean/sea-ice interface'),
         ]
-}
+    }
+
 DETAILS['conservation:momentum'] = {
     'description':'Global momentum convervation properties of the model',
     'properties': [
         ('momentum', 'str', '0.1',
             'Describe if/how momentum is conserved in the model'),
         ]
-}
-# --------------------------------------------------------------------
-# MODEL KEY PROPERTIES: ENUMERATIONS
-# --------------------------------------------------------------------
-ENUMERATIONS = OrderedDict()
+    }
 
+# --------------------------------------------------------------------
+# KEY PROPERTIES: ENUMERATIONS
+# --------------------------------------------------------------------
 ENUMERATIONS['coupler_framework'] = {
     'description': 'Coupling software framework.',
     'is_open': True,
@@ -206,5 +182,6 @@ ENUMERATIONS['coupler_framework'] = {
         ("NUOPC", "National Unified Operational Prediction Capability variant of ESMF"),
         ("Bespoke", "Customised coupler developed for this model"),
         ("Unknown", "It is not known what/if-a coupler is used"),
-        ("None", "No coupler is used")     ]
-}
+        ("None", "No coupler is used")
+        ]
+    }
