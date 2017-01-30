@@ -37,6 +37,7 @@ QC_STATUS = 'draft'
 CHANGE_HISTORY = [
     ("0.1.0", "2016-09-01", "Initialised", "Eric Guilyardi"),
     ("0.2.0", "2016-11-08", "Changed syntax to simplify and remove CIM2 dependencies", "Eric Guilyardi et al."),
+    ("0.3.0", "2017-30-01", "Added forcings", "David Hassell & Eric Guilyardi"),
     ]
 
 # --------------------------------------------------------------------
@@ -48,6 +49,8 @@ DESCRIPTION = 'Top level model'
 # KEY PROPERTIES: File name (without the .py suffix) containing key properties of the top level model.
 # --------------------------------------------------------------------
 KEY_PROPERTIES = 'model_key_properties'
+
+FORCINGS = 'model_forcings'
 
 # --------------------------------------------------------------------
 # SIMULATES: Realms simulated by the model
