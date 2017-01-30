@@ -50,6 +50,10 @@ DESCRIPTION = 'Top level model'
 # --------------------------------------------------------------------
 KEY_PROPERTIES = 'model_key_properties'
 
+# --------------------------------------------------------------------
+# FORCINGS: File name (without the .py suffix) containing radiative forcings of the top level model.
+# --------------------------------------------------------------------
+
 FORCINGS = 'model_forcings'
 
 # --------------------------------------------------------------------

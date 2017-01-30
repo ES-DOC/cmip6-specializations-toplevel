@@ -29,7 +29,7 @@ QC_STATUS = 'draft'
 # --------------------------------------------------------------------
 # DESCRIPTION: Short description of the specialization.
 # --------------------------------------------------------------------
-DESCRIPTION = 'Radiative forcings of the model (aka Table 12.1 IPCC AR5'
+DESCRIPTION = 'Radiative forcings of the model (aka Table 12.1 IPCC AR5)'
 
 
 # --------------------------------------------------------------------
@@ -37,7 +37,7 @@ DESCRIPTION = 'Radiative forcings of the model (aka Table 12.1 IPCC AR5'
 # --------------------------------------------------------------------
 
 DETAILS['radiative_forcing'] = {
-    'description': 'Radiative forcing agents included in the historical and future scenario simulations',
+    'description': 'Radiative forcing agents included in the historical and future scenario simulations (see Table 12.1 IPCC AR5)',
     'detail_sets': [
         'greenhouse_gases',
         'aerosols',
