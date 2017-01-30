@@ -289,7 +289,7 @@ DETAILS['radiative_forcing:other'] = {
     'description': 'Miscellaneous forcing agents',
     'sub_topics': [
         'land_use',
-        'solar',,
+        'solar',
     ]
 }
 
