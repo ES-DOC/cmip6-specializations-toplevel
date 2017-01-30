@@ -51,10 +51,9 @@ DESCRIPTION = 'Top level model'
 KEY_PROPERTIES = 'model_key_properties'
 
 # --------------------------------------------------------------------
-# FORCINGS: File name (without the .py suffix) containing radiative forcings of the top level model.
+# SPECIFIC ACTIVITY PROPERTIES: File name (without the .py suffix) containing the radiative forcings agents of the top level model.
 # --------------------------------------------------------------------
-
-FORCINGS = 'model_forcings'
+ACTIVITY_PROPERTIES = 'model_forcings'
 
 # --------------------------------------------------------------------
 # SIMULATES: Realms simulated by the model
