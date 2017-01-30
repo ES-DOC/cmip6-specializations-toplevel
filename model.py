@@ -24,7 +24,7 @@ AUTHORS = 'Eric Guilyardi'
 # --------------------------------------------------------------------
 # CONTRIBUTORS: Set to top-level specialization contributors (comma delimited).
 # --------------------------------------------------------------------
-CONTRIBUTORS = 'Roland Seferian (CNRM)'
+CONTRIBUTORS = 'Roland Seferian (CNRM), Tim Johns (UKMO)'
 
 # --------------------------------------------------------------------
 # QUALITY CONTROL STATUS: Set to 'draft' or 'complete'
