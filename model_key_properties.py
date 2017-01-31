@@ -100,8 +100,6 @@ DETAILS['tuning_applied'] = {
     }
 
 
-#TODO add model forcings section
-
 # --------------------------------------------------------------------
 # CONSERVATION PROPERTIES: Global conservation properties of the model.
 # --------------------------------------------------------------------
@@ -185,3 +183,4 @@ ENUMERATIONS['coupler_framework'] = {
         ("None", "No coupler is used")
         ]
     }
+

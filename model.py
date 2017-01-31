@@ -24,7 +24,7 @@ AUTHORS = 'Eric Guilyardi'
 # --------------------------------------------------------------------
 # CONTRIBUTORS: Set to top-level specialization contributors (comma delimited).
 # --------------------------------------------------------------------
-CONTRIBUTORS = 'Roland Seferian (CNRM)'
+CONTRIBUTORS = 'Roland Seferian (CNRM), Tim Johns (UKMO)'
 
 # --------------------------------------------------------------------
 # QUALITY CONTROL STATUS: Set to 'draft' or 'complete'
@@ -37,6 +37,7 @@ QC_STATUS = 'draft'
 CHANGE_HISTORY = [
     ("0.1.0", "2016-09-01", "Initialised", "Eric Guilyardi"),
     ("0.2.0", "2016-11-08", "Changed syntax to simplify and remove CIM2 dependencies", "Eric Guilyardi et al."),
+    ("0.3.0", "2017-01-30", "Added forcings", "David Hassell & Eric Guilyardi"),
     ]
 
 # --------------------------------------------------------------------
@@ -50,10 +51,16 @@ DESCRIPTION = 'Top level model'
 KEY_PROPERTIES = 'model_key_properties'
 
 # --------------------------------------------------------------------
+# SPECIFIC ACTIVITY PROPERTIES: File name (without the .py suffix) containing the radiative forcings agents of the top level model.
+# --------------------------------------------------------------------
+ACTIVITY_PROPERTIES = 'model_forcings'
+
+# --------------------------------------------------------------------
 # SIMULATES: Realms simulated by the model
 # N.B. Official realms names are from https://github.com/WCRP-CMIP/CMIP6_CVs/blob/master/CMIP6_realm.json
 # N.B. Creation tool should include an on/off switch to allow for partial configurations (AMIP, AOGCM)
 # --------------------------------------------------------------------
+# TODO: ## WARNING these names are not coherent with those in ES-DOC realms specialisation repos (atmosphere instead of atmos,...)
 SIMULATES = [
         "aerosol",
         "atmos",
