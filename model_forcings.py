@@ -29,7 +29,7 @@ QC_STATUS = 'draft'
 # --------------------------------------------------------------------
 # DESCRIPTION: Short description of the specialization.
 # --------------------------------------------------------------------
-DESCRIPTION = 'Radiative forcings of the model (aka Table 12.1 IPCC AR5)'
+DESCRIPTION = 'Radiative forcings of the model for historical and scenario (aka Table 12.1 IPCC AR5)'
 
 
 # --------------------------------------------------------------------
@@ -107,7 +107,7 @@ DETAILS['radiative_forcing:greenhouse_gases:stratospheric_O3'] = {
 }
 
 DETAILS['radiative_forcing:greenhouse_gases:CFC'] = {
-    'description': 'Clorofluorocarbon forcing',
+    'description': 'Chlorofluorocarbon forcing',
     'properties': [
         ('implementation','ENUM:radiative_forcing_implementation', '0.1',
             'How this forcing agent is implemented'),
