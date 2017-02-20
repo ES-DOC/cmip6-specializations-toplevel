@@ -290,15 +290,15 @@ DETAILS['radiative_forcing:other:solar'] = {
 # ENUMERATIONS
 # --------------------------------------------------------------------
 ENUMERATIONS['forcing_provision'] = {
-    'description': 'How the inputs for a radiative forcing agent are provided',
+    'description': 'How a radiative forcing agent is provided',
     'is_open': True,
     'members': [
-        ("None", "Forcing agent is not included"),
-        ("M",  "Forcing agent included via emissions and concentrations determined by the model state rather than externally prescribed."),
-        ("Y",  "Forcing agent included via prescribed concentrations, distributions or time series data"),
-        ("E",  "Forcing agent included via concentrations calculated interactively driven by prescribed emissions or precursor emissions"),
-        ("ES", "Forcing agent included via concentrations calculated interactively constrained by prescribed surface concentrations."),
-        ("C",  "Fixed prescribed climatology of concentrations with no year-to-year variability."),
+        ("N/A", "Not applicable - forcing agent is not included"),
+        ("M",  "Emissions and concentrations determined by the model state rather than externally prescribed"),
+        ("Y",  "Prescribed concentrations, distributions or time series data"),
+        ("E",  "Concentrations calculated interactively driven by prescribed emissions or precursor emissions"),
+        ("ES", "Surface emissions (and 3-D concentrations away from the surface) derived via the model from the prescribed surface concentration"),
+        ("C",  "Fixed prescribed climatology of concentrations with no year-to-year variability"),
     ]
 }
 
