@@ -117,7 +117,7 @@ DETAILS['conservation:heat'] = {
     'description':'Global heat convervation properties of the model',
     'properties': [
         ('global', 'str', '1.1',
-            'Describe if/how heat is conserved is conserved globally'),
+            'Describe if/how heat is conserved globally'),
         ('atmos_ocean_interface', 'str', '0.1',
             'Describe if/how heat is conserved at the atmosphere/ocean coupling interface'),
         ('atmos_land_interface', 'str', '1.1',
@@ -135,7 +135,7 @@ DETAILS['conservation:fresh_water'] = {
     'description':'Global fresh water convervation properties of the model',
     'properties': [
         ('global', 'str', '1.1',
-            'Describe if/how fresh_water is conserved is conserved globally'),
+            'Describe if/how fresh_water is conserved globally'),
         ('atmos_ocean_interface', 'str', '0.1',
             'Describe if/how fresh_water is conserved at the atmosphere/ocean coupling interface'),
         ('atmos_land_interface', 'str', '1.1',
