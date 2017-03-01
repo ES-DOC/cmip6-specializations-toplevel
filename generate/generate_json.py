@@ -50,8 +50,8 @@ class Generator(RealmSpecializationParser):
         self._map_topic(topic)
 
 
-    def on_topic_property_set_parse(self, prop_set):
-        """On topic property set parse event handler.
+    def on_property_set_parse(self, prop_set):
+        """On property set parse event handler.
 
         """
         obj = collections.OrderedDict()
@@ -64,7 +64,7 @@ class Generator(RealmSpecializationParser):
         self._maps[prop_set] = obj
 
 
-    def on_topic_property_parse(self, prop):
+    def on_property_parse(self, prop):
         """On property parse event handler.
 
         """
@@ -91,7 +91,7 @@ class Generator(RealmSpecializationParser):
         self._maps[enum] = obj
 
 
-    def on_enumchoice_parse(self, choice):
+    def on_enum_choice_parse(self, choice):
         """On process detail property enum choice parse event handler.
 
         """
@@ -107,11 +107,11 @@ class Generator(RealmSpecializationParser):
 
         """
         obj = self._maps[realm]
-        if realm.grid is not None:
-            obj['grid'] = self._maps[realm.grid]
-        if realm.key_properties is not None:
-            obj['keyProperties'] = self._maps[realm.key_properties]
-        obj['processes'] = [self._maps[i] for i in realm.processes]
+        if realm['realm-grid'] is not None:
+            obj['grid'] = self._maps[realm['realm-grid']]
+        if realm['realm-key-properties'] is not None:
+            obj['keyProperties'] = self._maps[realm['realm-key-properties']]
+        obj['processes'] = [self._maps[i] for i in realm['realm-process']]
         self._strip(obj)
 
 
@@ -153,8 +153,8 @@ class Generator(RealmSpecializationParser):
         process['subProcesses'].append(obj)
 
 
-    def on_topic_property_set_parsed(self, prop_set):
-        """On topic property set parsed event handler.
+    def on_property_set_parsed(self, prop_set):
+        """On property set parsed event handler.
 
         """
         obj = self._maps[prop_set]
@@ -165,7 +165,7 @@ class Generator(RealmSpecializationParser):
         owner['propertySets'].append(obj)
 
 
-    def on_topic_property_parsed(self, prop):
+    def on_property_parsed(self, prop):
         """On property parsed event handler.
 
         """
@@ -183,7 +183,7 @@ class Generator(RealmSpecializationParser):
         detail['enum'] = self._maps[enum]
 
 
-    def on_enumchoice_parsed(self, choice):
+    def on_enum_choice_parsed(self, choice):
         """On process detail property enum choice parse event handler.
 
         """

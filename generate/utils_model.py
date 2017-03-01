@@ -45,6 +45,23 @@ class TopicSpecialization(object):
         return self.id
 
 
+    def __getitem__(self, key):
+        """Returns a child topic.
+
+        """
+        result = []
+        key = str(key).strip().lower()
+        for topic in self.sub_topics:
+            if topic.type_key == key:
+                result.append(topic)
+
+        if len(result) == 1:
+            return result[0]
+        elif len(result) > 1:
+            return result
+        return result
+
+
     @property
     def all_topics(self):
         """Returns a flattened topic hierarchy.
@@ -132,7 +149,7 @@ class TopicSpecialization(object):
         return seperator.join(names)
 
 
-class TopicPropertySetSpecialization(object):
+class PropertySetSpecialization(object):
     """Wraps a property set specialization.
 
     """
@@ -140,7 +157,7 @@ class TopicPropertySetSpecialization(object):
         """Instance initializer.
 
         """
-        super(TopicPropertySetSpecialization, self).__init__()
+        super(PropertySetSpecialization, self).__init__()
 
         self.description = None
         self.id = None
@@ -174,7 +191,7 @@ class TopicPropertySetSpecialization(object):
         return seperator.join(names)
 
 
-class TopicPropertySpecialization(object):
+class PropertySpecialization(object):
     """Wraps a property specialization.
 
     """
@@ -182,7 +199,7 @@ class TopicPropertySpecialization(object):
         """Instance initializer.
 
         """
-        super(TopicPropertySpecialization, self).__init__()
+        super(PropertySpecialization, self).__init__()
 
         self.cardinality = None
         self.description = None
@@ -342,20 +359,6 @@ class EnumChoiceSpecialization(object):
 
         """
         return self.id
-
-
-class RealmSpecialization(TopicSpecialization):
-    """Wraps a realm specialization.
-
-    """
-    def __init__(self):
-        """Instance initializer.
-
-        """
-        super(RealmSpecialization, self).__init__()
-        self.grid = None
-        self.key_properties = None
-        self.processes = None
 
 
 def _to_camel_case_spaced(name, separator='_'):

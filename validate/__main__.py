@@ -13,16 +13,17 @@ import datetime
 import operator
 import os
 
-from context import ValidationContext
+from context import ModelValidationContext
+from context import RealmValidationContext
 import utils_loader
 
 
 # Define command line options.
 _ARGS = argparse.ArgumentParser("Validates a set of CMIP6 specializations.")
 _ARGS.add_argument(
-    "--realm",
+    "--scope",
     help="Name of realm being validated.",
-    dest="realm",
+    dest="scope",
     type=str,
     default=os.path.dirname(os.path.dirname(__file__)).split("/")[-1][22:]
     )
@@ -39,11 +40,16 @@ _ARGS = _ARGS.parse_args()
 _REPORT_BREAK = "------------------------------------------------------------------------"
 
 # Set specializations.
-realm, grid, key_properties, processes = \
-    utils_loader.get_specializations(_ARGS.input_dir, _ARGS.realm)
+if _ARGS.scope == "toplevel":
+    specializations = \
+        utils_loader.get_model_specializations(_ARGS.input_dir)
+    validator = ModelValidationContext(specializations)
+else:
+    specializations = \
+        utils_loader.get_realm_specializations(_ARGS.input_dir, _ARGS.scope)
+    validator = RealmValidationContext(specializations)
 
 # Validate.
-validator = ValidationContext(realm, grid, key_properties, processes)
 validator.validate()
 
 # Set errors.
@@ -54,13 +60,13 @@ error_count = 0 if not in_error else len(reduce(operator.add, in_error.values())
 report = []
 if not in_error:
     report.append(_REPORT_BREAK)
-    report.append("The CMIP6 {} specializations are currently valid. Congratulations!".format(_ARGS.realm))
+    report.append("The CMIP6 {} specializations are currently valid. Congratulations!".format(_ARGS.scope))
     report.append(_REPORT_BREAK)
 else:
     report.append(_REPORT_BREAK)
     report.append("CMIP6 SPECIALIZATIONS VALIDATION REPORT")
     report.append(_REPORT_BREAK)
-    report.append("Realm = {}".format(_ARGS.realm))
+    report.append("Realm = {}".format(_ARGS.scope))
     report.append("Generated @ {}".format(datetime.datetime.now()))
     report.append("Error count = {}".format(error_count))
     report.append(_REPORT_BREAK)

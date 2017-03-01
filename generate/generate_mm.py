@@ -15,7 +15,7 @@ import json
 import xml.etree.ElementTree as ET
 
 from cim_profile import CIM_PROFILE
-from utils_model import TopicPropertySpecialization
+from utils_model import PropertySpecialization
 from utils_model import TopicSpecialization
 from utils_parser import RealmSpecializationParser
 
@@ -39,10 +39,10 @@ _NOTE_HTML = "<dt><b>{}</b></dt><dd>{}</dd>"
 # Mind-map sections.
 _SECTIONS = collections.OrderedDict()
 _SECTIONS['realm'] = "science.realm"
-_SECTIONS['process'] = "science.topic"
-_SECTIONS['sub-process'] = "science.topic"
-_SECTIONS['key-properties'] = "science.topic"
-_SECTIONS['grid'] = "science.topic"
+_SECTIONS['realm-process'] = "science.topic"
+_SECTIONS['realm-subprocess'] = "science.topic"
+_SECTIONS['realm-key-properties'] = "science.topic"
+_SECTIONS['realm-grid'] = "science.topic"
 _SECTIONS['property-set'] = None
 _SECTIONS['property'] = None
 _SECTIONS['enum-choice'] = None
@@ -130,14 +130,14 @@ class Generator(RealmSpecializationParser):
         self._emit_node(subprocess.parent, subprocess)
 
 
-    def on_topic_property_set_parse(self, prop_set):
-        """On topic property set parse event handler.
+    def on_property_set_parse(self, prop_set):
+        """On property set parse event handler.
 
         """
         self._emit_node(prop_set.owner, prop_set)
 
 
-    def on_topic_property_parse(self, prop):
+    def on_property_parse(self, prop):
         """On property parse event handler.
 
         """
@@ -145,7 +145,7 @@ class Generator(RealmSpecializationParser):
         self._emit_notes(prop)
 
 
-    def on_enumchoice_parse(self, choice):
+    def on_enum_choice_parse(self, choice):
         """On enum property parse event handler.
 
         """
@@ -308,7 +308,7 @@ def _get_notes(spec):
     result = [
         ("Description", lambda i: "N/A" if i.description is None else i.description.replace("&", "and"))
     ]
-    if isinstance(spec, TopicPropertySpecialization):
+    if isinstance(spec, PropertySpecialization):
         result += [
             ("Type", lambda i: i.typeof),
             ("Cardinality", lambda i: i.cardinality),

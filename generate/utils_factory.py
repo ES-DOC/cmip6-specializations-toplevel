@@ -8,11 +8,10 @@
 
 
 """
-from utils_model import TopicPropertySpecialization
-from utils_model import TopicPropertySetSpecialization
 from utils_model import EnumSpecialization
 from utils_model import EnumChoiceSpecialization
-from utils_model import RealmSpecialization
+from utils_model import PropertySpecialization
+from utils_model import PropertySetSpecialization
 from utils_model import TopicSpecialization
 
 
@@ -27,25 +26,42 @@ def create_realm_specialization(specs):
     :param spec: 4 member tuple of python modules: realm, grid, key-properties, processes.
 
     :returns: A realm specialization wrapper.
-    :rtype: TopicSpecialization
+    :rtype: tuple
 
     """
-    r = _create_topic(None, specs[0], "realm", typeof=RealmSpecialization)
-    r.key_properties = _create_topic(r, specs[2], "key-properties")
-    r.grid = _create_topic(r, specs[1], "grid")
-    r.processes = [_create_topic(r, i, "process") for i in specs[3]]
+    root = _create_topic(None, specs[0], "realm")
+    _create_topic(root, specs[1], "realm-grid")
+    _create_topic(root, specs[2], "realm-key-properties")
+    for i in specs[3]:
+        _create_topic(root, i, "realm-process")
 
-    return r
+    return root
 
 
-def _create_topic(parent, spec, type_key, key=None, typeof=TopicSpecialization):
+def create_model_specialization(specs):
+    """Returns a model specialization wrapper.
+
+    :param spec: 3 member tuple of python modules: model, key-properties, activity-properties.
+
+    :returns: A model specialization wrapper.
+    :rtype: tuple
+
+    """
+    root = _create_topic(None, specs[0], "model")
+    _create_topic(root, specs[1], "model-key-properties")
+    _create_topic(root, specs[2], "model-activity-properties")
+
+    return root
+
+
+def _create_topic(parent, spec, type_key, key=None):
     """Creates & returns a topic specialization wrapper.
 
     """
     if spec is None:
         return None
 
-    topic = typeof()
+    topic = TopicSpecialization()
     topic.type_key = type_key
     topic.spec = spec
 
@@ -97,7 +113,7 @@ def _set_topic_from_module(parent, topic):
 
         # ... sub-topic properties
         elif len(key.split(":")) == 1:
-            _create_topic(topic, obj, "sub-process", key)
+            _create_topic(topic, obj, "realm-subprocess", key)
             _set_property_collection(topic.sub_topics[-1], key, obj, topic.spec.ENUMERATIONS)
 
         # ... sub-topic property sets
@@ -125,7 +141,7 @@ def _set_property_set(owner, key, obj, enumerations):
     """Set attributes of a property-set attributes from a dictionary.
 
     """
-    ps = TopicPropertySetSpecialization()
+    ps = PropertySetSpecialization()
     ps.description = obj['description']
     ps.id = "{}.{}".format(owner.id, key.split(":")[-1])
     ps.key = key
@@ -146,7 +162,7 @@ def _set_property_collection(owner, key, obj, enumerations):
 
     """
     for name, typeof, cardinality, description in obj['properties']:
-        p = TopicPropertySpecialization()
+        p = PropertySpecialization()
         p.cardinality = cardinality
         p.description = description
         p.enum = _create_enum(p, typeof, enumerations) if typeof.startswith("ENUM:") else None

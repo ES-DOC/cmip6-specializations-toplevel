@@ -38,7 +38,7 @@ class Generator(IdentifierGenerator):
         self.emit_null_row(process)
 
 
-    def on_topic_property_parse(self, prop):
+    def on_property_parse(self, prop):
         """On property parse event handler.
 
         """

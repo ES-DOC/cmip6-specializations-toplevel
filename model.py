@@ -56,6 +56,13 @@ KEY_PROPERTIES = 'model_key_properties'
 ACTIVITY_PROPERTIES = 'model_forcings'
 
 # --------------------------------------------------------------------
+# PROCESSES: Processes simulated within the model
+# --------------------------------------------------------------------
+PROCESSES = [
+    'model_radiative_forcings',
+    ]
+
+# --------------------------------------------------------------------
 # SIMULATES: Realms simulated by the model
 # N.B. Official realms names are from https://github.com/WCRP-CMIP/CMIP6_CVs/blob/master/CMIP6_realm.json
 # N.B. Creation tool should include an on/off switch to allow for partial configurations (AMIP, AOGCM)

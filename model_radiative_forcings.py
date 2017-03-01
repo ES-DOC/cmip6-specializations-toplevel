@@ -31,31 +31,14 @@ QC_STATUS = 'draft'
 # --------------------------------------------------------------------
 DESCRIPTION = 'Radiative forcings of the model for historical and scenario (aka Table 12.1 IPCC AR5)'
 
-DETAILS['radiative_forcing'] = {
-    'description': 'Radiative forcing agents included in the historical and future scenario simulations (see Table 12.1 IPCC AR5)',
-    'detail_sets': [
-        'greenhouse_gases',
-        'aerosols',
-        'other',
-    ]
-}
-
 # --------------------------------------------------------------------
 # GREENHOUSE GASES
 # --------------------------------------------------------------------
-DETAILS['radiative_forcing:greenhouse_gases'] = {
-    'description': 'Greenhouse gas forcing agents',
-    'sub_topics': [
-        'CO2',
-        'CH4',
-        'N2O',
-        'tropospheric_O3',
-        'stratospheric_O3',
-        'CFC',
-    ]
+DETAILS['greenhouse_gases'] = {
+    'description': 'Greenhouse gas forcing agents'
 }
 
-DETAILS['radiative_forcing:greenhouse_gases:CO2'] = {
+DETAILS['greenhouse_gases:CO2'] = {
     'description': 'Carbon dioxide forcing',
     'properties': [
         ('provision', 'ENUM:forcing_provision', '1.N',
@@ -65,7 +48,7 @@ DETAILS['radiative_forcing:greenhouse_gases:CO2'] = {
     ]
 }
 
-DETAILS['radiative_forcing:greenhouse_gases:CH4'] = {
+DETAILS['greenhouse_gases:CH4'] = {
     'description': 'Methane forcing',
     'properties': [
         ('provision', 'ENUM:forcing_provision', '1.N',
@@ -75,17 +58,17 @@ DETAILS['radiative_forcing:greenhouse_gases:CH4'] = {
     ]
 }
 
-DETAILS['radiative_forcing:greenhouse_gases:N2O'] = {
+DETAILS['greenhouse_gases:N2O'] = {
     'description': 'Nitrous oxide forcing',
     'properties': [
-        ('provision', 'ENUMforcing_:provision', '1.N',
+        ('provision', 'ENUM:forcing_provision', '1.N',
              'How this forcing agent is provided (e.g. via concentrations, emission precursors, prognostically derived, etc.)'),
         ('additional_information', 'str', '0.1',
             'Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).'),  
     ]
 }
 
-DETAILS['radiative_forcing:greenhouse_gases:tropospheric_O3'] = {
+DETAILS['greenhouse_gases:tropospheric_O3'] = {
     'description': 'Troposheric ozone forcing',
     'properties': [
         ('provision', 'ENUM:forcing_provision', '1.N',
@@ -95,7 +78,7 @@ DETAILS['radiative_forcing:greenhouse_gases:tropospheric_O3'] = {
     ]
 }
 
-DETAILS['radiative_forcing:greenhouse_gases:stratospheric_O3'] = {
+DETAILS['greenhouse_gases:stratospheric_O3'] = {
     'description': 'Stratospheric ozone forcing',
     'properties': [
         ('provision', 'ENUM:forcing_provision', '1.N',
@@ -105,12 +88,12 @@ DETAILS['radiative_forcing:greenhouse_gases:stratospheric_O3'] = {
     ]
 }
 
-DETAILS['radiative_forcing:greenhouse_gases:CFC'] = {
+DETAILS['greenhouse_gases:CFC'] = {
     'description': 'Ozone-depleting and non-ozone-depleting fluorinated gases forcing',
     'properties': [
         ('provision', 'ENUM:forcing_provision', '1.N',
              'How this forcing agent is provided (e.g. via concentrations, emission precursors, prognostically derived, etc.)'),
-        ('equivalence_concentration','ENUM:CFC_equivalence_concentration', '1.1',
+        ('equivalence_concentration','ENUM:cfc_equivalence_concentration', '1.1',
             'Details of any equivalence concentrations used'),
         ('additional_information', 'str', '0.1',
             'Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).'),  
@@ -120,23 +103,11 @@ DETAILS['radiative_forcing:greenhouse_gases:CFC'] = {
 # --------------------------------------------------------------------
 # AEROSOLS
 # --------------------------------------------------------------------
-DETAILS['radiative_forcing:aerosols'] = {
-    'description': 'Aerosol forcing agents',
-    'sub_topics': [
-        'SO4',
-        'black_carbon',
-        'organic_carbon',
-        'nitrate',
-        'cloud_albedo_effect',
-        'cloud_lifetime_effect',
-        'dust',
-        'tropospheric_volcanic',
-        'stratospheric_volcanic',
-        'sea_salt',
-    ]
+DETAILS['aerosols'] = {
+    'description': 'Aerosol forcing agents'
 }
 
-DETAILS['radiative_forcing:aerosols:SO4'] = {
+DETAILS['aerosols:SO4'] = {
     'description': 'SO4 aerosol forcing',
     'properties': [
         ('provision', 'ENUM:forcing_provision', '1.N',
@@ -146,7 +117,7 @@ DETAILS['radiative_forcing:aerosols:SO4'] = {
     ]
 }
 
-DETAILS['radiative_forcing:aerosols:black_carbon'] = {
+DETAILS['aerosols:black_carbon'] = {
     'description': 'Black carbon aerosol forcing',
     'properties': [
         ('provision', 'ENUM:forcing_provision', '1.N',
@@ -156,7 +127,7 @@ DETAILS['radiative_forcing:aerosols:black_carbon'] = {
     ]
 }
 
-DETAILS['radiative_forcing:aerosols:organic_carbon'] = {
+DETAILS['aerosols:organic_carbon'] = {
     'description': 'Organic carbon aerosol forcing',
     'properties': [
         ('provision', 'ENUM:forcing_provision', '1.N',
@@ -166,7 +137,7 @@ DETAILS['radiative_forcing:aerosols:organic_carbon'] = {
     ]
 }
 
-DETAILS['radiative_forcing:aerosols:nitrate'] = {
+DETAILS['aerosols:nitrate'] = {
     'description': 'Nitrate forcing',
     'properties': [
         ('provision', 'ENUM:forcing_provision', '1.N',
@@ -176,24 +147,24 @@ DETAILS['radiative_forcing:aerosols:nitrate'] = {
     ]
 }
 
-DETAILS['radiative_forcing:aerosols:cloud_albedo_effect'] = {
+DETAILS['aerosols:cloud_albedo_effect'] = {
     'description': 'Cloud albedo effect forcing',
     'properties': [
         ('provision', 'ENUM:forcing_provision', '1.N',
              'How this forcing agent is provided (e.g. via concentrations, emission precursors, prognostically derived, etc.)'),
-        ('aerosol_effect_on_ice_clouds', 'bool' '1.1',
+        ('aerosol_effect_on_ice_clouds', 'bool', '1.1',
              'Radiative effects of aerosols on ice clouds are represented?'),
         ('additional_information', 'str', '0.1',
-            'Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).'),
+            'Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).')
     ]
 }
 
-DETAILS['radiative_forcing:aerosols:cloud_lifetime_effect'] = {
+DETAILS['aerosols:cloud_lifetime_effect'] = {
     'description': 'Cloud lifetime effect forcing',
     'properties': [
         ('provision', 'ENUM:forcing_provision', '1.N',
              'How this forcing agent is provided (e.g. via concentrations, emission precursors, prognostically derived, etc.)'),
-        ('aerosol_effect_on_ice_clouds', 'bool' '1.1',
+        ('aerosol_effect_on_ice_clouds', 'bool', '1.1',
              'Radiative effects of aerosols on ice clouds are represented?'),
         ('RFaci_from_sulfate_only', 'bool', '1.1',
              'Radiative forcing from aerosol cloud interactions from sulfate aerosol only?'),
@@ -202,17 +173,17 @@ DETAILS['radiative_forcing:aerosols:cloud_lifetime_effect'] = {
     ]
 }
 
-DETAILS['radiative_forcing:aerosols:dust'] = {
+DETAILS['aerosols:dust'] = {
     'description': 'Dust forcing',
     'properties': [
-        ('implementation','ENUM:radiative_forcing_implementation', '0.1',
+        ('implementation', 'ENUM:forcing_implementation', '0.1',
             'How this forcing agent is implemented'),
         ('additional_information', 'str', '0.1',
             'Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).'),  
     ]
 }
 
-DETAILS['radiative_forcing:aerosols:tropospheric_volcanic'] = {
+DETAILS['aerosols:tropospheric_volcanic'] = {
     'description': 'Tropospheric volcanic forcing',
     'properties': [
         ('provision', 'ENUM:forcing_provision', '1.N',
@@ -226,7 +197,7 @@ DETAILS['radiative_forcing:aerosols:tropospheric_volcanic'] = {
     ]
 }
 
-DETAILS['radiative_forcing:aerosols:stratospheric_volcanic'] = {
+DETAILS['aerosols:stratospheric_volcanic'] = {
     'description': 'Stratospheric volcanic forcing',
     'properties': [
         ('provision', 'ENUM:forcing_provision', '1.N',
@@ -240,7 +211,7 @@ DETAILS['radiative_forcing:aerosols:stratospheric_volcanic'] = {
     ]
 }
 
-DETAILS['radiative_forcing:aerosols:sea_salt'] = {
+DETAILS['aerosols:sea_salt'] = {
     'description': 'Sea salt forcing',
     'properties': [
         ('provision', 'ENUM:forcing_provision', '1.N',
@@ -253,7 +224,7 @@ DETAILS['radiative_forcing:aerosols:sea_salt'] = {
 # --------------------------------------------------------------------
 # OTHER
 # --------------------------------------------------------------------
-DETAILS['radiative_forcing:other'] = {
+DETAILS['other'] = {
     'description': 'Miscellaneous forcing agents',
     'sub_topics': [
         'land_use',
@@ -261,7 +232,7 @@ DETAILS['radiative_forcing:other'] = {
     ]
 }
 
-DETAILS['radiative_forcing:other:land_use'] = {
+DETAILS['other:land_use'] = {
     'description': 'Land use forcing',
     'properties': [
         ('provision', 'ENUM:forcing_provision', '1.N',
@@ -273,7 +244,7 @@ DETAILS['radiative_forcing:other:land_use'] = {
     ]
 }
 
-DETAILS['radiative_forcing:other:solar'] = {
+DETAILS['other:solar'] = {
     'description': 'Solar forcing',
     'properties': [
         ('provision', 'ENUM:forcing_provision', '1.N',
@@ -301,7 +272,13 @@ ENUMERATIONS['forcing_provision'] = {
     ]
 }
 
-ENUMERATIONS['CFC_equivalence_concentration'] = {
+ENUMERATIONS['forcing_implementation'] = {
+    'description': 'How a radiative forcing agent is implemented',
+    'is_open': True,
+    'members': []
+}
+
+ENUMERATIONS['cfc_equivalence_concentration'] = {
     'description': 'Details of any externally provided equivalence concentrations used for CFC gases',
     'description': '',
     'is_open': True,
@@ -324,4 +301,3 @@ ENUMERATIONS['explosive_volcanic_aerosol_implementation'] = {
         ("Type E", "Explosive volcanic aerosol set to constant (average volcano) background")
     ]
 }
-
