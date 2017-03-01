@@ -37,10 +37,8 @@ DESCRIPTION = 'Key properties of the model'
 DETAILS['flux_correction'] = {
     'description': 'Flux correction properties of the model',
     'properties':[
-        ('is_corrected', 'bool', '1.1',
-            'Is there any flux correction in the model ?'),
-        ('details', 'str', '0.1',
-            'Describe any flux correction applied in the model ?'),
+        ('details', 'str', '1.1',
+            'Describe if/how flux corrections are applied in the model'),
         ]
     }
 
@@ -93,7 +91,9 @@ DETAILS['tuning_applied'] = {
         ('trend_metrics_used', 'str', '0.N',
             "List observed trend metrics used in tuning model/component (such as 20th century)"),
         ('energy_balance','str', '1.1',
-            "Describe how energy balance was obtained in the full system: was it done by tuning the various components independently, or was some final tuning needed?"),
+            "Describe how energy balance was obtained in the full system: in the various components independently or at the components coupling stage?"),
+        ('fresh_water_balance','str', '1.1',
+            "Describe how fresh_water balance was obtained in the full system: in the various components independently or at the components coupling stage?"),
         ('citations', 'shared.citation', '0.N',
             "Set of pertinent citations."),
         ]
@@ -116,30 +116,34 @@ DETAILS['conservation'] = {
 DETAILS['conservation:heat'] = {
     'description':'Global heat convervation properties of the model',
     'properties': [
+        ('global', 'str', '1.1',
+            'Describe if/how heat is conserved is conserved globally'),
         ('atmos_ocean_interface', 'str', '0.1',
-            'Describe if/how heat is conserved at the atmosphere/ocean interface'),
+            'Describe if/how heat is conserved at the atmosphere/ocean coupling interface'),
         ('atmos_land_interface', 'str', '1.1',
-            'Describe if/how heat is conserved at the atmosphere/land interface'),
+            'Describe if/how heat is conserved at the atmosphere/land coupling interface'),
         ('atmos_sea-ice_interface', 'str', '0.1',
-            'Describe if/how heat is conserved at the atmosphere/sea-ice interface'),
+            'Describe if/how heat is conserved at the atmosphere/sea-ice coupling interface'),
         ('ocean_seaice_interface', 'str', '0.1',
-            'Describe if/how heat is conserved at the ocean/sea-ice interface'),
+            'Describe if/how heat is conserved at the ocean/sea-ice coupling interface'),
         ('land_ocean_interface', 'str', '0.1',
-            'Describe if/how heat is conserved at the land/ocean interface'),
+            'Describe if/how heat is conserved at the land/ocean coupling interface'),
         ]
     }
 
 DETAILS['conservation:fresh_water'] = {
     'description':'Global fresh water convervation properties of the model',
     'properties': [
+        ('global', 'str', '1.1',
+            'Describe if/how fresh_water is conserved is conserved globally'),
         ('atmos_ocean_interface', 'str', '0.1',
-            'Describe if/how fresh_water is conserved at the atmosphere/ocean interface'),
+            'Describe if/how fresh_water is conserved at the atmosphere/ocean coupling interface'),
         ('atmos_land_interface', 'str', '1.1',
-            'Describe if/how fresh water is conserved at the atmosphere/land interface'),
+            'Describe if/how fresh water is conserved at the atmosphere/land coupling interface'),
         ('atmos_sea-ice_interface', 'str', '0.1',
-            'Describe if/how fresh water is conserved at the atmosphere/sea-ice interface'),
+            'Describe if/how fresh water is conserved at the atmosphere/sea-ice coupling interface'),
         ('ocean_seaice_interface', 'str', '0.1',
-            'Describe if/how fresh water is conserved at the ocean/sea-ice interface'),
+            'Describe if/how fresh water is conserved at the ocean/sea-ice coupling interface'),
         ('runoff', 'str', '0.1',
             'Describe how runoff is distributed and conserved'),
         ('iceberg_calving', 'str', '0.1',
@@ -155,7 +159,7 @@ DETAILS['conservation:salt'] = {
     'description':'Global salt convervation properties of the model',
     'properties': [
         ('ocean_seaice_interface', 'str', '0.1',
-            'Describe if/how salt is conserved at the ocean/sea-ice interface'),
+            'Describe if/how salt is conserved at the ocean/sea-ice coupling interface'),
         ]
     }
 
