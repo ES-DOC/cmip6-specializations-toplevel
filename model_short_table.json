@@ -1,0 +1,23 @@
+{
+    "AUTHORS": [
+        "Eric Guilyardi, David Hassell"
+    ],
+    "CHANGE_HISTORY": [
+        ["0.1.0", "2017-03-01", "David Hassell", "Initialised"]
+    ],
+    "CONTACT": "Eric Guilyardi",
+    "CONTRIBUTORS": [],
+    ],
+    "PROPERTIES": {
+        "priority1": [
+            "cmip6.model.canonical_id",
+            "cmip6.model.key_properties.flux_correction.is_corrected",
+          ],
+        "priority2": [
+        ]
+    },
+    "QC_STATUS": "draft"
+}
+
+    Contact GitHub API Training Shop Blog About 
+
