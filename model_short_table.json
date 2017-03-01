@@ -3,21 +3,31 @@
         "Eric Guilyardi, David Hassell"
     ],
     "CHANGE_HISTORY": [
-        ["0.1.0", "2017-03-01", "David Hassell", "Initialised"]
+        ["0.1.0", "2017-03-01", "David Hassell, Eric Guilyardi", "Initialised"]
     ],
     "CONTACT": "Eric Guilyardi",
     "CONTRIBUTORS": [],
-    ],
     "PROPERTIES": {
         "priority1": [
             "cmip6.model.canonical_id",
-            "cmip6.model.key_properties.flux_correction.is_corrected",
-          ],
-        "priority2": [
-        ]
-    },
+            "cmip6.model.model_type",
+            "cmip6.model.key_properties.flux_correction.details",
+            "cmip6.model.key_properties.genealogy.year_released",
+            "cmip6.model.key_properties.genealogy.CMIP5_parent",
+            "cmip6.model.tuning_applied.description",
+            "cmip6.model.tuning_applied.global_mean_metrics",
+            "cmip6.model.tuning_applied.regional_metric_used",
+            "cmip6.model.tuning_applied.trend_metrics_used",
+            "cmip6.model.tuning_applied.energy_balance",
+            "cmip6.model.tuning_applied.fresh_water_balance",
+            "cmip6.model.conservation.heat.global",
+            "cmip6.model.conservation.fresh_water.global",
+            "cmip6.model.conservation.salt.ocean_seaice_interface",
+            "cmip6.model.conservation.momentum.momentum",
+        ],
+        "priority2": [],
+    }
     "QC_STATUS": "draft"
 }
 
-    Contact GitHub API Training Shop Blog About 
 
