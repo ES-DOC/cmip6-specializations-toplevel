@@ -44,7 +44,7 @@ DETAILS['greenhouse_gases:CO2'] = {
         ('provision', 'ENUM:forcing_provision', '1.N',
              'How this forcing agent is provided (e.g. via concentrations, emission precursors, prognostically derived, etc.)'),
         ('additional_information', 'str', '0.1',
-            'Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).'),  
+            'Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).'),
     ]
 }
 
@@ -54,7 +54,7 @@ DETAILS['greenhouse_gases:CH4'] = {
         ('provision', 'ENUM:forcing_provision', '1.N',
              'How this forcing agent is provided (e.g. via concentrations, emission precursors, prognostically derived, etc.)'),
         ('additional_information', 'str', '0.1',
-            'Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).'),  
+            'Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).'),
     ]
 }
 
@@ -64,7 +64,7 @@ DETAILS['greenhouse_gases:N2O'] = {
         ('provision', 'ENUM:forcing_provision', '1.N',
              'How this forcing agent is provided (e.g. via concentrations, emission precursors, prognostically derived, etc.)'),
         ('additional_information', 'str', '0.1',
-            'Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).'),  
+            'Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).'),
     ]
 }
 
@@ -74,7 +74,7 @@ DETAILS['greenhouse_gases:tropospheric_O3'] = {
         ('provision', 'ENUM:forcing_provision', '1.N',
              'How this forcing agent is provided (e.g. via concentrations, emission precursors, prognostically derived, etc.)'),
         ('additional_information', 'str', '0.1',
-            'Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).'),  
+            'Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).'),
     ]
 }
 
@@ -84,7 +84,7 @@ DETAILS['greenhouse_gases:stratospheric_O3'] = {
         ('provision', 'ENUM:forcing_provision', '1.N',
              'How this forcing agent is provided (e.g. via concentrations, emission precursors, prognostically derived, etc.)'),
         ('additional_information', 'str', '0.1',
-            'Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).'),  
+            'Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).'),
     ]
 }
 
@@ -96,7 +96,7 @@ DETAILS['greenhouse_gases:CFC'] = {
         ('equivalence_concentration','ENUM:cfc_equivalence_concentration', '1.1',
             'Details of any equivalence concentrations used'),
         ('additional_information', 'str', '0.1',
-            'Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).'),  
+            'Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).'),
     ]
 }
 
@@ -111,9 +111,9 @@ DETAILS['aerosols:SO4'] = {
     'description': 'SO4 aerosol forcing',
     'properties': [
         ('provision', 'ENUM:forcing_provision', '1.N',
-             'How this forcing agent is provided (e.g. via concentrations, emission precursors, prognostically derived, etc.)'),      
+             'How this forcing agent is provided (e.g. via concentrations, emission precursors, prognostically derived, etc.)'),
         ('additional_information', 'str', '0.1',
-            'Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).'),  
+            'Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).'),
     ]
 }
 
@@ -121,9 +121,9 @@ DETAILS['aerosols:black_carbon'] = {
     'description': 'Black carbon aerosol forcing',
     'properties': [
         ('provision', 'ENUM:forcing_provision', '1.N',
-             'How this forcing agent is provided (e.g. via concentrations, emission precursors, prognostically derived, etc.)'),      
+             'How this forcing agent is provided (e.g. via concentrations, emission precursors, prognostically derived, etc.)'),
         ('additional_information', 'str', '0.1',
-            'Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).'),  
+            'Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).'),
     ]
 }
 
@@ -131,9 +131,9 @@ DETAILS['aerosols:organic_carbon'] = {
     'description': 'Organic carbon aerosol forcing',
     'properties': [
         ('provision', 'ENUM:forcing_provision', '1.N',
-             'How this forcing agent is provided (e.g. via concentrations, emission precursors, prognostically derived, etc.)'),      
+             'How this forcing agent is provided (e.g. via concentrations, emission precursors, prognostically derived, etc.)'),
         ('additional_information', 'str', '0.1',
-            'Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).'),  
+            'Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).'),
     ]
 }
 
@@ -141,9 +141,9 @@ DETAILS['aerosols:nitrate'] = {
     'description': 'Nitrate forcing',
     'properties': [
         ('provision', 'ENUM:forcing_provision', '1.N',
-             'How this forcing agent is provided (e.g. via concentrations, emission precursors, prognostically derived, etc.)'),      
+             'How this forcing agent is provided (e.g. via concentrations, emission precursors, prognostically derived, etc.)'),
         ('additional_information', 'str', '0.1',
-            'Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).'),  
+            'Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).'),
     ]
 }
 
@@ -169,7 +169,7 @@ DETAILS['aerosols:cloud_lifetime_effect'] = {
         ('RFaci_from_sulfate_only', 'bool', '1.1',
              'Radiative forcing from aerosol cloud interactions from sulfate aerosol only?'),
         ('additional_information', 'str', '0.1',
-            'Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).'),  
+            'Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).'),
     ]
 }
 
@@ -179,7 +179,7 @@ DETAILS['aerosols:dust'] = {
         ('implementation', 'ENUM:forcing_implementation', '0.1',
             'How this forcing agent is implemented'),
         ('additional_information', 'str', '0.1',
-            'Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).'),  
+            'Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).'),
     ]
 }
 
