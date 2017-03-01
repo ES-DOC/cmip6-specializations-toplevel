@@ -176,8 +176,8 @@ DETAILS['aerosols:cloud_lifetime_effect'] = {
 DETAILS['aerosols:dust'] = {
     'description': 'Dust forcing',
     'properties': [
-        ('implementation', 'ENUM:forcing_implementation', '0.1',
-            'How this forcing agent is implemented'),
+        ('provision', 'ENUM:forcing_provision', '1.N',
+             'How this forcing agent is provided (e.g. via concentrations, emission precursors, prognostically derived, etc.)'),
         ('additional_information', 'str', '0.1',
             'Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).'),
     ]
@@ -270,12 +270,6 @@ ENUMERATIONS['forcing_provision'] = {
         ("ES", "Surface emissions (and 3-D concentrations away from the surface) derived via the model from the prescribed surface concentration"),
         ("C",  "Fixed prescribed climatology of concentrations with no year-to-year variability"),
     ]
-}
-
-ENUMERATIONS['forcing_implementation'] = {
-    'description': 'How a radiative forcing agent is implemented',
-    'is_open': True,
-    'members': []
 }
 
 ENUMERATIONS['cfc_equivalence_concentration'] = {
