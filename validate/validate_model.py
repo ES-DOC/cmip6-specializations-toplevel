@@ -26,7 +26,7 @@ def validate(ctx, root):
         ('CONTRIBUTORS', str),
         ('CHANGE_HISTORY', list),
         ('KEY_PROPERTIES', str),
-        ('ACTIVITY_PROPERTIES', str)
+        ('PROCESSES', list)
         }:
         if not hasattr(root, name):
             ctx.error("{} property is missing".format(name))
