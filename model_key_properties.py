@@ -93,9 +93,7 @@ DETAILS['tuning_applied'] = {
         ('energy_balance','str', '1.1',
             "Describe how energy balance was obtained in the full system: in the various components independently or at the components coupling stage?"),
         ('fresh_water_balance','str', '1.1',
-            "Describe how fresh_water balance was obtained in the full system: in the various components independently or at the components coupling stage?"),
-        ('citations', 'shared.citation', '0.N',
-            "Set of pertinent citations."),
+            "Describe how fresh_water balance was obtained in the full system: in the various components independently or at the components coupling stage?")
         ]
     }
 
@@ -111,7 +109,7 @@ DETAILS['conservation'] = {
         'salt',
         'momentum'
         ]
-    },
+    }
 
 DETAILS['conservation:heat'] = {
     'description':'Global heat convervation properties of the model',

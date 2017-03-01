@@ -31,7 +31,6 @@ QC_STATUS = 'draft'
 # --------------------------------------------------------------------
 DESCRIPTION = 'Radiative forcings of the model for historical and scenario (aka Table 12.1 IPCC AR5)'
 
-
 DETAILS['radiative_forcing'] = {
     'description': 'Radiative forcing agents included in the historical and future scenario simulations (see Table 12.1 IPCC AR5)',
     'detail_sets': [
@@ -197,7 +196,7 @@ DETAILS['radiative_forcing:aerosols:cloud_lifetime_effect'] = {
         ('aerosol_effect_on_ice_clouds', 'bool' '1.1',
              'Radiative effects of aerosols on ice clouds are represented?'),
         ('RFaci_from_sulfate_only', 'bool', '1.1',
-             'Radiative forcing from aerosol–cloud interactions from sulfate aerosol only?'),
+             'Radiative forcing from aerosol cloud interactions from sulfate aerosol only?'),
         ('additional_information', 'str', '0.1',
             'Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).'),  
     ]
@@ -321,9 +320,8 @@ ENUMERATIONS['explosive_volcanic_aerosol_implementation'] = {
         ("Type A", "Explosive volcanic aerosol returns rapidly to zero (or near-zero) background."),
         ("Type B", "Explosive volcanic aerosol returns rapidly to constant (average volcano)"),
         ("Type C", "Explosive volcanic aerosol returns slowly (over several decades) to constant (average volcano) background."),
-        ("Type D", "Explosive volcanic aerosol set to zero",)
-        ("Type E", "Explosive volcanic aerosol set to constant (average volcano) background"),
-
+        ("Type D", "Explosive volcanic aerosol set to zero"),
+        ("Type E", "Explosive volcanic aerosol set to constant (average volcano) background")
     ]
 }
 
