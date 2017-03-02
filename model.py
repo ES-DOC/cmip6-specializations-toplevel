@@ -4,14 +4,6 @@ For further information goto http://wordpress.es-doc.org/cmip6-model-specializat
 
 """
 # --------------------------------------------------------------------
-# INTERNAL (do not change)
-# --------------------------------------------------------------------
-from collections import OrderedDict
-
-DETAILS = OrderedDict()
-ENUMERATIONS = OrderedDict()
-
-# --------------------------------------------------------------------
 # CONTACT: Set to top-level specialization co-ordinator.
 # --------------------------------------------------------------------
 CONTACT = 'Eric Guilyardi'
@@ -46,6 +38,11 @@ CHANGE_HISTORY = [
 DESCRIPTION = 'Top level model'
 
 # --------------------------------------------------------------------
+# GRID: The grid used to layout the variables
+# --------------------------------------------------------------------
+GRID = None
+
+# --------------------------------------------------------------------
 # KEY PROPERTIES: File name (without the .py suffix) containing key properties of the top level model.
 # --------------------------------------------------------------------
 KEY_PROPERTIES = 'model_key_properties'
@@ -64,22 +61,12 @@ PROCESSES = [
 # --------------------------------------------------------------------
 # TODO: ## WARNING these names are not coherent with those in ES-DOC realms specialisation repos (atmosphere instead of atmos,...)
 SIMULATES = [
-        "aerosol",
-        "atmos",
-        "atmosChem",
-        "land",
-        "landIce",
-        "ocean",
-        "ocnBgchem",
-        "seaIce",
+    "aerosol",
+    "atmos",
+    "atmosChem",
+    "land",
+    "landIce",
+    "ocean",
+    "ocnBgchem",
+    "seaIce",
 ]
-
-# --------------------------------------------------------------------
-# DETAILS: top level details
-# --------------------------------------------------------------------
-DETAILS = OrderedDict()
-
-# --------------------------------------------------------------------
-# ENUMERATIONS: top level enumerations
-# --------------------------------------------------------------------
-ENUMERATIONS = OrderedDict()

@@ -13,17 +13,18 @@ import datetime
 import operator
 import os
 
-from context import ModelValidationContext
-from context import RealmValidationContext
-import utils_loader
+import context
+import utils
+import validate_root
+import validate_topic
 
 
 # Define command line options.
 _ARGS = argparse.ArgumentParser("Validates a set of CMIP6 specializations.")
 _ARGS.add_argument(
-    "--scope",
-    help="Name of realm being validated.",
-    dest="scope",
+    "--typeof",
+    help="Type of specializations being validated.",
+    dest="typeof",
     type=str,
     default=os.path.dirname(os.path.dirname(__file__)).split("/")[-1][22:]
     )
@@ -36,37 +37,39 @@ _ARGS.add_argument(
     )
 _ARGS = _ARGS.parse_args()
 
+
 # Report section break.
 _REPORT_BREAK = "------------------------------------------------------------------------"
 
+# Override specializations type.
+_TYPE = "model" if _ARGS.typeof == "toplevel" else _ARGS.typeof
+
 # Set specializations.
-if _ARGS.scope == "toplevel":
-    specializations = \
-        utils_loader.get_model_specializations(_ARGS.input_dir)
-    validator = ModelValidationContext(specializations)
-else:
-    specializations = \
-        utils_loader.get_realm_specializations(_ARGS.input_dir, _ARGS.scope)
-    validator = RealmValidationContext(specializations)
+specializations = utils.get_specializations(_ARGS.input_dir, _TYPE)
+
+# Set validation context.
+ctx = context.ValidationContext(specializations)
 
 # Validate.
-validator.validate()
+validate_root.validate(ctx)
+for module in [i for i in ctx.modules if i != ctx.root]:
+    validate_topic.validate(ctx, module)
 
 # Set errors.
-in_error = validator.get_errors()
-error_count = 0 if not in_error else len(reduce(operator.add, in_error.values()))
+in_error = ctx.get_errors()
 
 # Set report.
 report = []
 if not in_error:
     report.append(_REPORT_BREAK)
-    report.append("The CMIP6 {} specializations are currently valid. Congratulations!".format(_ARGS.scope))
+    report.append("The CMIP6 {} specializations are currently valid. Congratulations!".format(_ARGS.typeof))
     report.append(_REPORT_BREAK)
 else:
+    error_count = len(reduce(operator.add, in_error.values()))
     report.append(_REPORT_BREAK)
     report.append("CMIP6 SPECIALIZATIONS VALIDATION REPORT")
     report.append(_REPORT_BREAK)
-    report.append("Realm = {}".format(_ARGS.scope))
+    report.append("Specialization Type = {}".format(_ARGS.typeof))
     report.append("Generated @ {}".format(datetime.datetime.now()))
     report.append("Error count = {}".format(error_count))
     report.append(_REPORT_BREAK)

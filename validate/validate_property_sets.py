@@ -8,14 +8,22 @@
 
 
 """
-import constants
 import re
+
+import validate_property
 
 
 
 # Regular expressions.
 _RE_DETAIL_NAME = '^[a-z_]+$'
 _RE_DETAILSET_NAME = '^[a-z_]+$'
+
+# Set of valid property cardinalities.
+_CARDINALITIES = {'0.1', '1.1', '0.N', '1.N'}
+
+# Set of valid property types.
+_TYPES = {'bool', 'float', 'int', 'str'}
+
 
 
 def validate(topic, prop_sets):
@@ -63,44 +71,4 @@ def _validate_property_set(errors, enums, associated, name, defn):
             errors.append("{}: all properties must be 4 member tuples".format(name))
         else:
             for prop in defn['properties']:
-                errors += ["{}.{}".format(name, i) for i in _validate_property(prop, enums)]
-
-
-def _validate_property(prop, enums):
-    """Validates a single detail specialization.
-
-    """
-    errors = []
-
-    # Unpack definition.
-    name, type_, cardinality, description = prop
-
-    # Validate name.
-    if not isinstance(name, str):
-        errors.append("name must be a string :: [{}]".format(name))
-    elif len(name.strip()) == 0:
-        errors.append("name must not be a zero length string")
-    # TODO apply regex
-
-    # Validate type.
-    if not isinstance(type_, (str, unicode)):
-        errors.append("type must be a string :: {}".format(type_))
-    elif type_.startswith("ENUM:"):
-        if type_[5:] not in enums:
-            errors.append("type enum key is invalid :: {}".format(type_))
-    elif type_ not in constants.TYPES:
-        errors.append("type must be either simple or an enum :: {}".format(type_))
-
-    # Validate cardinality.
-    if cardinality not in constants.CARDINALITIES:
-        errors.append("cardinality is invalid :: [{}]".format(cardinality))
-
-    # Validate description.
-    if not isinstance(description, str):
-        errors.append("description must be a string :: [{}]".format(description))
-    elif len(description.strip()) == 0:
-        errors.append("description must not be a zero length string")
-    # TODO apply regex
-
-    return ["{} :: property {}".format(name, i) for i in errors]
-
+                errors += ["{}.{}".format(name, i) for i in validate_property.validate(prop, enums)]
