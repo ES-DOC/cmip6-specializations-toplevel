@@ -16,10 +16,8 @@ from generate_json import Generator as JsonGenerator
 from generate_ids_level_1 import Generator as Level1IdentifierGenerator
 from generate_ids_level_2 import Generator as Level2IdentifierGenerator
 from generate_ids_level_3 import Generator as Level3IdentifierGenerator
-from utils_factory import create_realm_specialization
-from utils_factory import create_model_specialization
-from utils_loader import get_realm_specializations
-from utils_loader import get_model_specializations
+from utils_factory import get_specialization
+from utils_loader import get_modules
 
 
 
@@ -50,7 +48,7 @@ _FILE_SUFFIXES = {
 _DIR = os.path.dirname(__file__)
 
 # Set command line arguments.
-_ARGS = argparse.ArgumentParser("Encodes CMIP6 realm specializations.")
+_ARGS = argparse.ArgumentParser("Encodes a CMIP6 specialization.")
 _ARGS.add_argument(
     "--type",
     help="Type of generator to be executed.",
@@ -96,6 +94,15 @@ else:
         _ARGS.typeof: _GENERATORS[_ARGS.typeof]
     }
 
+# Override specialization type.
+_TYPE = "model" if _ARGS.scope == "toplevel" else _ARGS.scope
+
+# Set specialization modules.
+modules = get_modules(_ARGS.input_dir, _TYPE)
+
+# Set specialization.
+specialization = get_specialization(modules)
+
 logging_output = []
 for generator_type, generator_cls in targets.iteritems():
     # Set output encoding.
@@ -106,25 +113,17 @@ for generator_type, generator_cls in targets.iteritems():
 
     # Set output filename.
     try:
-        fname = "{}-{}".format(_ARGS.scope, _FILE_SUFFIXES[generator_type])
+        fname = "{}-{}".format(_TYPE, _FILE_SUFFIXES[generator_type])
     except KeyError:
-        fname = _ARGS.scope
+        fname = _TYPE
     finally:
         if encoding == 'py':
             fname = fname.replace("-", "_")
 
-    # Set scope.
-    if _ARGS.scope == "toplevel":
-        specialization = create_model_specialization(
-            get_model_specializations(_ARGS.input_dir)
-            )
-    else:
-        specialization = create_realm_specialization(
-            get_realm_specializations(_ARGS.input_dir, _ARGS.scope)
-            )
-
-    # Run generator.
+    # Set generator.
     generator = generator_cls(specialization)
+
+    # Run generator
     generator.run()
 
     # Write generated output to file system.

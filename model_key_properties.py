@@ -34,7 +34,7 @@ DESCRIPTION = 'Key properties of the model'
 # --------------------------------------------------------------------
 # KEY PROPERTIES: top level
 # --------------------------------------------------------------------
-DETAILS['flux_correction'] = {
+DETAILS['toplevel:flux_correction'] = {
     'description': 'Flux correction properties of the model',
     'properties':[
         ('details', 'str', '1.1',
@@ -42,7 +42,7 @@ DETAILS['flux_correction'] = {
         ]
     }
 
-DETAILS['genealogy'] = {
+DETAILS['toplevel:genealogy'] = {
     'description': 'Genealogy and history of the model',
     'properties':[
         ('year_released', 'str', '1.1',
@@ -56,7 +56,7 @@ DETAILS['genealogy'] = {
         ]
     }
 
-DETAILS['software_properties'] = {
+DETAILS['toplevel:software_properties'] = {
     'description': 'Software properties of model',
     'properties':[
         ('repository','str', '0.1',

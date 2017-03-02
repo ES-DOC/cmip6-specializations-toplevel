@@ -19,7 +19,7 @@ CONTACT = 'David Hassell'
 # --------------------------------------------------------------------
 # AUTHORS: Set to top-level specialization authors (comma delimited).
 # --------------------------------------------------------------------
-AUTHORS = 'David Hassell & Eric Guilyardi'
+AUTHORS = 'David Hassell, Eric Guilyardi'
 
 # --------------------------------------------------------------------
 # QUALITY CONTROL STATUS: Set to 'draft' or 'complete'
@@ -225,11 +225,7 @@ DETAILS['aerosols:sea_salt'] = {
 # OTHER
 # --------------------------------------------------------------------
 DETAILS['other'] = {
-    'description': 'Miscellaneous forcing agents',
-    'sub_topics': [
-        'land_use',
-        'solar',
-    ]
+    'description': 'Miscellaneous forcing agents'
 }
 
 DETAILS['other:land_use'] = {

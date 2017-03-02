@@ -13,44 +13,30 @@ import os
 
 
 
-def get_realm_specializations(input_dir, realm_name):
-    """Returns realm specialization modules.
+def get_modules(input_dir, typeof):
+    """Returns specialization modules.
 
     :param str input_dir: Directory within which modules reside.
-    :param str realm_name: Name of realm being processed.
+    :param str typeof: Type of specialization being processed.
 
     """
     # Load specialization modules.
-    modules = _get_modules(input_dir, realm_name)
+    modules = _get_modules(input_dir, typeof)
     if not modules:
-        raise KeyError("Realm specializations not found")
+        raise KeyError("Specializations not found")
 
     # Set specializations.
-    root = _get_module(modules, realm_name)
-    grid = _get_module(modules, root.GRID)
+    root = _get_module(modules, typeof)
+    try:
+        root.GRID
+    except AttributeError:
+        grid = None
+    else:
+        grid = _get_module(modules, root.GRID)
     key_properties = _get_module(modules, root.KEY_PROPERTIES)
     processes = [_get_module(modules, p) for p in root.PROCESSES]
 
     return root, grid, key_properties, processes
-
-
-def get_model_specializations(input_dir):
-    """Returns model specialization modules.
-
-    :param str input_dir: Directory within which modules reside.
-
-    """
-    # Load specialization modules.
-    modules = _get_modules(input_dir, "model")
-    if not modules:
-        raise KeyError("Top-level specializations not found")
-
-    # Set specializations.
-    root = _get_module(modules, "model")
-    key_properties = _get_module(modules, root.KEY_PROPERTIES)
-    activity_properties = _get_module(modules, root.ACTIVITY_PROPERTIES)
-
-    return root, key_properties, activity_properties
 
 
 def _get_modules(input_dir, specialization_type):

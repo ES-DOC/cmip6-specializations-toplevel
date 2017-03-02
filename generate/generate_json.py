@@ -3,7 +3,7 @@
 """
 .. module:: generator.py
    :platform: Unix, Windows
-   :synopsis: Rewrites a cmip6 realm specialization to json.
+   :synopsis: Encodes a cmip6 specialization as JSON.
 
 .. moduleauthor:: Mark Conway-Greenslade <momipsl@ipsl.jussieu.fr>
 
@@ -12,26 +12,26 @@
 import collections
 import json
 
-
+from constants import *
 from utils import get_label
-from utils_parser import RealmSpecializationParser
+from utils_parser import SpecializationParser
 
 
 
-class Generator(RealmSpecializationParser):
+class Generator(SpecializationParser):
     """Specialization to mindmap generator.
 
     """
-    def __init__(self, realm):
+    def __init__(self, root):
         """Instance constructor.
 
         """
-        super(Generator, self).__init__(realm)
+        super(Generator, self).__init__(root)
 
         self._maps = collections.OrderedDict()
-        self.on_realm_parse = self._on_topic_parse
+        self.on_root_parse = self._on_topic_parse
         self.on_grid_parse = self._on_topic_parse
-        self.on_keyproperties_parse = self._on_topic_parse
+        self.on_keyprops_parse = self._on_topic_parse
         self.on_process_parse = self._on_topic_parse
         self.on_subprocess_parse = self._on_topic_parse
 
@@ -40,7 +40,7 @@ class Generator(RealmSpecializationParser):
         """Returns generated output as a text blob.
 
         """
-        return json.dumps(self._maps[self.realm], indent=4)
+        return json.dumps(self._maps[self.root], indent=4)
 
 
     def _on_topic_parse(self, topic):
@@ -102,16 +102,16 @@ class Generator(RealmSpecializationParser):
         self._maps[choice] = obj
 
 
-    def on_realm_parsed(self, realm):
-        """On realm parsed event handler.
+    def on_root_parsed(self, root):
+        """On root parsed event handler.
 
         """
-        obj = self._maps[realm]
-        if realm['realm-grid'] is not None:
-            obj['grid'] = self._maps[realm['realm-grid']]
-        if realm['realm-key-properties'] is not None:
-            obj['keyProperties'] = self._maps[realm['realm-key-properties']]
-        obj['processes'] = [self._maps[i] for i in realm['realm-process']]
+        obj = self._maps[root]
+        if root[TYPE_KEY_GRID] is not None:
+            obj['grid'] = self._maps[root[TYPE_KEY_GRID]]
+        if root[TYPE_KEY_KEYPROPS] is not None:
+            obj['keyProperties'] = self._maps[root[TYPE_KEY_KEYPROPS]]
+        obj['processes'] = [self._maps[i] for i in root[TYPE_KEY_PROCESS]]
         self._strip(obj)
 
 
@@ -122,11 +122,11 @@ class Generator(RealmSpecializationParser):
         self._strip(self._maps[grid])
 
 
-    def on_keyproperties_parsed(self, keyproperties):
-        """On key properties parsed event handler.
+    def on_keyprops_parsed(self, key_props):
+        """keyprops parsed event handler.
 
         """
-        self._strip(self._maps[keyproperties])
+        self._strip(self._maps[key_props])
 
 
     def on_process_parsed(self, process):
@@ -136,9 +136,9 @@ class Generator(RealmSpecializationParser):
         obj = self._maps[process]
         self._strip(obj)
 
-        realm = self._maps[self.realm]
-        realm['processes'] = realm.get('processes', [])
-        realm['processes'].append(obj)
+        owner = self._maps[self.root]
+        owner['processes'] = owner.get('processes', [])
+        owner['processes'].append(obj)
 
 
     def on_subprocess_parsed(self, subprocess):
@@ -148,9 +148,9 @@ class Generator(RealmSpecializationParser):
         obj = self._maps[subprocess]
         self._strip(obj)
 
-        process = self._maps[subprocess.parent]
-        process['subProcesses'] = process.get('subProcesses', [])
-        process['subProcesses'].append(obj)
+        owner = self._maps[subprocess.parent]
+        owner['subProcesses'] = owner.get('subProcesses', [])
+        owner['subProcesses'].append(obj)
 
 
     def on_property_set_parsed(self, prop_set):

@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 """
-.. module:: parser.py
+.. module:: utils_parser.py
    :platform: Unix, Windows
    :synopsis: An event style specializations parser.
 
@@ -9,55 +9,49 @@
 
 
 """
-class RealmSpecializationParser(object):
-    """An event driven CMIP6 realm specializations parser.
+from constants import *
+
+
+
+class SpecializationParser(object):
+    """An event driven CMIP6 specializations parser.
 
     """
-    def __init__(self, realm):
+    def __init__(self, root):
         """Instance constructor.
 
         """
-        self.realm = realm
+        self.root = root
 
 
     def run(self):
         """Runs the parser raising events as it does so.
 
         """
-        self.on_realm_parse(self.realm)
-        self._parse_topic(self.realm, False)
-
-        if self.realm['realm-grid']:
-            self.on_grid_parse(self.realm['realm-grid'])
-            self._parse_topic(self.realm['realm-grid'])
-            self.on_grid_parsed(self.realm['realm-grid'])
-
-        if self.realm['realm-key-properties']:
-            self.on_keyproperties_parse(self.realm['realm-key-properties'])
-            self._parse_topic(self.realm['realm-key-properties'])
-            self.on_keyproperties_parsed(self.realm['realm-key-properties'])
-
-        for p in self.realm['realm-process']:
-            self.on_process_parse(p)
-            self._parse_topic(p)
-            for sp in p['realm-subprocess']:
-                self.on_subprocess_parse(sp)
-                self._parse_topic(sp)
-                self.on_subprocess_parsed(sp)
-            self.on_process_parsed(p)
-
-        self.on_realm_parsed(self.realm)
+        self.on_root_parse(self.root)
+        self._parse_topic(self.root)
+        for st in self.root.sub_topics:
+            getattr(self, "on_{}_parse".format(st.type_key))(st)
+            self._parse_topic(st)
+            getattr(self, "on_{}_parsed".format(st.type_key))(st)
+        self.on_root_parsed(self.root)
 
 
-    def _parse_topic(self, topic, parse_sub_topics=True):
+    def _parse_topic(self, topic):
         """Parses a topic.
 
         """
         self._parse_topic_properties(topic.properties)
+
         for ps in topic.property_sets:
             self.on_property_set_parse(ps)
             self._parse_topic_properties(ps.properties)
             self.on_property_set_parsed(ps)
+
+        for sp in topic[TYPE_KEY_SUBPROCESS]:
+            self.on_subprocess_parse(sp)
+            self._parse_topic(sp)
+            self.on_subprocess_parsed(sp)
 
 
     def _parse_topic_properties(self, properties):
@@ -75,15 +69,15 @@ class RealmSpecializationParser(object):
             self.on_property_parsed(p)
 
 
-    def on_realm_parse(self, realm):
-        """On realm parse event handler.
+    def on_root_parse(self, root):
+        """On root parse event handler.
 
         """
         pass
 
 
-    def on_realm_parsed(self, realm):
-        """On realm parsed event handler.
+    def on_root_parsed(self, root):
+        """On root parsed event handler.
 
         """
         pass
@@ -103,14 +97,14 @@ class RealmSpecializationParser(object):
         pass
 
 
-    def on_keyproperties_parse(self, key_properties):
+    def on_keyprops_parse(self, key_props):
         """On key-properties parse event handler.
 
         """
         pass
 
 
-    def on_keyproperties_parsed(self, key_properties):
+    def on_keyprops_parsed(self, key_props):
         """On key-properties parsed event handler.
 
         """
@@ -174,7 +168,7 @@ class RealmSpecializationParser(object):
 
 
     def on_enum_parse(self, enum):
-        """On enum parse event handler.§
+        """On enum parse event handler.
 
         """
         pass

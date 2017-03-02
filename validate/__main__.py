@@ -13,7 +13,6 @@ import datetime
 import operator
 import os
 
-import context
 import utils
 import validate_root
 import validate_topic
@@ -44,11 +43,11 @@ _REPORT_BREAK = "---------------------------------------------------------------
 # Override specializations type.
 _TYPE = "model" if _ARGS.typeof == "toplevel" else _ARGS.typeof
 
-# Set specializations.
-specializations = utils.get_specializations(_ARGS.input_dir, _TYPE)
+# Set specialization modules.
+modules = utils.get_modules(_ARGS.input_dir, _TYPE)
 
 # Set validation context.
-ctx = context.ValidationContext(specializations)
+ctx = utils.ValidationContext(modules)
 
 # Validate.
 validate_root.validate(ctx)

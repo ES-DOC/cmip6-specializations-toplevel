@@ -1,8 +1,22 @@
+"""
+.. module:: validate_property.py
+   :license: GPL/CeCIL
+   :platform: Unix, Windows
+   :synopsis: Validates a specialized CMIP6 scientific property.
+
+.. moduleauthor:: Mark Conway-Greenslade <momipsl@ipsl.jussieu.fr>
+
+
+"""
+
 # Set of valid property cardinalities.
 _CARDINALITIES = {'0.1', '1.1', '0.N', '1.N'}
 
 # Set of valid property types.
 _TYPES = {'bool', 'float', 'int', 'str'}
+
+# Proeprty name regular expression.
+_RE_NAME = '^[a-z_]+$'
 
 
 def validate(prop, enums):
@@ -15,8 +29,8 @@ def validate(prop, enums):
     :rtype: list
 
     """
-    errors = []
     name, typeof, cardinality, description = prop
+    errors = []
     _validate_name(errors, name)
     _validate_type(errors, typeof, enums)
     _validate_cardinality(errors, cardinality)
@@ -65,4 +79,3 @@ def _validate_description(errors, description):
         errors.append("description must be a string :: [{}]".format(description))
     elif len(description.strip()) == 0:
         errors.append("description must not be a zero length string")
-    # TODO apply regex

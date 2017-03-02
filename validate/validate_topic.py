@@ -11,8 +11,8 @@
 import collections
 
 import utils
-import validate_property_sets
-import validate_enums
+import validate_property_set
+import validate_enum
 
 
 
@@ -34,9 +34,9 @@ def validate(ctx, topic):
 
     # Level-2 validation.
     ctx.errors[topic] += \
-        validate_property_sets.validate(topic, topic.DETAILS)
+        validate_property_set.validate(topic, topic.DETAILS)
     ctx.errors[topic] += \
-        validate_enums.validate(topic.ENUMERATIONS)
+        validate_enum.validate(topic.ENUMERATIONS)
 
 
 def _validate_fields(ctx, module):

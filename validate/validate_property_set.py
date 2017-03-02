@@ -1,28 +1,14 @@
 """
-.. module:: validate_topic.py
+.. module:: validate_property_sets.py
    :license: GPL/CeCIL
    :platform: Unix, Windows
-   :synopsis: Validates a specialized CMIP6 scientific topic.
+   :synopsis: Validates specialized CMIP6 scientific property sets.
 
 .. moduleauthor:: Mark Conway-Greenslade <momipsl@ipsl.jussieu.fr>
 
 
 """
-import re
-
 import validate_property
-
-
-
-# Regular expressions.
-_RE_DETAIL_NAME = '^[a-z_]+$'
-_RE_DETAILSET_NAME = '^[a-z_]+$'
-
-# Set of valid property cardinalities.
-_CARDINALITIES = {'0.1', '1.1', '0.N', '1.N'}
-
-# Set of valid property types.
-_TYPES = {'bool', 'float', 'int', 'str'}
 
 
 
@@ -36,12 +22,12 @@ def validate(topic, prop_sets):
     errors = []
 
     for name, defn in prop_sets.items():
-        _validate_property_set(errors, topic.ENUMERATIONS.keys(), prop_sets, name, defn)
+        _validate(errors, topic.ENUMERATIONS.keys(), prop_sets, name, defn)
 
     return errors
 
 
-def _validate_property_set(errors, enums, associated, name, defn):
+def _validate(errors, enums, associated, name, defn):
     """Validates a single detail set specialization.
 
     """
