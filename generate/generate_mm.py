@@ -15,10 +15,10 @@ import json
 import xml.etree.ElementTree as ET
 
 from cim_profile import CIM_PROFILE
+from utils_constants import *
 from utils_model import PropertySpecialization
 from utils_model import TopicSpecialization
 from utils_parser import SpecializationParser
-import constants
 
 
 # HTML snippet for a set of notes.
@@ -38,15 +38,15 @@ _NOTE_HTML = "<dt><b>{}</b></dt><dd>{}</dd>"
 
 # Mind-map sections.
 _SECTIONS = collections.OrderedDict()
-_SECTIONS[constants.TYPE_KEY_ENUM_CHOICE] = None
-_SECTIONS[constants.TYPE_KEY_GRID] = "science.topic"
-_SECTIONS[constants.TYPE_KEY_KEYPROPS] = "science.topic"
-_SECTIONS[constants.TYPE_KEY_MODEL] = "science.topic"
-_SECTIONS[constants.TYPE_KEY_PROCESS] = "science.topic"
-_SECTIONS[constants.TYPE_KEY_PROPERTY] = None
-_SECTIONS[constants.TYPE_KEY_PROPERTY_SET] = None
-_SECTIONS[constants.TYPE_KEY_REALM] = "science.realm"
-_SECTIONS[constants.TYPE_KEY_SUBPROCESS] = "science.topic"
+_SECTIONS[TYPE_KEY_ENUM_CHOICE] = None
+_SECTIONS[TYPE_KEY_GRID] = "science.topic"
+_SECTIONS[TYPE_KEY_KEYPROPS] = "science.topic"
+_SECTIONS[TYPE_KEY_MODEL] = "science.topic"
+_SECTIONS[TYPE_KEY_PROCESS] = "science.topic"
+_SECTIONS[TYPE_KEY_PROPERTY] = None
+_SECTIONS[TYPE_KEY_PROPERTY_SET] = None
+_SECTIONS[TYPE_KEY_REALM] = "science.realm"
+_SECTIONS[TYPE_KEY_SUBPROCESS] = "science.topic"
 
 
 class _Configuration(object):

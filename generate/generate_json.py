@@ -12,8 +12,8 @@
 import collections
 import json
 
-from constants import *
 from utils import get_label
+from utils_constants import *
 from utils_parser import SpecializationParser
 
 
