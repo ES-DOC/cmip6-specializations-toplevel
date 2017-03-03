@@ -86,6 +86,18 @@ if _ARGS.typeof != 'all' and _ARGS.typeof not in _GENERATORS.keys():
     err = err.format(_ARGS.typeof, " | ".join(sorted(_GENERATORS.keys())))
     raise ValueError(err)
 
+# Map of specialization types to filename overrides.
+_FILENAME_OVERRIDES = {
+    "toplevel": "model",
+    "ocean-bgc": "oceanbgc"
+}
+
+# Set specialization filename prefix.
+try:
+    _FILENAME = _FILENAME_OVERRIDES[_ARGS.scope]
+except KeyError:
+    _FILENAME = _ARGS.scope
+
 # Set target generators to be executed.
 if _ARGS.typeof == 'all':
     targets = _GENERATORS
@@ -94,11 +106,8 @@ else:
         _ARGS.typeof: _GENERATORS[_ARGS.typeof]
     }
 
-# Override specialization type.
-_TYPE = "model" if _ARGS.scope == "toplevel" else _ARGS.scope
-
 # Set specialization modules.
-modules = get_modules(_ARGS.input_dir, _TYPE)
+modules = get_modules(_ARGS.input_dir, _FILENAME)
 
 # Set specialization.
 specialization = get_specialization(modules)
@@ -113,9 +122,9 @@ for generator_type, generator_cls in targets.iteritems():
 
     # Set output filename.
     try:
-        fname = "{}-{}".format(_TYPE, _FILE_SUFFIXES[generator_type])
+        fname = "{}-{}".format(_FILENAME, _FILE_SUFFIXES[generator_type])
     except KeyError:
-        fname = _TYPE
+        fname = _FILENAME
     finally:
         if encoding == 'py':
             fname = fname.replace("-", "_")

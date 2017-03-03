@@ -40,11 +40,20 @@ _ARGS = _ARGS.parse_args()
 # Report section break.
 _REPORT_BREAK = "------------------------------------------------------------------------"
 
-# Override specializations type.
-_TYPE = "model" if _ARGS.typeof == "toplevel" else _ARGS.typeof
+# Map of specialization types to filename overrides.
+_FILENAME_OVERRIDES = {
+    "toplevel": "model",
+    "ocean-bgc": "oceanbgc"
+}
+
+# Set specialization filename prefix.
+try:
+    _FILENAME = _FILENAME_OVERRIDES[_ARGS.typeof]
+except KeyError:
+    _FILENAME = _ARGS.typeof
 
 # Set specialization modules.
-modules = utils.get_modules(_ARGS.input_dir, _TYPE)
+modules = utils.get_modules(_ARGS.input_dir, _FILENAME)
 
 # Set validation context.
 ctx = utils.ValidationContext(modules)
