@@ -73,15 +73,16 @@ class Generator(SpecializationParser):
     """Specialization to mindmap generator.
 
     """
-    def __init__(self, root):
+    def __init__(self, root, short_tables):
         """Instance constructor.
 
         """
-        super(Generator, self).__init__(root)
+        super(Generator, self).__init__(root, short_tables)
 
         self.cfg = _Configuration()
         self.mmap = None
         self.nodes = {}
+        self.short_tables_node = None
 
 
     def get_output(self):
@@ -89,6 +90,49 @@ class Generator(SpecializationParser):
 
         """
         return ET.tostring(self.mmap)
+
+
+    def on_short_tables_parse(self, short_tables):
+        self.short_tables_node = ET.SubElement(self.nodes[self.root], 'node', {
+            'FOLDED': "true",
+            'STYLE': "bubble",
+            'TEXT': "SHORT TABLES",
+            'POSITION': "left"
+            })
+
+
+    def on_short_table_parse(self, name, obj):
+        table_node = ET.SubElement(self.short_tables_node, 'node', {
+            'BACKGROUND_COLOR': "#FFFFFF",
+            'COLOR': "#000000",
+            'STYLE': "bubble",
+            'TEXT': name
+            })
+        for priority in sorted(obj['PROPERTIES']):
+            if not obj['PROPERTIES'][priority]:
+                continue
+            priority_node = ET.SubElement(table_node, 'node', {
+                'BACKGROUND_COLOR': "#FFFFFF",
+                'COLOR': "#000000",
+                'STYLE': "bubble",
+                'TEXT': priority
+                })
+            for property_id in obj['PROPERTIES'][priority]:
+                property_text = ".".join(property_id.split(".")[2:])
+                if self.root.has_property(property_id):
+                    ET.SubElement(priority_node, 'node', {
+                        'BACKGROUND_COLOR': "#FFFFFF",
+                        'COLOR': "#000000",
+                        'STYLE': "bubble",
+                        'TEXT': property_text
+                        })
+                else:
+                    ET.SubElement(priority_node, 'node', {
+                        'BACKGROUND_COLOR': "#FF0000",
+                        'COLOR': "#FFFFFF",
+                        'STYLE': "bubble",
+                        'TEXT': property_text
+                        })
 
 
     def on_root_parse(self, root):
@@ -300,6 +344,18 @@ class Generator(SpecializationParser):
                 ("Person", person),
                 ("Comment", comment),
             ])
+
+
+    def _emit_short_tables(self, short_tables):
+        """Emits short tables.
+
+        """
+        root_node = ET.SubElement(self.nodes[self.root], 'node', {
+            'FOLDED': "true",
+            'STYLE': "bubble",
+            'TEXT': "SHORT TABLES",
+            'POSITION': "left"
+            })
 
 
 def _get_notes(spec):
