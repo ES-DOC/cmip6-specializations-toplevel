@@ -210,6 +210,13 @@ class SpecializationParser(object):
         pass
 
 
+    def on_short_tables_parsed(self, short_tables):
+        """On short tables parsed event handler.
+
+        """
+        pass
+
+
     def on_short_table_parse(self, name, obj):
         """On short table parse event handler.
 
@@ -219,13 +226,6 @@ class SpecializationParser(object):
 
     def on_short_table_parsed(self, name, obj):
         """On short table parsed event handler.
-
-        """
-        pass
-
-
-    def on_short_tables_parsed(self, short_tables):
-        """On short tables parsed event handler.
 
         """
         pass
