@@ -1581,9 +1581,9 @@
                         "id": "cmip6.model.key_properties.conservation.momentum", 
                         "properties": [
                             {
-                                "label": "Momentum", 
+                                "label": "Details", 
                                 "description": "Describe if/how momentum is conserved in the model", 
-                                "id": "cmip6.model.key_properties.conservation.momentum.momentum", 
+                                "id": "cmip6.model.key_properties.conservation.momentum.details", 
                                 "cardinality": "0.1", 
                                 "type": "str", 
                                 "uiOrdinal": 1

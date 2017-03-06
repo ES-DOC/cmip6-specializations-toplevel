@@ -31,7 +31,7 @@ cmip6.model.key_properties.conservation.fresh_water.iceberg_calving, Model > Key
 cmip6.model.key_properties.conservation.fresh_water.endoreic_basins, Model > Key Properties > Conservation > Fresh Water > Endoreic Basins, property
 cmip6.model.key_properties.conservation.fresh_water.snow_accumulation, Model > Key Properties > Conservation > Fresh Water > Snow Accumulation, property
 cmip6.model.key_properties.conservation.salt.ocean_seaice_interface, Model > Key Properties > Conservation > Salt > Ocean Seaice Interface, property
-cmip6.model.key_properties.conservation.momentum.momentum, Model > Key Properties > Conservation > Momentum > Momentum, property
+cmip6.model.key_properties.conservation.momentum.details, Model > Key Properties > Conservation > Momentum > Details, property
 , , 
 cmip6.model.radiative_forcings.greenhouse_gases.CO2.provision, Model > Radiative Forcings > Greenhouse Gases > CO2 > Provision, property
 cmip6.model.radiative_forcings.greenhouse_gases.CO2.additional_information, Model > Radiative Forcings > Greenhouse Gases > CO2 > Additional Information, property
