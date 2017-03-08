@@ -27,7 +27,7 @@
             "cmip6.model.key_properties.conservation.heat.global",
             "cmip6.model.key_properties.conservation.fresh_water.global",
             "cmip6.model.key_properties.conservation.salt.ocean_seaice_interface",
-            "cmip6.model.key_properties.conservation.momentum.momentum"
+            "cmip6.model.key_properties.conservation.momentum.details"
         ],
         "priority2": []
     },
