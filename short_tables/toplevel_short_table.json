@@ -1,0 +1,35 @@
+{
+    "AUTHORS": [
+        "Eric Guilyardi, David Hassell"
+    ],
+    "CHANGE_HISTORY": [
+        [
+            "0.1.0",
+            "2017-03-01",
+            "David Hassell, Eric Guilyardi",
+            "Initialised"
+        ]
+    ],
+    "CONTACT": "Eric Guilyardi",
+    "CONTRIBUTORS": [],
+    "PROPERTIES": {
+        "priority1": [
+            "cim.2.science.model.name",
+            "cmip6.toplevel.key_properties.flux_correction.details",
+            "cmip6.toplevel.key_properties.genealogy.year_released",
+            "cmip6.toplevel.key_properties.genealogy.CMIP5_parent",
+            "cmip6.toplevel.key_properties.tuning_applied.description",
+            "cmip6.toplevel.key_properties.tuning_applied.global_mean_metrics_used",
+            "cmip6.toplevel.key_properties.tuning_applied.regional_metrics_used",
+            "cmip6.toplevel.key_properties.tuning_applied.trend_metrics_used",
+            "cmip6.toplevel.key_properties.tuning_applied.energy_balance",
+            "cmip6.toplevel.key_properties.tuning_applied.fresh_water_balance",
+            "cmip6.toplevel.key_properties.conservation.heat.global",
+            "cmip6.toplevel.key_properties.conservation.fresh_water.global",
+            "cmip6.toplevel.key_properties.conservation.salt.ocean_seaice_interface",
+            "cmip6.toplevel.key_properties.conservation.momentum.details"
+        ],
+        "priority2": []
+    },
+    "QC_STATUS": "draft"
+}

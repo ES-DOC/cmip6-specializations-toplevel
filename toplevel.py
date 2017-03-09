@@ -45,13 +45,13 @@ GRID = None
 # --------------------------------------------------------------------
 # KEY PROPERTIES: File name (without the .py suffix) containing key properties of the top level model.
 # --------------------------------------------------------------------
-KEY_PROPERTIES = 'model_key_properties'
+KEY_PROPERTIES = 'toplevel_key_properties'
 
 # --------------------------------------------------------------------
 # PROCESSES: Processes simulated within the model
 # --------------------------------------------------------------------
 PROCESSES = [
-    'model_radiative_forcings',
+    'toplevel_radiative_forcings',
     ]
 
 # --------------------------------------------------------------------
