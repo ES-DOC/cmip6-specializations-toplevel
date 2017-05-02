@@ -1179,27 +1179,19 @@
                                             }, 
                                             {
                                                 "label": "proton", 
-                                                "description": "Solar proton forcing"
+                                                "description": "Proton pathway to solar forcing"
+                                            }, 
+                                            {
+                                                "label": "electron", 
+                                                "description": "Electron pathway to solar forcing"
+                                            }, 
+                                            {
+                                                "label": "cosmic ray", 
+                                                "description": "Cosmic ray pathway to solar forcing"
                                             }
                                         ]
                                     }, 
                                     "uiOrdinal": 1
-                                }, 
-                                {
-                                    "label": "Cosmic Ray", 
-                                    "description": "Is cosmic ray forcing included?", 
-                                    "id": "cmip6.toplevel.radiative_forcings.other.solar.cosmic_ray", 
-                                    "cardinality": "1.1", 
-                                    "type": "bool", 
-                                    "uiOrdinal": 2
-                                }, 
-                                {
-                                    "label": "Electron", 
-                                    "description": "Is electron forcing included?", 
-                                    "id": "cmip6.toplevel.radiative_forcings.other.solar.electron", 
-                                    "cardinality": "1.1", 
-                                    "type": "bool", 
-                                    "uiOrdinal": 3
                                 }, 
                                 {
                                     "label": "Additional Information", 
@@ -1207,7 +1199,7 @@
                                     "id": "cmip6.toplevel.radiative_forcings.other.solar.additional_information", 
                                     "cardinality": "0.1", 
                                     "type": "str", 
-                                    "uiOrdinal": 4
+                                    "uiOrdinal": 2
                                 }
                             ]
                         }

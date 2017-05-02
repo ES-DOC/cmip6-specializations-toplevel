@@ -245,10 +245,6 @@ DETAILS['other:solar'] = {
     'properties': [
         ('provision', 'ENUM:solar_forcing_provision', '1.N',
              'How solar forcing is provided'),
-        ('cosmic_ray', 'bool', '1.1',
-             'Is cosmic ray forcing included?'),
-        ('electron', 'bool', '1.1',
-             'Is electron forcing included?'),
         ('additional_information', 'str', '0.1',
              'Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).'),
     ]
@@ -274,9 +270,11 @@ ENUMERATIONS['solar_forcing_provision'] = {
     'description': 'How solar forcing is provided',
     'is_open': True,
     'members': [
-        ("N/A", "Not applicable - solar forcing is not included"),
+        ("N/A"       , "Not applicable - solar forcing is not included"),
         ("irradiance", "Solar irradiance forcing"),
-        ("proton", "Solar proton forcing"),
+        ("proton"    , "Proton pathway to solar forcing"),
+        ("electron"  , "Electron pathway to solar forcing"),
+        ("cosmic ray", "Cosmic ray pathway to solar forcing"),
     ]
 }
 
