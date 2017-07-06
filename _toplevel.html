@@ -1,0 +1,369 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
+        <title>ES-DOC - Specialization</title>
+        <link href="media/app/img/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+        <link href="media/ext/bootstrap-3.3.6/css/bootstrap.min.css" media="screen" rel="stylesheet" type="text/css" />
+        <link href="media/app/css/header.css" media="screen" rel="stylesheet" type="text/css" />
+        <link href="media/app/css/main.css" media="screen" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+    <header class="clearfix main">
+        <img alt="Earth System Documentation" class="pull-left" src="media/app/img/logo-1.png" title="Earth System Documentation" />
+        <h1 class="pull-right">
+            <small><b>Specializations Viewer</b>
+            </small>
+            <b class="h6"> v0.9.7.5</b>
+            <button class="esdoc-support btn btn-success">Support</button>
+        </h1>
+    </header>
+    <article id="cmip6.toplevel">
+    <header>
+        <h2 class="bg-primary">CMIP6 Toplevel Specializations</h2>
+    </header>
+<section id="cmip6.toplevel.key_properties">
+    <header>
+        <h3 class="bg-primary">Key Properties</h3>
+    </header>
+    <table class="table table-striped table-hover table-condensed">
+        <thead>
+            <tr>
+                <th class="prop-name">Property Long Name</th>
+                <th class="prop-cardinality">Cardinality</th>
+                <th class="prop-typeof">Type</th>
+            </tr>
+        </thead>
+        <tbody>
+        <tr>
+    <td class="prop-name">Flux Correction --&gt; Details</td>
+    <td class="prop-cardinality">1.1</td>
+    <td class="prop-typeof">str</td>
+</tr><tr>
+    <td class="prop-name">Genealogy --&gt; Year Released</td>
+    <td class="prop-cardinality">1.1</td>
+    <td class="prop-typeof">str</td>
+</tr><tr>
+    <td class="prop-name">Genealogy --&gt; CMIP3 Parent</td>
+    <td class="prop-cardinality">0.1</td>
+    <td class="prop-typeof">str</td>
+</tr><tr>
+    <td class="prop-name">Genealogy --&gt; CMIP5 Parent</td>
+    <td class="prop-cardinality">0.1</td>
+    <td class="prop-typeof">str</td>
+</tr><tr>
+    <td class="prop-name">Genealogy --&gt; Previous Name</td>
+    <td class="prop-cardinality">0.1</td>
+    <td class="prop-typeof">str</td>
+</tr><tr>
+    <td class="prop-name">Software Properties --&gt; Repository</td>
+    <td class="prop-cardinality">0.1</td>
+    <td class="prop-typeof">str</td>
+</tr><tr>
+    <td class="prop-name">Software Properties --&gt; Code Version</td>
+    <td class="prop-cardinality">0.1</td>
+    <td class="prop-typeof">str</td>
+</tr><tr>
+    <td class="prop-name">Software Properties --&gt; Code Languages</td>
+    <td class="prop-cardinality">0.N</td>
+    <td class="prop-typeof">str</td>
+</tr><tr>
+    <td class="prop-name">Software Properties --&gt; Components Structure</td>
+    <td class="prop-cardinality">0.1</td>
+    <td class="prop-typeof">str</td>
+</tr><tr>
+    <td class="prop-name">Software Properties --&gt; Coupler</td>
+    <td class="prop-cardinality">0.1</td>
+    <td class="prop-typeof"><select><option>enum</option><option title="OASIS">OASIS</option><option title="OASIS3-MCT">OASIS3-MCT</option><option title="ESMF">ESMF</option><option title="NUOPC">NUOPC</option><option title="Bespoke">Bespoke</option><option title="Unknown">Unknown</option><option title="None">None</option></select></td>
+</tr><tr>
+    <td class="prop-name">Tuning Applied --&gt; Description</td>
+    <td class="prop-cardinality">1.1</td>
+    <td class="prop-typeof">str</td>
+</tr><tr>
+    <td class="prop-name">Tuning Applied --&gt; Global Mean Metrics Used</td>
+    <td class="prop-cardinality">0.N</td>
+    <td class="prop-typeof">str</td>
+</tr><tr>
+    <td class="prop-name">Tuning Applied --&gt; Regional Metrics Used</td>
+    <td class="prop-cardinality">0.N</td>
+    <td class="prop-typeof">str</td>
+</tr><tr>
+    <td class="prop-name">Tuning Applied --&gt; Trend Metrics Used</td>
+    <td class="prop-cardinality">0.N</td>
+    <td class="prop-typeof">str</td>
+</tr><tr>
+    <td class="prop-name">Tuning Applied --&gt; Energy Balance</td>
+    <td class="prop-cardinality">1.1</td>
+    <td class="prop-typeof">str</td>
+</tr><tr>
+    <td class="prop-name">Tuning Applied --&gt; Fresh Water Balance</td>
+    <td class="prop-cardinality">1.1</td>
+    <td class="prop-typeof">str</td>
+</tr><tr>
+    <td class="prop-name">Conservation --&gt; Heat --&gt; Global</td>
+    <td class="prop-cardinality">1.1</td>
+    <td class="prop-typeof">str</td>
+</tr><tr>
+    <td class="prop-name">Conservation --&gt; Heat --&gt; Atmos Ocean Interface</td>
+    <td class="prop-cardinality">0.1</td>
+    <td class="prop-typeof">str</td>
+</tr><tr>
+    <td class="prop-name">Conservation --&gt; Heat --&gt; Atmos Land Interface</td>
+    <td class="prop-cardinality">1.1</td>
+    <td class="prop-typeof">str</td>
+</tr><tr>
+    <td class="prop-name">Conservation --&gt; Heat --&gt; Atmos Sea-ice Interface</td>
+    <td class="prop-cardinality">0.1</td>
+    <td class="prop-typeof">str</td>
+</tr><tr>
+    <td class="prop-name">Conservation --&gt; Heat --&gt; Ocean Seaice Interface</td>
+    <td class="prop-cardinality">0.1</td>
+    <td class="prop-typeof">str</td>
+</tr><tr>
+    <td class="prop-name">Conservation --&gt; Heat --&gt; Land Ocean Interface</td>
+    <td class="prop-cardinality">0.1</td>
+    <td class="prop-typeof">str</td>
+</tr><tr>
+    <td class="prop-name">Conservation --&gt; Fresh Water --&gt; Global</td>
+    <td class="prop-cardinality">1.1</td>
+    <td class="prop-typeof">str</td>
+</tr><tr>
+    <td class="prop-name">Conservation --&gt; Fresh Water --&gt; Atmos Ocean Interface</td>
+    <td class="prop-cardinality">0.1</td>
+    <td class="prop-typeof">str</td>
+</tr><tr>
+    <td class="prop-name">Conservation --&gt; Fresh Water --&gt; Atmos Land Interface</td>
+    <td class="prop-cardinality">1.1</td>
+    <td class="prop-typeof">str</td>
+</tr><tr>
+    <td class="prop-name">Conservation --&gt; Fresh Water --&gt; Atmos Sea-ice Interface</td>
+    <td class="prop-cardinality">0.1</td>
+    <td class="prop-typeof">str</td>
+</tr><tr>
+    <td class="prop-name">Conservation --&gt; Fresh Water --&gt; Ocean Seaice Interface</td>
+    <td class="prop-cardinality">0.1</td>
+    <td class="prop-typeof">str</td>
+</tr><tr>
+    <td class="prop-name">Conservation --&gt; Fresh Water --&gt; Runoff</td>
+    <td class="prop-cardinality">0.1</td>
+    <td class="prop-typeof">str</td>
+</tr><tr>
+    <td class="prop-name">Conservation --&gt; Fresh Water --&gt; Iceberg Calving</td>
+    <td class="prop-cardinality">0.1</td>
+    <td class="prop-typeof">str</td>
+</tr><tr>
+    <td class="prop-name">Conservation --&gt; Fresh Water --&gt; Endoreic Basins</td>
+    <td class="prop-cardinality">0.1</td>
+    <td class="prop-typeof">str</td>
+</tr><tr>
+    <td class="prop-name">Conservation --&gt; Fresh Water --&gt; Snow Accumulation</td>
+    <td class="prop-cardinality">0.1</td>
+    <td class="prop-typeof">str</td>
+</tr><tr>
+    <td class="prop-name">Conservation --&gt; Salt --&gt; Ocean Seaice Interface</td>
+    <td class="prop-cardinality">0.1</td>
+    <td class="prop-typeof">str</td>
+</tr><tr>
+    <td class="prop-name">Conservation --&gt; Momentum --&gt; Details</td>
+    <td class="prop-cardinality">0.1</td>
+    <td class="prop-typeof">str</td>
+</tr></tbody>
+    </table>
+</section><section id="cmip6.toplevel.radiative_forcings">
+    <header>
+        <h3 class="bg-primary">Radiative Forcings</h3>
+    </header>
+    <table class="table table-striped table-hover table-condensed">
+        <thead>
+            <tr>
+                <th class="prop-name">Property Long Name</th>
+                <th class="prop-cardinality">Cardinality</th>
+                <th class="prop-typeof">Type</th>
+            </tr>
+        </thead>
+        <tbody>
+        <tr>
+    <td class="prop-name">Greenhouse Gases --&gt; CO2 --&gt; Provision</td>
+    <td class="prop-cardinality">1.N</td>
+    <td class="prop-typeof"><select><option>enum</option><option title="M">M</option><option title="Y">Y</option><option title="E">E</option><option title="ES">ES</option><option title="C">C</option></select></td>
+</tr><tr>
+    <td class="prop-name">Greenhouse Gases --&gt; CO2 --&gt; Additional Information</td>
+    <td class="prop-cardinality">0.1</td>
+    <td class="prop-typeof">str</td>
+</tr><tr>
+    <td class="prop-name">Greenhouse Gases --&gt; CH4 --&gt; Provision</td>
+    <td class="prop-cardinality">1.N</td>
+    <td class="prop-typeof"><select><option>enum</option><option title="M">M</option><option title="Y">Y</option><option title="E">E</option><option title="ES">ES</option><option title="C">C</option></select></td>
+</tr><tr>
+    <td class="prop-name">Greenhouse Gases --&gt; CH4 --&gt; Additional Information</td>
+    <td class="prop-cardinality">0.1</td>
+    <td class="prop-typeof">str</td>
+</tr><tr>
+    <td class="prop-name">Greenhouse Gases --&gt; N2O --&gt; Provision</td>
+    <td class="prop-cardinality">1.N</td>
+    <td class="prop-typeof"><select><option>enum</option><option title="M">M</option><option title="Y">Y</option><option title="E">E</option><option title="ES">ES</option><option title="C">C</option></select></td>
+</tr><tr>
+    <td class="prop-name">Greenhouse Gases --&gt; N2O --&gt; Additional Information</td>
+    <td class="prop-cardinality">0.1</td>
+    <td class="prop-typeof">str</td>
+</tr><tr>
+    <td class="prop-name">Greenhouse Gases --&gt; Tropospheric O3 --&gt; Provision</td>
+    <td class="prop-cardinality">1.N</td>
+    <td class="prop-typeof"><select><option>enum</option><option title="M">M</option><option title="Y">Y</option><option title="E">E</option><option title="ES">ES</option><option title="C">C</option></select></td>
+</tr><tr>
+    <td class="prop-name">Greenhouse Gases --&gt; Tropospheric O3 --&gt; Additional Information</td>
+    <td class="prop-cardinality">0.1</td>
+    <td class="prop-typeof">str</td>
+</tr><tr>
+    <td class="prop-name">Greenhouse Gases --&gt; Stratospheric O3 --&gt; Provision</td>
+    <td class="prop-cardinality">1.N</td>
+    <td class="prop-typeof"><select><option>enum</option><option title="M">M</option><option title="Y">Y</option><option title="E">E</option><option title="ES">ES</option><option title="C">C</option></select></td>
+</tr><tr>
+    <td class="prop-name">Greenhouse Gases --&gt; Stratospheric O3 --&gt; Additional Information</td>
+    <td class="prop-cardinality">0.1</td>
+    <td class="prop-typeof">str</td>
+</tr><tr>
+    <td class="prop-name">Greenhouse Gases --&gt; CFC --&gt; Provision</td>
+    <td class="prop-cardinality">1.N</td>
+    <td class="prop-typeof"><select><option>enum</option><option title="M">M</option><option title="Y">Y</option><option title="E">E</option><option title="ES">ES</option><option title="C">C</option></select></td>
+</tr><tr>
+    <td class="prop-name">Greenhouse Gases --&gt; CFC --&gt; Equivalence Concentration</td>
+    <td class="prop-cardinality">1.1</td>
+    <td class="prop-typeof"><select><option>enum</option><option title="Option 1">Option 1</option><option title="Option 2">Option 2</option><option title="Option 3">Option 3</option></select></td>
+</tr><tr>
+    <td class="prop-name">Greenhouse Gases --&gt; CFC --&gt; Additional Information</td>
+    <td class="prop-cardinality">0.1</td>
+    <td class="prop-typeof">str</td>
+</tr><tr>
+    <td class="prop-name">Aerosols --&gt; SO4 --&gt; Provision</td>
+    <td class="prop-cardinality">1.N</td>
+    <td class="prop-typeof"><select><option>enum</option><option title="M">M</option><option title="Y">Y</option><option title="E">E</option><option title="ES">ES</option><option title="C">C</option></select></td>
+</tr><tr>
+    <td class="prop-name">Aerosols --&gt; SO4 --&gt; Additional Information</td>
+    <td class="prop-cardinality">0.1</td>
+    <td class="prop-typeof">str</td>
+</tr><tr>
+    <td class="prop-name">Aerosols --&gt; Black Carbon --&gt; Provision</td>
+    <td class="prop-cardinality">1.N</td>
+    <td class="prop-typeof"><select><option>enum</option><option title="M">M</option><option title="Y">Y</option><option title="E">E</option><option title="ES">ES</option><option title="C">C</option></select></td>
+</tr><tr>
+    <td class="prop-name">Aerosols --&gt; Black Carbon --&gt; Additional Information</td>
+    <td class="prop-cardinality">0.1</td>
+    <td class="prop-typeof">str</td>
+</tr><tr>
+    <td class="prop-name">Aerosols --&gt; Organic Carbon --&gt; Provision</td>
+    <td class="prop-cardinality">1.N</td>
+    <td class="prop-typeof"><select><option>enum</option><option title="M">M</option><option title="Y">Y</option><option title="E">E</option><option title="ES">ES</option><option title="C">C</option></select></td>
+</tr><tr>
+    <td class="prop-name">Aerosols --&gt; Organic Carbon --&gt; Additional Information</td>
+    <td class="prop-cardinality">0.1</td>
+    <td class="prop-typeof">str</td>
+</tr><tr>
+    <td class="prop-name">Aerosols --&gt; Nitrate --&gt; Provision</td>
+    <td class="prop-cardinality">1.N</td>
+    <td class="prop-typeof"><select><option>enum</option><option title="M">M</option><option title="Y">Y</option><option title="E">E</option><option title="ES">ES</option><option title="C">C</option></select></td>
+</tr><tr>
+    <td class="prop-name">Aerosols --&gt; Nitrate --&gt; Additional Information</td>
+    <td class="prop-cardinality">0.1</td>
+    <td class="prop-typeof">str</td>
+</tr><tr>
+    <td class="prop-name">Aerosols --&gt; Cloud Albedo Effect --&gt; Provision</td>
+    <td class="prop-cardinality">1.N</td>
+    <td class="prop-typeof"><select><option>enum</option><option title="M">M</option><option title="Y">Y</option><option title="E">E</option><option title="ES">ES</option><option title="C">C</option></select></td>
+</tr><tr>
+    <td class="prop-name">Aerosols --&gt; Cloud Albedo Effect --&gt; Aerosol Effect On Ice Clouds</td>
+    <td class="prop-cardinality">1.1</td>
+    <td class="prop-typeof">bool</td>
+</tr><tr>
+    <td class="prop-name">Aerosols --&gt; Cloud Albedo Effect --&gt; Additional Information</td>
+    <td class="prop-cardinality">0.1</td>
+    <td class="prop-typeof">str</td>
+</tr><tr>
+    <td class="prop-name">Aerosols --&gt; Cloud Lifetime Effect --&gt; Provision</td>
+    <td class="prop-cardinality">1.N</td>
+    <td class="prop-typeof"><select><option>enum</option><option title="M">M</option><option title="Y">Y</option><option title="E">E</option><option title="ES">ES</option><option title="C">C</option></select></td>
+</tr><tr>
+    <td class="prop-name">Aerosols --&gt; Cloud Lifetime Effect --&gt; Aerosol Effect On Ice Clouds</td>
+    <td class="prop-cardinality">1.1</td>
+    <td class="prop-typeof">bool</td>
+</tr><tr>
+    <td class="prop-name">Aerosols --&gt; Cloud Lifetime Effect --&gt; RFaci From Sulfate Only</td>
+    <td class="prop-cardinality">1.1</td>
+    <td class="prop-typeof">bool</td>
+</tr><tr>
+    <td class="prop-name">Aerosols --&gt; Cloud Lifetime Effect --&gt; Additional Information</td>
+    <td class="prop-cardinality">0.1</td>
+    <td class="prop-typeof">str</td>
+</tr><tr>
+    <td class="prop-name">Aerosols --&gt; Dust --&gt; Provision</td>
+    <td class="prop-cardinality">1.N</td>
+    <td class="prop-typeof"><select><option>enum</option><option title="M">M</option><option title="Y">Y</option><option title="E">E</option><option title="ES">ES</option><option title="C">C</option></select></td>
+</tr><tr>
+    <td class="prop-name">Aerosols --&gt; Dust --&gt; Additional Information</td>
+    <td class="prop-cardinality">0.1</td>
+    <td class="prop-typeof">str</td>
+</tr><tr>
+    <td class="prop-name">Aerosols --&gt; Tropospheric Volcanic --&gt; Provision</td>
+    <td class="prop-cardinality">1.N</td>
+    <td class="prop-typeof"><select><option>enum</option><option title="M">M</option><option title="Y">Y</option><option title="E">E</option><option title="ES">ES</option><option title="C">C</option></select></td>
+</tr><tr>
+    <td class="prop-name">Aerosols --&gt; Tropospheric Volcanic --&gt; Historical Explosive Volcanic Aerosol Implementation</td>
+    <td class="prop-cardinality">1.1</td>
+    <td class="prop-typeof"><select><option>enum</option><option title="Type A">Type A</option><option title="Type B">Type B</option><option title="Type C">Type C</option><option title="Type D">Type D</option><option title="Type E">Type E</option></select></td>
+</tr><tr>
+    <td class="prop-name">Aerosols --&gt; Tropospheric Volcanic --&gt; Future Explosive Volcanic Aerosol Implementation</td>
+    <td class="prop-cardinality">1.1</td>
+    <td class="prop-typeof"><select><option>enum</option><option title="Type A">Type A</option><option title="Type B">Type B</option><option title="Type C">Type C</option><option title="Type D">Type D</option><option title="Type E">Type E</option></select></td>
+</tr><tr>
+    <td class="prop-name">Aerosols --&gt; Tropospheric Volcanic --&gt; Additional Information</td>
+    <td class="prop-cardinality">0.1</td>
+    <td class="prop-typeof">str</td>
+</tr><tr>
+    <td class="prop-name">Aerosols --&gt; Stratospheric Volcanic --&gt; Provision</td>
+    <td class="prop-cardinality">1.N</td>
+    <td class="prop-typeof"><select><option>enum</option><option title="M">M</option><option title="Y">Y</option><option title="E">E</option><option title="ES">ES</option><option title="C">C</option></select></td>
+</tr><tr>
+    <td class="prop-name">Aerosols --&gt; Stratospheric Volcanic --&gt; Historical Explosive Volcanic Aerosol Implementation</td>
+    <td class="prop-cardinality">1.1</td>
+    <td class="prop-typeof"><select><option>enum</option><option title="Type A">Type A</option><option title="Type B">Type B</option><option title="Type C">Type C</option><option title="Type D">Type D</option><option title="Type E">Type E</option></select></td>
+</tr><tr>
+    <td class="prop-name">Aerosols --&gt; Stratospheric Volcanic --&gt; Future Explosive Volcanic Aerosol Implementation</td>
+    <td class="prop-cardinality">1.1</td>
+    <td class="prop-typeof"><select><option>enum</option><option title="Type A">Type A</option><option title="Type B">Type B</option><option title="Type C">Type C</option><option title="Type D">Type D</option><option title="Type E">Type E</option></select></td>
+</tr><tr>
+    <td class="prop-name">Aerosols --&gt; Stratospheric Volcanic --&gt; Additional Information</td>
+    <td class="prop-cardinality">0.1</td>
+    <td class="prop-typeof">str</td>
+</tr><tr>
+    <td class="prop-name">Aerosols --&gt; Sea Salt --&gt; Provision</td>
+    <td class="prop-cardinality">1.N</td>
+    <td class="prop-typeof"><select><option>enum</option><option title="M">M</option><option title="Y">Y</option><option title="E">E</option><option title="ES">ES</option><option title="C">C</option></select></td>
+</tr><tr>
+    <td class="prop-name">Aerosols --&gt; Sea Salt --&gt; Additional Information</td>
+    <td class="prop-cardinality">0.1</td>
+    <td class="prop-typeof">str</td>
+</tr><tr>
+    <td class="prop-name">Other --&gt; Land Use --&gt; Provision</td>
+    <td class="prop-cardinality">1.N</td>
+    <td class="prop-typeof"><select><option>enum</option><option title="M">M</option><option title="Y">Y</option><option title="E">E</option><option title="ES">ES</option><option title="C">C</option></select></td>
+</tr><tr>
+    <td class="prop-name">Other --&gt; Land Use --&gt; Crop Change Only</td>
+    <td class="prop-cardinality">1.1</td>
+    <td class="prop-typeof">bool</td>
+</tr><tr>
+    <td class="prop-name">Other --&gt; Land Use --&gt; Additional Information</td>
+    <td class="prop-cardinality">0.1</td>
+    <td class="prop-typeof">str</td>
+</tr><tr>
+    <td class="prop-name">Other --&gt; Solar --&gt; Provision</td>
+    <td class="prop-cardinality">1.N</td>
+    <td class="prop-typeof"><select><option>enum</option><option title="irradiance">irradiance</option><option title="proton">proton</option><option title="electron">electron</option><option title="cosmic ray">cosmic ray</option></select></td>
+</tr><tr>
+    <td class="prop-name">Other --&gt; Solar --&gt; Additional Information</td>
+    <td class="prop-cardinality">0.1</td>
+    <td class="prop-typeof">str</td>
+</tr></tbody>
+    </table>
+</section></article></body>
+</html>
