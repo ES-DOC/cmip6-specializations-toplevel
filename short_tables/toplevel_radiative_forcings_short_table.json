@@ -12,6 +12,7 @@
     ],
     "CONTACT": "Eric Guilyardi",
     "CONTRIBUTORS": [],
+    "LABEL": "Radiative Forcings",
     "PROPERTIES": {
         "priority1": [
             "cmip6.toplevel.radiative_forcings.greenhouse_gases.CO2.provision",

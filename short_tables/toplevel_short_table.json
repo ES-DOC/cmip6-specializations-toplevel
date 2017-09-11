@@ -12,6 +12,7 @@
     ],
     "CONTACT": "Eric Guilyardi",
     "CONTRIBUTORS": [],
+    "LABEL": "Top-Level",
     "PROPERTIES": {
         "priority1": [
             "cim.2.science.model.name",
