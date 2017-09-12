@@ -13,24 +13,21 @@
     "CONTACT": "Eric Guilyardi",
     "CONTRIBUTORS": [],
     "LABEL": "Top-Level",
-    "PROPERTIES": {
-        "priority1": [
-            "cim.2.science.model.name",
-            "cmip6.toplevel.key_properties.flux_correction.details",
-            "cmip6.toplevel.key_properties.genealogy.year_released",
-            "cmip6.toplevel.key_properties.genealogy.CMIP5_parent",
-            "cmip6.toplevel.key_properties.tuning_applied.description",
-            "cmip6.toplevel.key_properties.tuning_applied.global_mean_metrics_used",
-            "cmip6.toplevel.key_properties.tuning_applied.regional_metrics_used",
-            "cmip6.toplevel.key_properties.tuning_applied.trend_metrics_used",
-            "cmip6.toplevel.key_properties.tuning_applied.energy_balance",
-            "cmip6.toplevel.key_properties.tuning_applied.fresh_water_balance",
-            "cmip6.toplevel.key_properties.conservation.heat.global",
-            "cmip6.toplevel.key_properties.conservation.fresh_water.global",
-            "cmip6.toplevel.key_properties.conservation.salt.ocean_seaice_interface",
-            "cmip6.toplevel.key_properties.conservation.momentum.details"
-        ],
-        "priority2": []
-    },
+    "PROPERTIES": [
+        ["cim.2.science.model.name", 1],
+        ["cmip6.toplevel.key_properties.flux_correction.details", 1],
+        ["cmip6.toplevel.key_properties.genealogy.year_released", 1],
+        ["cmip6.toplevel.key_properties.genealogy.CMIP5_parent", 1],
+        ["cmip6.toplevel.key_properties.tuning_applied.description", 1],
+        ["cmip6.toplevel.key_properties.tuning_applied.global_mean_metrics_used", 1],
+        ["cmip6.toplevel.key_properties.tuning_applied.regional_metrics_used", 1],
+        ["cmip6.toplevel.key_properties.tuning_applied.trend_metrics_used", 1],
+        ["cmip6.toplevel.key_properties.tuning_applied.energy_balance", 1],
+        ["cmip6.toplevel.key_properties.tuning_applied.fresh_water_balance", 1],
+        ["cmip6.toplevel.key_properties.conservation.heat.global", 1],
+        ["cmip6.toplevel.key_properties.conservation.fresh_water.global", 1],
+        ["cmip6.toplevel.key_properties.conservation.salt.ocean_seaice_interface", 1],
+        ["cmip6.toplevel.key_properties.conservation.momentum.details", 1]
+    ],
     "QC_STATUS": "draft"
 }
