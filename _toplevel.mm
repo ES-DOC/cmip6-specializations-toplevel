@@ -9,28 +9,28 @@
   <head />
   <body>
     <dl>
-        <dt><b>Version</b></dt><dd>0.1.0</dd><dt><b>Date</b></dt><dd>2016-09-01</dd><dt><b>Person</b></dt><dd>Initialised</dd><dt><b>Comment</b></dt><dd>Eric Guilyardi</dd>
+        <dt><b>Version</b></dt><dd>0.1.0</dd><dt><b>Date</b></dt><dd>2016-09-01</dd><dt><b>Person</b></dt><dd>Eric Guilyardi</dd><dt><b>Comment</b></dt><dd>Initialised</dd>
     </dl>
   </body>
 </html></richcontent></node><node STYLE="bubble" TEXT="0.2.0"><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Version</b></dt><dd>0.2.0</dd><dt><b>Date</b></dt><dd>2016-11-08</dd><dt><b>Person</b></dt><dd>Changed syntax to simplify and remove CIM2 dependencies</dd><dt><b>Comment</b></dt><dd>Eric Guilyardi et al</dd>
+        <dt><b>Version</b></dt><dd>0.2.0</dd><dt><b>Date</b></dt><dd>2016-11-08</dd><dt><b>Person</b></dt><dd>Eric Guilyardi et al</dd><dt><b>Comment</b></dt><dd>Changed syntax to simplify and remove CIM2 dependencies</dd>
     </dl>
   </body>
 </html></richcontent></node><node STYLE="bubble" TEXT="0.3.0"><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Version</b></dt><dd>0.3.0</dd><dt><b>Date</b></dt><dd>2017-01-30</dd><dt><b>Person</b></dt><dd>Added forcings</dd><dt><b>Comment</b></dt><dd>David Hassell, Eric Guilyardi</dd>
+        <dt><b>Version</b></dt><dd>0.3.0</dd><dt><b>Date</b></dt><dd>2017-01-30</dd><dt><b>Person</b></dt><dd>David Hassell, Eric Guilyardi</dd><dt><b>Comment</b></dt><dd>Added forcings</dd>
     </dl>
   </body>
 </html></richcontent></node><node STYLE="bubble" TEXT="0.4.0"><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Version</b></dt><dd>0.4.0</dd><dt><b>Date</b></dt><dd>2017-05-02</dd><dt><b>Person</b></dt><dd>Updated solar forcing</dd><dt><b>Comment</b></dt><dd>David Hassell</dd>
+        <dt><b>Version</b></dt><dd>0.4.0</dd><dt><b>Date</b></dt><dd>2017-05-02</dd><dt><b>Person</b></dt><dd>David Hassell</dd><dt><b>Comment</b></dt><dd>Updated solar forcing</dd>
     </dl>
   </body>
 </html></richcontent></node></node><node FOLDED="true" POSITION="left" STYLE="bubble" TEXT="LEGEND"><node BACKGROUND_COLOR="#FFFFFF" COLOR="#000000" STYLE="bubble" TEXT="enum-choice"><richcontent TYPE="NOTE"><html>
