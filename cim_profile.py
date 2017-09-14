@@ -12,7 +12,6 @@
 from collections import OrderedDict
 
 
-
 # Declare profile over CIM v2.
 CIM_PROFILE = OrderedDict()
 
