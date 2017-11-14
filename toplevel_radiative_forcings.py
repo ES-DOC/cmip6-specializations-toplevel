@@ -38,7 +38,7 @@ DETAILS['toplevel'] = {
     'description': 'Properties radiative forcings in model',
     'properties': [
         ('overview', 'str', '1.1',
-            'Overview of radiative forcings in model'),
+            'Overview of radiative forcings (GHG and aerosols) implementation in model'),
         ]
     }
 
