@@ -716,14 +716,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Overview of radiative forcings in model</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.radiative_forcings.overview</dd>
+        <dt><b>Description</b></dt><dd>Overview of radiative forcings (GHG and aerosols) implementation in model</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.radiative_forcings.overview</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Overview of radiative forcings in model</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.radiative_forcings.overview</dd>
+        <dt><b>Description</b></dt><dd>Overview of radiative forcings (GHG and aerosols) implementation in model</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.radiative_forcings.overview</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#ACF0F2" COLOR="#000000" FOLDED="false" STYLE="bubble" TEXT="greenhouse_gases"><font BOLD="True" NAME="courier" SIZE="12" /><richcontent TYPE="NOTE"><html>

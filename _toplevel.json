@@ -12,7 +12,7 @@
             "properties": [
                 {
                     "label": "Overview", 
-                    "description": "Overview of radiative forcings in model", 
+                    "description": "Overview of radiative forcings (GHG and aerosols) implementation in model", 
                     "id": "cmip6.toplevel.radiative_forcings.overview", 
                     "cardinality": "1.1", 
                     "type": "str", 
