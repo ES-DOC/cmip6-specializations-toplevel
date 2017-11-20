@@ -35,6 +35,8 @@ CHANGE_HISTORY = [
         "Added forcings"),
     ("0.4.0", "2017-05-02", "David Hassell",
         "Updated solar forcing"),
+    ("0.5.0", "2017-11-20", "David Hassell",
+        "Added realm coupling 'process'"),
     ]
 
 # --------------------------------------------------------------------
@@ -57,6 +59,7 @@ KEY_PROPERTIES = 'toplevel_key_properties'
 # --------------------------------------------------------------------
 PROCESSES = [
     'toplevel_radiative_forcings',
+    'toplevel_realm_coupling',
     ]
 
 # --------------------------------------------------------------------
