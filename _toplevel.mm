@@ -2543,14 +2543,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. temperature, daily, area-weighted interpolotaion</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.realm_coupling.ocean_to_atmosphere.fields</dd>
+        <dt><b>Description</b></dt><dd>Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. sea surface temperature, daily, area-weighted interpolation</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.realm_coupling.ocean_to_atmosphere.fields</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. temperature, daily, area-weighted interpolotaion</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.realm_coupling.ocean_to_atmosphere.fields</dd>
+        <dt><b>Description</b></dt><dd>Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. sea surface temperature, daily, area-weighted interpolation</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.realm_coupling.ocean_to_atmosphere.fields</dd>
     </dl>
   </body>
 </html></richcontent></node></node><node BACKGROUND_COLOR="#ACF0F2" COLOR="#000000" FOLDED="false" STYLE="bubble" TEXT="ocean_to_seaice"><font BOLD="True" NAME="courier" SIZE="12" /><richcontent TYPE="NOTE"><html>
@@ -2578,14 +2578,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. temperature, daily, area-weighted interpolotaion</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.realm_coupling.ocean_to_seaice.fields</dd>
+        <dt><b>Description</b></dt><dd>Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. sea surface temperature, daily, area-weighted interpolation</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.realm_coupling.ocean_to_seaice.fields</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. temperature, daily, area-weighted interpolotaion</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.realm_coupling.ocean_to_seaice.fields</dd>
+        <dt><b>Description</b></dt><dd>Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. sea surface temperature, daily, area-weighted interpolation</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.realm_coupling.ocean_to_seaice.fields</dd>
     </dl>
   </body>
 </html></richcontent></node></node><node BACKGROUND_COLOR="#ACF0F2" COLOR="#000000" FOLDED="false" STYLE="bubble" TEXT="ocean_to_ocean_biogeochemistry"><font BOLD="True" NAME="courier" SIZE="12" /><richcontent TYPE="NOTE"><html>
@@ -2613,14 +2613,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. temperature, daily, area-weighted interpolotaion</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.realm_coupling.ocean_to_ocean_biogeochemistry.fields</dd>
+        <dt><b>Description</b></dt><dd>Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. sea surface temperature, daily, area-weighted interpolation</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.realm_coupling.ocean_to_ocean_biogeochemistry.fields</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. temperature, daily, area-weighted interpolotaion</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.realm_coupling.ocean_to_ocean_biogeochemistry.fields</dd>
+        <dt><b>Description</b></dt><dd>Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. sea surface temperature, daily, area-weighted interpolation</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.realm_coupling.ocean_to_ocean_biogeochemistry.fields</dd>
     </dl>
   </body>
 </html></richcontent></node></node><node BACKGROUND_COLOR="#ACF0F2" COLOR="#000000" FOLDED="false" STYLE="bubble" TEXT="atmosphere_to_ocean"><font BOLD="True" NAME="courier" SIZE="12" /><richcontent TYPE="NOTE"><html>
@@ -2648,14 +2648,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. temperature, daily, area-weighted interpolotaion</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.realm_coupling.atmosphere_to_ocean.fields</dd>
+        <dt><b>Description</b></dt><dd>Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. sea surface temperature, daily, area-weighted interpolation</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.realm_coupling.atmosphere_to_ocean.fields</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. temperature, daily, area-weighted interpolotaion</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.realm_coupling.atmosphere_to_ocean.fields</dd>
+        <dt><b>Description</b></dt><dd>Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. sea surface temperature, daily, area-weighted interpolation</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.realm_coupling.atmosphere_to_ocean.fields</dd>
     </dl>
   </body>
 </html></richcontent></node></node><node BACKGROUND_COLOR="#ACF0F2" COLOR="#000000" FOLDED="false" STYLE="bubble" TEXT="atmosphere_to_seaice"><font BOLD="True" NAME="courier" SIZE="12" /><richcontent TYPE="NOTE"><html>
@@ -2683,14 +2683,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. temperature, daily, area-weighted interpolotaion</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.realm_coupling.atmosphere_to_seaice.fields</dd>
+        <dt><b>Description</b></dt><dd>Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. sea surface temperature, daily, area-weighted interpolation</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.realm_coupling.atmosphere_to_seaice.fields</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. temperature, daily, area-weighted interpolotaion</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.realm_coupling.atmosphere_to_seaice.fields</dd>
+        <dt><b>Description</b></dt><dd>Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. sea surface temperature, daily, area-weighted interpolation</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.realm_coupling.atmosphere_to_seaice.fields</dd>
     </dl>
   </body>
 </html></richcontent></node></node><node BACKGROUND_COLOR="#ACF0F2" COLOR="#000000" FOLDED="false" STYLE="bubble" TEXT="atmosphere_to_land"><font BOLD="True" NAME="courier" SIZE="12" /><richcontent TYPE="NOTE"><html>
@@ -2718,14 +2718,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. temperature, daily, area-weighted interpolotaion</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.realm_coupling.atmosphere_to_land.fields</dd>
+        <dt><b>Description</b></dt><dd>Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. sea surface temperature, daily, area-weighted interpolation</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.realm_coupling.atmosphere_to_land.fields</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. temperature, daily, area-weighted interpolotaion</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.realm_coupling.atmosphere_to_land.fields</dd>
+        <dt><b>Description</b></dt><dd>Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. sea surface temperature, daily, area-weighted interpolation</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.realm_coupling.atmosphere_to_land.fields</dd>
     </dl>
   </body>
 </html></richcontent></node></node><node BACKGROUND_COLOR="#ACF0F2" COLOR="#000000" FOLDED="false" STYLE="bubble" TEXT="atmosphere_to_aerosols"><font BOLD="True" NAME="courier" SIZE="12" /><richcontent TYPE="NOTE"><html>
@@ -2753,14 +2753,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. temperature, daily, area-weighted interpolotaion</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.realm_coupling.atmosphere_to_aerosols.fields</dd>
+        <dt><b>Description</b></dt><dd>Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. sea surface temperature, daily, area-weighted interpolation</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.realm_coupling.atmosphere_to_aerosols.fields</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. temperature, daily, area-weighted interpolotaion</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.realm_coupling.atmosphere_to_aerosols.fields</dd>
+        <dt><b>Description</b></dt><dd>Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. sea surface temperature, daily, area-weighted interpolation</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.realm_coupling.atmosphere_to_aerosols.fields</dd>
     </dl>
   </body>
 </html></richcontent></node></node><node BACKGROUND_COLOR="#ACF0F2" COLOR="#000000" FOLDED="false" STYLE="bubble" TEXT="atmosphere_to_amospheric_chemistry"><font BOLD="True" NAME="courier" SIZE="12" /><richcontent TYPE="NOTE"><html>
@@ -2788,14 +2788,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. temperature, daily, area-weighted interpolotaion</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.realm_coupling.atmosphere_to_amospheric_chemistry.fields</dd>
+        <dt><b>Description</b></dt><dd>Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. sea surface temperature, daily, area-weighted interpolation</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.realm_coupling.atmosphere_to_amospheric_chemistry.fields</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. temperature, daily, area-weighted interpolotaion</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.realm_coupling.atmosphere_to_amospheric_chemistry.fields</dd>
+        <dt><b>Description</b></dt><dd>Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. sea surface temperature, daily, area-weighted interpolation</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.realm_coupling.atmosphere_to_amospheric_chemistry.fields</dd>
     </dl>
   </body>
 </html></richcontent></node></node><node BACKGROUND_COLOR="#ACF0F2" COLOR="#000000" FOLDED="false" STYLE="bubble" TEXT="atmosphere_to_ocean_biogeochemistry"><font BOLD="True" NAME="courier" SIZE="12" /><richcontent TYPE="NOTE"><html>
@@ -2823,14 +2823,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. temperature, daily, area-weighted interpolotaion</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.realm_coupling.atmosphere_to_ocean_biogeochemistry.fields</dd>
+        <dt><b>Description</b></dt><dd>Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. sea surface temperature, daily, area-weighted interpolation</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.realm_coupling.atmosphere_to_ocean_biogeochemistry.fields</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. temperature, daily, area-weighted interpolotaion</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.realm_coupling.atmosphere_to_ocean_biogeochemistry.fields</dd>
+        <dt><b>Description</b></dt><dd>Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. sea surface temperature, daily, area-weighted interpolation</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.realm_coupling.atmosphere_to_ocean_biogeochemistry.fields</dd>
     </dl>
   </body>
 </html></richcontent></node></node><node BACKGROUND_COLOR="#ACF0F2" COLOR="#000000" FOLDED="false" STYLE="bubble" TEXT="seaice_to_atmosphere"><font BOLD="True" NAME="courier" SIZE="12" /><richcontent TYPE="NOTE"><html>
@@ -2858,14 +2858,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. temperature, daily, area-weighted interpolotaion</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.realm_coupling.seaice_to_atmosphere.fields</dd>
+        <dt><b>Description</b></dt><dd>Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. sea surface temperature, daily, area-weighted interpolation</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.realm_coupling.seaice_to_atmosphere.fields</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. temperature, daily, area-weighted interpolotaion</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.realm_coupling.seaice_to_atmosphere.fields</dd>
+        <dt><b>Description</b></dt><dd>Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. sea surface temperature, daily, area-weighted interpolation</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.realm_coupling.seaice_to_atmosphere.fields</dd>
     </dl>
   </body>
 </html></richcontent></node></node><node BACKGROUND_COLOR="#ACF0F2" COLOR="#000000" FOLDED="false" STYLE="bubble" TEXT="seaice_to_ocean"><font BOLD="True" NAME="courier" SIZE="12" /><richcontent TYPE="NOTE"><html>
@@ -2893,14 +2893,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. temperature, daily, area-weighted interpolotaion</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.realm_coupling.seaice_to_ocean.fields</dd>
+        <dt><b>Description</b></dt><dd>Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. sea surface temperature, daily, area-weighted interpolation</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.realm_coupling.seaice_to_ocean.fields</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. temperature, daily, area-weighted interpolotaion</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.realm_coupling.seaice_to_ocean.fields</dd>
+        <dt><b>Description</b></dt><dd>Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. sea surface temperature, daily, area-weighted interpolation</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.realm_coupling.seaice_to_ocean.fields</dd>
     </dl>
   </body>
 </html></richcontent></node></node><node BACKGROUND_COLOR="#ACF0F2" COLOR="#000000" FOLDED="false" STYLE="bubble" TEXT="seaice_to_ocean_biogeochemistry"><font BOLD="True" NAME="courier" SIZE="12" /><richcontent TYPE="NOTE"><html>
@@ -2928,14 +2928,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. temperature, daily, area-weighted interpolotaion</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.realm_coupling.seaice_to_ocean_biogeochemistry.fields</dd>
+        <dt><b>Description</b></dt><dd>Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. sea surface temperature, daily, area-weighted interpolation</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.realm_coupling.seaice_to_ocean_biogeochemistry.fields</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. temperature, daily, area-weighted interpolotaion</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.realm_coupling.seaice_to_ocean_biogeochemistry.fields</dd>
+        <dt><b>Description</b></dt><dd>Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. sea surface temperature, daily, area-weighted interpolation</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.realm_coupling.seaice_to_ocean_biogeochemistry.fields</dd>
     </dl>
   </body>
 </html></richcontent></node></node><node BACKGROUND_COLOR="#ACF0F2" COLOR="#000000" FOLDED="false" STYLE="bubble" TEXT="land_to_atmosphere"><font BOLD="True" NAME="courier" SIZE="12" /><richcontent TYPE="NOTE"><html>
@@ -2963,14 +2963,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. temperature, daily, area-weighted interpolotaion</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.realm_coupling.land_to_atmosphere.fields</dd>
+        <dt><b>Description</b></dt><dd>Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. sea surface temperature, daily, area-weighted interpolation</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.realm_coupling.land_to_atmosphere.fields</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. temperature, daily, area-weighted interpolotaion</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.realm_coupling.land_to_atmosphere.fields</dd>
+        <dt><b>Description</b></dt><dd>Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. sea surface temperature, daily, area-weighted interpolation</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.realm_coupling.land_to_atmosphere.fields</dd>
     </dl>
   </body>
 </html></richcontent></node></node><node BACKGROUND_COLOR="#ACF0F2" COLOR="#000000" FOLDED="false" STYLE="bubble" TEXT="land_to_ocean_biogeochemistry"><font BOLD="True" NAME="courier" SIZE="12" /><richcontent TYPE="NOTE"><html>
@@ -2998,14 +2998,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. temperature, daily, area-weighted interpolotaion</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.realm_coupling.land_to_ocean_biogeochemistry.fields</dd>
+        <dt><b>Description</b></dt><dd>Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. sea surface temperature, daily, area-weighted interpolation</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.realm_coupling.land_to_ocean_biogeochemistry.fields</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. temperature, daily, area-weighted interpolotaion</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.realm_coupling.land_to_ocean_biogeochemistry.fields</dd>
+        <dt><b>Description</b></dt><dd>Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. sea surface temperature, daily, area-weighted interpolation</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.realm_coupling.land_to_ocean_biogeochemistry.fields</dd>
     </dl>
   </body>
 </html></richcontent></node></node><node BACKGROUND_COLOR="#ACF0F2" COLOR="#000000" FOLDED="false" STYLE="bubble" TEXT="land_to_atmospheric_chemistry"><font BOLD="True" NAME="courier" SIZE="12" /><richcontent TYPE="NOTE"><html>
@@ -3033,14 +3033,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. temperature, daily, area-weighted interpolotaion</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.realm_coupling.land_to_atmospheric_chemistry.fields</dd>
+        <dt><b>Description</b></dt><dd>Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. sea surface temperature, daily, area-weighted interpolation</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.realm_coupling.land_to_atmospheric_chemistry.fields</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. temperature, daily, area-weighted interpolotaion</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.realm_coupling.land_to_atmospheric_chemistry.fields</dd>
+        <dt><b>Description</b></dt><dd>Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. sea surface temperature, daily, area-weighted interpolation</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.realm_coupling.land_to_atmospheric_chemistry.fields</dd>
     </dl>
   </body>
 </html></richcontent></node></node><node BACKGROUND_COLOR="#ACF0F2" COLOR="#000000" FOLDED="false" STYLE="bubble" TEXT="aerosols_to_atmosphere"><font BOLD="True" NAME="courier" SIZE="12" /><richcontent TYPE="NOTE"><html>
@@ -3068,14 +3068,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. temperature, daily, area-weighted interpolotaion</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.realm_coupling.aerosols_to_atmosphere.fields</dd>
+        <dt><b>Description</b></dt><dd>Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. sea surface temperature, daily, area-weighted interpolation</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.realm_coupling.aerosols_to_atmosphere.fields</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. temperature, daily, area-weighted interpolotaion</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.realm_coupling.aerosols_to_atmosphere.fields</dd>
+        <dt><b>Description</b></dt><dd>Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. sea surface temperature, daily, area-weighted interpolation</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.realm_coupling.aerosols_to_atmosphere.fields</dd>
     </dl>
   </body>
 </html></richcontent></node></node><node BACKGROUND_COLOR="#ACF0F2" COLOR="#000000" FOLDED="false" STYLE="bubble" TEXT="atmospheric_chemistry_to_atmosphere"><font BOLD="True" NAME="courier" SIZE="12" /><richcontent TYPE="NOTE"><html>
@@ -3103,14 +3103,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. temperature, daily, area-weighted interpolotaion</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.realm_coupling.atmospheric_chemistry_to_atmosphere.fields</dd>
+        <dt><b>Description</b></dt><dd>Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. sea surface temperature, daily, area-weighted interpolation</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.realm_coupling.atmospheric_chemistry_to_atmosphere.fields</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. temperature, daily, area-weighted interpolotaion</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.realm_coupling.atmospheric_chemistry_to_atmosphere.fields</dd>
+        <dt><b>Description</b></dt><dd>Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. sea surface temperature, daily, area-weighted interpolation</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.realm_coupling.atmospheric_chemistry_to_atmosphere.fields</dd>
     </dl>
   </body>
 </html></richcontent></node></node><node BACKGROUND_COLOR="#ACF0F2" COLOR="#000000" FOLDED="false" STYLE="bubble" TEXT="atmospheric_chemistry_to_land"><font BOLD="True" NAME="courier" SIZE="12" /><richcontent TYPE="NOTE"><html>
@@ -3138,14 +3138,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. temperature, daily, area-weighted interpolotaion</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.realm_coupling.atmospheric_chemistry_to_land.fields</dd>
+        <dt><b>Description</b></dt><dd>Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. sea surface temperature, daily, area-weighted interpolation</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.realm_coupling.atmospheric_chemistry_to_land.fields</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. temperature, daily, area-weighted interpolotaion</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.realm_coupling.atmospheric_chemistry_to_land.fields</dd>
+        <dt><b>Description</b></dt><dd>Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. sea surface temperature, daily, area-weighted interpolation</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.realm_coupling.atmospheric_chemistry_to_land.fields</dd>
     </dl>
   </body>
 </html></richcontent></node></node><node BACKGROUND_COLOR="#ACF0F2" COLOR="#000000" FOLDED="false" STYLE="bubble" TEXT="atmospheric_chemistry_to_land_ice"><font BOLD="True" NAME="courier" SIZE="12" /><richcontent TYPE="NOTE"><html>
@@ -3173,14 +3173,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. temperature, daily, area-weighted interpolotaion</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.realm_coupling.atmospheric_chemistry_to_land_ice.fields</dd>
+        <dt><b>Description</b></dt><dd>Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. sea surface temperature, daily, area-weighted interpolation</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.realm_coupling.atmospheric_chemistry_to_land_ice.fields</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. temperature, daily, area-weighted interpolotaion</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.realm_coupling.atmospheric_chemistry_to_land_ice.fields</dd>
+        <dt><b>Description</b></dt><dd>Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. sea surface temperature, daily, area-weighted interpolation</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.realm_coupling.atmospheric_chemistry_to_land_ice.fields</dd>
     </dl>
   </body>
 </html></richcontent></node></node><node BACKGROUND_COLOR="#ACF0F2" COLOR="#000000" FOLDED="false" STYLE="bubble" TEXT="atmospheric_chemistry_to_sea_ice"><font BOLD="True" NAME="courier" SIZE="12" /><richcontent TYPE="NOTE"><html>
@@ -3208,14 +3208,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. temperature, daily, area-weighted interpolotaion</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.realm_coupling.atmospheric_chemistry_to_sea_ice.fields</dd>
+        <dt><b>Description</b></dt><dd>Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. sea surface temperature, daily, area-weighted interpolation</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.realm_coupling.atmospheric_chemistry_to_sea_ice.fields</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. temperature, daily, area-weighted interpolotaion</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.realm_coupling.atmospheric_chemistry_to_sea_ice.fields</dd>
+        <dt><b>Description</b></dt><dd>Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. sea surface temperature, daily, area-weighted interpolation</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.realm_coupling.atmospheric_chemistry_to_sea_ice.fields</dd>
     </dl>
   </body>
 </html></richcontent></node></node><node BACKGROUND_COLOR="#ACF0F2" COLOR="#000000" FOLDED="false" STYLE="bubble" TEXT="ocean_biogeochemistry_to_ocean"><font BOLD="True" NAME="courier" SIZE="12" /><richcontent TYPE="NOTE"><html>
@@ -3243,14 +3243,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. temperature, daily, area-weighted interpolotaion</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.realm_coupling.ocean_biogeochemistry_to_ocean.fields</dd>
+        <dt><b>Description</b></dt><dd>Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. sea surface temperature, daily, area-weighted interpolation</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.realm_coupling.ocean_biogeochemistry_to_ocean.fields</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. temperature, daily, area-weighted interpolotaion</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.realm_coupling.ocean_biogeochemistry_to_ocean.fields</dd>
+        <dt><b>Description</b></dt><dd>Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. sea surface temperature, daily, area-weighted interpolation</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.realm_coupling.ocean_biogeochemistry_to_ocean.fields</dd>
     </dl>
   </body>
 </html></richcontent></node></node><node BACKGROUND_COLOR="#ACF0F2" COLOR="#000000" FOLDED="false" STYLE="bubble" TEXT="ocean_biogeochemistry_to_atmosphere"><font BOLD="True" NAME="courier" SIZE="12" /><richcontent TYPE="NOTE"><html>
@@ -3278,14 +3278,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. temperature, daily, area-weighted interpolotaion</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.realm_coupling.ocean_biogeochemistry_to_atmosphere.fields</dd>
+        <dt><b>Description</b></dt><dd>Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. sea surface temperature, daily, area-weighted interpolation</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.realm_coupling.ocean_biogeochemistry_to_atmosphere.fields</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. temperature, daily, area-weighted interpolotaion</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.realm_coupling.ocean_biogeochemistry_to_atmosphere.fields</dd>
+        <dt><b>Description</b></dt><dd>Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. sea surface temperature, daily, area-weighted interpolation</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.realm_coupling.ocean_biogeochemistry_to_atmosphere.fields</dd>
     </dl>
   </body>
 </html></richcontent></node></node><node BACKGROUND_COLOR="#ACF0F2" COLOR="#000000" FOLDED="false" STYLE="bubble" TEXT="ocean_biogeochemistry_to_seaice"><font BOLD="True" NAME="courier" SIZE="12" /><richcontent TYPE="NOTE"><html>
@@ -3313,14 +3313,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. temperature, daily, area-weighted interpolotaion</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.realm_coupling.ocean_biogeochemistry_to_seaice.fields</dd>
+        <dt><b>Description</b></dt><dd>Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. sea surface temperature, daily, area-weighted interpolation</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.realm_coupling.ocean_biogeochemistry_to_seaice.fields</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. temperature, daily, area-weighted interpolotaion</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.realm_coupling.ocean_biogeochemistry_to_seaice.fields</dd>
+        <dt><b>Description</b></dt><dd>Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. sea surface temperature, daily, area-weighted interpolation</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.realm_coupling.ocean_biogeochemistry_to_seaice.fields</dd>
     </dl>
   </body>
 </html></richcontent></node></node><node BACKGROUND_COLOR="#ACF0F2" COLOR="#000000" FOLDED="false" STYLE="bubble" TEXT="land_ice_to_ocean"><font BOLD="True" NAME="courier" SIZE="12" /><richcontent TYPE="NOTE"><html>
@@ -3348,14 +3348,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. temperature, daily, area-weighted interpolotaion</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.realm_coupling.land_ice_to_ocean.fields</dd>
+        <dt><b>Description</b></dt><dd>Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. sea surface temperature, daily, area-weighted interpolation</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.realm_coupling.land_ice_to_ocean.fields</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. temperature, daily, area-weighted interpolotaion</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.realm_coupling.land_ice_to_ocean.fields</dd>
+        <dt><b>Description</b></dt><dd>Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. sea surface temperature, daily, area-weighted interpolation</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.realm_coupling.land_ice_to_ocean.fields</dd>
     </dl>
   </body>
 </html></richcontent></node></node><node BACKGROUND_COLOR="#ACF0F2" COLOR="#000000" FOLDED="false" STYLE="bubble" TEXT="land_ice_to_atmosphere"><font BOLD="True" NAME="courier" SIZE="12" /><richcontent TYPE="NOTE"><html>
@@ -3383,14 +3383,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. temperature, daily, area-weighted interpolotaion</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.realm_coupling.land_ice_to_atmosphere.fields</dd>
+        <dt><b>Description</b></dt><dd>Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. sea surface temperature, daily, area-weighted interpolation</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.realm_coupling.land_ice_to_atmosphere.fields</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. temperature, daily, area-weighted interpolotaion</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.realm_coupling.land_ice_to_atmosphere.fields</dd>
+        <dt><b>Description</b></dt><dd>Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. sea surface temperature, daily, area-weighted interpolation</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.realm_coupling.land_ice_to_atmosphere.fields</dd>
     </dl>
   </body>
 </html></richcontent></node></node></node><node FOLDED="true" POSITION="left" STYLE="bubble" TEXT="SHORT TABLES"><node BACKGROUND_COLOR="#FFFFFF" COLOR="#000000" STYLE="bubble" TEXT="toplevel"><node BACKGROUND_COLOR="#F3FFE2" COLOR="#000000" STYLE="bubble" TEXT="cim.2.science.model.name"><richcontent TYPE="NOTE"><html>

@@ -1292,7 +1292,7 @@
                         }, 
                         {
                             "label": "Fields", 
-                            "description": "Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. temperature, daily, area-weighted interpolotaion", 
+                            "description": "Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. sea surface temperature, daily, area-weighted interpolation", 
                             "id": "cmip6.toplevel.realm_coupling.ocean_to_atmosphere.fields", 
                             "cardinality": "0.N", 
                             "type": "str", 
@@ -1316,7 +1316,7 @@
                         }, 
                         {
                             "label": "Fields", 
-                            "description": "Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. temperature, daily, area-weighted interpolotaion", 
+                            "description": "Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. sea surface temperature, daily, area-weighted interpolation", 
                             "id": "cmip6.toplevel.realm_coupling.ocean_to_seaice.fields", 
                             "cardinality": "0.N", 
                             "type": "str", 
@@ -1340,7 +1340,7 @@
                         }, 
                         {
                             "label": "Fields", 
-                            "description": "Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. temperature, daily, area-weighted interpolotaion", 
+                            "description": "Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. sea surface temperature, daily, area-weighted interpolation", 
                             "id": "cmip6.toplevel.realm_coupling.ocean_to_ocean_biogeochemistry.fields", 
                             "cardinality": "0.N", 
                             "type": "str", 
@@ -1364,7 +1364,7 @@
                         }, 
                         {
                             "label": "Fields", 
-                            "description": "Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. temperature, daily, area-weighted interpolotaion", 
+                            "description": "Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. sea surface temperature, daily, area-weighted interpolation", 
                             "id": "cmip6.toplevel.realm_coupling.atmosphere_to_ocean.fields", 
                             "cardinality": "0.N", 
                             "type": "str", 
@@ -1388,7 +1388,7 @@
                         }, 
                         {
                             "label": "Fields", 
-                            "description": "Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. temperature, daily, area-weighted interpolotaion", 
+                            "description": "Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. sea surface temperature, daily, area-weighted interpolation", 
                             "id": "cmip6.toplevel.realm_coupling.atmosphere_to_seaice.fields", 
                             "cardinality": "0.N", 
                             "type": "str", 
@@ -1412,7 +1412,7 @@
                         }, 
                         {
                             "label": "Fields", 
-                            "description": "Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. temperature, daily, area-weighted interpolotaion", 
+                            "description": "Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. sea surface temperature, daily, area-weighted interpolation", 
                             "id": "cmip6.toplevel.realm_coupling.atmosphere_to_land.fields", 
                             "cardinality": "0.N", 
                             "type": "str", 
@@ -1436,7 +1436,7 @@
                         }, 
                         {
                             "label": "Fields", 
-                            "description": "Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. temperature, daily, area-weighted interpolotaion", 
+                            "description": "Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. sea surface temperature, daily, area-weighted interpolation", 
                             "id": "cmip6.toplevel.realm_coupling.atmosphere_to_aerosols.fields", 
                             "cardinality": "0.N", 
                             "type": "str", 
@@ -1460,7 +1460,7 @@
                         }, 
                         {
                             "label": "Fields", 
-                            "description": "Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. temperature, daily, area-weighted interpolotaion", 
+                            "description": "Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. sea surface temperature, daily, area-weighted interpolation", 
                             "id": "cmip6.toplevel.realm_coupling.atmosphere_to_amospheric_chemistry.fields", 
                             "cardinality": "0.N", 
                             "type": "str", 
@@ -1484,7 +1484,7 @@
                         }, 
                         {
                             "label": "Fields", 
-                            "description": "Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. temperature, daily, area-weighted interpolotaion", 
+                            "description": "Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. sea surface temperature, daily, area-weighted interpolation", 
                             "id": "cmip6.toplevel.realm_coupling.atmosphere_to_ocean_biogeochemistry.fields", 
                             "cardinality": "0.N", 
                             "type": "str", 
@@ -1508,7 +1508,7 @@
                         }, 
                         {
                             "label": "Fields", 
-                            "description": "Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. temperature, daily, area-weighted interpolotaion", 
+                            "description": "Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. sea surface temperature, daily, area-weighted interpolation", 
                             "id": "cmip6.toplevel.realm_coupling.seaice_to_atmosphere.fields", 
                             "cardinality": "0.N", 
                             "type": "str", 
@@ -1532,7 +1532,7 @@
                         }, 
                         {
                             "label": "Fields", 
-                            "description": "Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. temperature, daily, area-weighted interpolotaion", 
+                            "description": "Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. sea surface temperature, daily, area-weighted interpolation", 
                             "id": "cmip6.toplevel.realm_coupling.seaice_to_ocean.fields", 
                             "cardinality": "0.N", 
                             "type": "str", 
@@ -1556,7 +1556,7 @@
                         }, 
                         {
                             "label": "Fields", 
-                            "description": "Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. temperature, daily, area-weighted interpolotaion", 
+                            "description": "Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. sea surface temperature, daily, area-weighted interpolation", 
                             "id": "cmip6.toplevel.realm_coupling.seaice_to_ocean_biogeochemistry.fields", 
                             "cardinality": "0.N", 
                             "type": "str", 
@@ -1580,7 +1580,7 @@
                         }, 
                         {
                             "label": "Fields", 
-                            "description": "Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. temperature, daily, area-weighted interpolotaion", 
+                            "description": "Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. sea surface temperature, daily, area-weighted interpolation", 
                             "id": "cmip6.toplevel.realm_coupling.land_to_atmosphere.fields", 
                             "cardinality": "0.N", 
                             "type": "str", 
@@ -1604,7 +1604,7 @@
                         }, 
                         {
                             "label": "Fields", 
-                            "description": "Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. temperature, daily, area-weighted interpolotaion", 
+                            "description": "Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. sea surface temperature, daily, area-weighted interpolation", 
                             "id": "cmip6.toplevel.realm_coupling.land_to_ocean_biogeochemistry.fields", 
                             "cardinality": "0.N", 
                             "type": "str", 
@@ -1628,7 +1628,7 @@
                         }, 
                         {
                             "label": "Fields", 
-                            "description": "Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. temperature, daily, area-weighted interpolotaion", 
+                            "description": "Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. sea surface temperature, daily, area-weighted interpolation", 
                             "id": "cmip6.toplevel.realm_coupling.land_to_atmospheric_chemistry.fields", 
                             "cardinality": "0.N", 
                             "type": "str", 
@@ -1652,7 +1652,7 @@
                         }, 
                         {
                             "label": "Fields", 
-                            "description": "Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. temperature, daily, area-weighted interpolotaion", 
+                            "description": "Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. sea surface temperature, daily, area-weighted interpolation", 
                             "id": "cmip6.toplevel.realm_coupling.aerosols_to_atmosphere.fields", 
                             "cardinality": "0.N", 
                             "type": "str", 
@@ -1676,7 +1676,7 @@
                         }, 
                         {
                             "label": "Fields", 
-                            "description": "Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. temperature, daily, area-weighted interpolotaion", 
+                            "description": "Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. sea surface temperature, daily, area-weighted interpolation", 
                             "id": "cmip6.toplevel.realm_coupling.atmospheric_chemistry_to_atmosphere.fields", 
                             "cardinality": "0.N", 
                             "type": "str", 
@@ -1700,7 +1700,7 @@
                         }, 
                         {
                             "label": "Fields", 
-                            "description": "Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. temperature, daily, area-weighted interpolotaion", 
+                            "description": "Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. sea surface temperature, daily, area-weighted interpolation", 
                             "id": "cmip6.toplevel.realm_coupling.atmospheric_chemistry_to_land.fields", 
                             "cardinality": "0.N", 
                             "type": "str", 
@@ -1724,7 +1724,7 @@
                         }, 
                         {
                             "label": "Fields", 
-                            "description": "Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. temperature, daily, area-weighted interpolotaion", 
+                            "description": "Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. sea surface temperature, daily, area-weighted interpolation", 
                             "id": "cmip6.toplevel.realm_coupling.atmospheric_chemistry_to_land_ice.fields", 
                             "cardinality": "0.N", 
                             "type": "str", 
@@ -1748,7 +1748,7 @@
                         }, 
                         {
                             "label": "Fields", 
-                            "description": "Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. temperature, daily, area-weighted interpolotaion", 
+                            "description": "Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. sea surface temperature, daily, area-weighted interpolation", 
                             "id": "cmip6.toplevel.realm_coupling.atmospheric_chemistry_to_sea_ice.fields", 
                             "cardinality": "0.N", 
                             "type": "str", 
@@ -1772,7 +1772,7 @@
                         }, 
                         {
                             "label": "Fields", 
-                            "description": "Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. temperature, daily, area-weighted interpolotaion", 
+                            "description": "Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. sea surface temperature, daily, area-weighted interpolation", 
                             "id": "cmip6.toplevel.realm_coupling.ocean_biogeochemistry_to_ocean.fields", 
                             "cardinality": "0.N", 
                             "type": "str", 
@@ -1796,7 +1796,7 @@
                         }, 
                         {
                             "label": "Fields", 
-                            "description": "Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. temperature, daily, area-weighted interpolotaion", 
+                            "description": "Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. sea surface temperature, daily, area-weighted interpolation", 
                             "id": "cmip6.toplevel.realm_coupling.ocean_biogeochemistry_to_atmosphere.fields", 
                             "cardinality": "0.N", 
                             "type": "str", 
@@ -1820,7 +1820,7 @@
                         }, 
                         {
                             "label": "Fields", 
-                            "description": "Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. temperature, daily, area-weighted interpolotaion", 
+                            "description": "Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. sea surface temperature, daily, area-weighted interpolation", 
                             "id": "cmip6.toplevel.realm_coupling.ocean_biogeochemistry_to_seaice.fields", 
                             "cardinality": "0.N", 
                             "type": "str", 
@@ -1844,7 +1844,7 @@
                         }, 
                         {
                             "label": "Fields", 
-                            "description": "Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. temperature, daily, area-weighted interpolotaion", 
+                            "description": "Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. sea surface temperature, daily, area-weighted interpolation", 
                             "id": "cmip6.toplevel.realm_coupling.land_ice_to_ocean.fields", 
                             "cardinality": "0.N", 
                             "type": "str", 
@@ -1868,7 +1868,7 @@
                         }, 
                         {
                             "label": "Fields", 
-                            "description": "Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. temperature, daily, area-weighted interpolotaion", 
+                            "description": "Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. sea surface temperature, daily, area-weighted interpolation", 
                             "id": "cmip6.toplevel.realm_coupling.land_ice_to_atmosphere.fields", 
                             "cardinality": "0.N", 
                             "type": "str", 
