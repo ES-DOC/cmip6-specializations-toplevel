@@ -81,6 +81,10 @@ cmip6.toplevel.radiative_forcings.other.land_use.additional_information, Topleve
 cmip6.toplevel.radiative_forcings.other.solar.provision, Toplevel > Radiative Forcings > Other > Solar > Provision, property
 cmip6.toplevel.radiative_forcings.other.solar.additional_information, Toplevel > Radiative Forcings > Other > Solar > Additional Information, property
 , , 
+cmip6.toplevel.realm_coupling.overview, Toplevel > Realm Coupling > Overview, property
+cmip6.toplevel.realm_coupling.atmosphere_double_flux, Toplevel > Realm Coupling > Atmosphere Double Flux, property
+cmip6.toplevel.realm_coupling.atmosphere_fluxes_calculation_grid, Toplevel > Realm Coupling > Atmosphere Fluxes Calculation Grid, property
+cmip6.toplevel.realm_coupling.atmosphere_relative_winds, Toplevel > Realm Coupling > Atmosphere Relative Winds, property
 cmip6.toplevel.realm_coupling.ocean_to_atmosphere.overview, Toplevel > Realm Coupling > Ocean To Atmosphere > Overview, property
 cmip6.toplevel.realm_coupling.ocean_to_atmosphere.fields, Toplevel > Realm Coupling > Ocean To Atmosphere > Fields, property
 cmip6.toplevel.realm_coupling.ocean_to_seaice.overview, Toplevel > Realm Coupling > Ocean To Seaice > Overview, property

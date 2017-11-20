@@ -31,6 +31,24 @@ QC_STATUS = 'draft'
 # --------------------------------------------------------------------
 DESCRIPTION = 'Coupling between model realms'
 
+# --------------------------------------------------------------------
+# TOPLEVEL: 
+# --------------------------------------------------------------------
+DETAILS['toplevel'] = {
+    'description': '',
+    'properties':[
+        ('overview', 'str', '1.1',
+            'Overview of coupling in the model'),
+        ('atmosphere_double_flux', 'bool', '1.1',
+             'Is the atmosphere passing a double flux to the ocean and sea ice (as opposed to a single one)?'),
+        ('atmosphere_fluxes_calculation_grid', 'ENUM:atmosphere_fluxes_calculation_grid', '0.1',
+             'Where are the air-sea fluxes calculated'), #: on the atmospheric, the oceanic or a specific coupler grid?'),  OPEN enum
+        ('atmosphere_relative_winds', 'bool', '1.1',
+            'Are relative or absolute winds used to compute the flux? I.e. do ocean surface currents enter the wind stress calculation?'),
+    ]
+}
+
+
 _fields = 'Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. temperature, daily, area-weighted interpolotaion'
 
 # --------------------------------------------------------------------
@@ -357,4 +375,17 @@ DETAILS[_from+'_to_'+_to] = {
              _fields),
         ]
     }
+
+# --------------------------------------------------------------------
+# KEY PROPERTIES: ENUMERATIONS
+# --------------------------------------------------------------------
+ENUMERATIONS['atmosphere_fluxes_calculation_grid'] = {
+    'description': 'Where are the air-sea fluxes calculated',
+    'is_open': True,
+    'members': [
+        ("atmospheric grid", None),
+        ("oceanic grid", None),
+        ("specific coupler grid", None,),
+    ]
+}
 
