@@ -49,7 +49,7 @@ DETAILS['toplevel'] = {
 }
 
 
-_fields = 'Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. temperature, daily, area-weighted interpolotaion'
+_fields = 'Enter the coupled fields, their coupling frequency and any coupling details as a comma seperated list. E.g. sea surface temperature, daily, area-weighted interpolation'
 
 # --------------------------------------------------------------------
 # Coupling from OCEAN to other realms
