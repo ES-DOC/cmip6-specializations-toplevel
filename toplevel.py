@@ -59,7 +59,6 @@ KEY_PROPERTIES = 'toplevel_key_properties'
 # --------------------------------------------------------------------
 PROCESSES = [
     'toplevel_radiative_forcings',
-    'toplevel_realm_coupling',
     ]
 
 # --------------------------------------------------------------------
