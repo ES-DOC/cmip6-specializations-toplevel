@@ -1,5 +1,6 @@
 cmip6-id, cmip6-label, cmip6-type
-cmip6.toplevel.key_properties.overview, Toplevel > Key Properties > Overview, property
+cmip6.toplevel.key_properties.model_overview, Toplevel > Key Properties > Model Overview, property
+cmip6.toplevel.key_properties.model_name, Toplevel > Key Properties > Model Name, property
 cmip6.toplevel.key_properties.flux_correction.details, Toplevel > Key Properties > Flux Correction > Details, property
 cmip6.toplevel.key_properties.genealogy.year_released, Toplevel > Key Properties > Genealogy > Year Released, property
 cmip6.toplevel.key_properties.genealogy.CMIP3_parent, Toplevel > Key Properties > Genealogy > CMIP3 Parent, property
