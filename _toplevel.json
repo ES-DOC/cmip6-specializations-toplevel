@@ -1234,7 +1234,7 @@
             }, 
             {
                 "label": "Model Name", 
-                "description": "Name of ocean biogeochemistry model code (PISCES 2.0,...)", 
+                "description": "Name of coupled model.", 
                 "id": "cmip6.toplevel.key_properties.model_name", 
                 "cardinality": "1.1", 
                 "type": "str", 
