@@ -1654,7 +1654,7 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Cloud albedo effect forcing</dd>
+        <dt><b>Description</b></dt><dd>Cloud albedo effect forcing (RFaci)</dd>
     </dl>
   </body>
 </html></richcontent><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="provision"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
@@ -1745,7 +1745,7 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Cloud lifetime effect forcing</dd>
+        <dt><b>Description</b></dt><dd>Cloud lifetime effect forcing (ERFaci)</dd>
     </dl>
   </body>
 </html></richcontent><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="provision"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
