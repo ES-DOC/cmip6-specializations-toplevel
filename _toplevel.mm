@@ -831,18 +831,32 @@
         <dt><b>Description</b></dt><dd>Radiative forcings of the model for historical and scenario (aka Table 12.1 IPCC AR5)</dd><dt><b>QC status</b></dt><dd>None</dd><dt><b>Contact</b></dt><dd>None</dd><dt><b>Authors</b></dt><dd>David Hassell</dd><dt><b>Contributors</b></dt><dd>Roland Seferian (CNRM), Tim Johns (UKMO)</dd>
     </dl>
   </body>
-</html></richcontent><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="overview"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
+</html></richcontent><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="name"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Overview of radiative forcings (GHG and aerosols) implementation in model</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.radiative_forcings.overview</dd>
+        <dt><b>Description</b></dt><dd>Commonly used name for the radiative forcings in toplevel model.</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.radiative_forcings.name</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Overview of radiative forcings (GHG and aerosols) implementation in model</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.radiative_forcings.overview</dd>
+        <dt><b>Description</b></dt><dd>Commonly used name for the radiative forcings in toplevel model.</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.radiative_forcings.name</dd>
+    </dl>
+  </body>
+</html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="overview"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
+  <head />
+  <body>
+    <dl>
+        <dt><b>Description</b></dt><dd>Overview of radiative forcings of the model for historical and scenario (aka table 12.1 ipcc ar5) in toplevel model.</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.radiative_forcings.overview</dd>
+    </dl>
+  </body>
+</html></richcontent><richcontent TYPE="NOTE"><html>
+  <head />
+  <body>
+    <dl>
+        <dt><b>Description</b></dt><dd>Overview of radiative forcings of the model for historical and scenario (aka table 12.1 ipcc ar5) in toplevel model.</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.radiative_forcings.overview</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#ACF0F2" COLOR="#000000" FOLDED="false" STYLE="bubble" TEXT="greenhouse_gases"><font BOLD="True" NAME="courier" SIZE="12" /><richcontent TYPE="NOTE"><html>

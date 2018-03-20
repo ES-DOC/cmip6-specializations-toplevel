@@ -11,12 +11,20 @@
             "contact": null, 
             "properties": [
                 {
-                    "label": "Overview", 
-                    "description": "Overview of radiative forcings (GHG and aerosols) implementation in model", 
-                    "id": "cmip6.toplevel.radiative_forcings.overview", 
-                    "cardinality": "1.1", 
+                    "label": "Name", 
+                    "description": "Commonly used name for the radiative forcings in toplevel model.", 
+                    "id": "cmip6.toplevel.radiative_forcings.name", 
+                    "cardinality": "0.1", 
                     "type": "str", 
                     "uiOrdinal": 1
+                }, 
+                {
+                    "label": "Overview", 
+                    "description": "Overview of radiative forcings of the model for historical and scenario (aka table 12.1 ipcc ar5) in toplevel model.", 
+                    "id": "cmip6.toplevel.radiative_forcings.overview", 
+                    "cardinality": "0.1", 
+                    "type": "str", 
+                    "uiOrdinal": 2
                 }
             ], 
             "subProcesses": [

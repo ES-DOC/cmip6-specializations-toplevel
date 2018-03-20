@@ -41,6 +41,7 @@ cmip6.toplevel.key_properties.conservation.fresh_water.snow_accumulation, Toplev
 cmip6.toplevel.key_properties.conservation.salt.ocean_seaice_interface, Toplevel > Key Properties > Conservation > Salt > Ocean Seaice Interface, property
 cmip6.toplevel.key_properties.conservation.momentum.details, Toplevel > Key Properties > Conservation > Momentum > Details, property
 , , 
+cmip6.toplevel.radiative_forcings.name, Toplevel > Radiative Forcings > Name, property
 cmip6.toplevel.radiative_forcings.overview, Toplevel > Radiative Forcings > Overview, property
 cmip6.toplevel.radiative_forcings.greenhouse_gases.CO2.provision, Toplevel > Radiative Forcings > Greenhouse Gases > CO2 > Provision, property
 cmip6.toplevel.radiative_forcings.greenhouse_gases.CO2.additional_information, Toplevel > Radiative Forcings > Greenhouse Gases > CO2 > Additional Information, property
