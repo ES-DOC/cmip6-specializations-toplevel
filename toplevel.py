@@ -19,11 +19,6 @@ AUTHORS = 'Eric Guilyardi'
 CONTRIBUTORS = 'Roland Seferian (CNRM), Tim Johns (UKMO)'
 
 # --------------------------------------------------------------------
-# QUALITY CONTROL STATUS: Set to 'draft' or 'complete'
-# --------------------------------------------------------------------
-QC_STATUS = 'draft'
-
-# --------------------------------------------------------------------
 # CHANGE HISTORY: Set to list: (version, date, who, comment).
 # --------------------------------------------------------------------
 CHANGE_HISTORY = [
@@ -42,7 +37,7 @@ CHANGE_HISTORY = [
 # --------------------------------------------------------------------
 # DESCRIPTION: Scientific context of this scientific top-level
 # --------------------------------------------------------------------
-DESCRIPTION = 'Top level model'
+DESCRIPTION = 'Model top level'
 
 # --------------------------------------------------------------------
 # GRID: The grid used to layout the variables

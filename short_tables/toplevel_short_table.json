@@ -29,6 +29,5 @@
         ["cmip6.toplevel.key_properties.conservation.fresh_water.global", 1],
         ["cmip6.toplevel.key_properties.conservation.salt.ocean_seaice_interface", 1],
         ["cmip6.toplevel.key_properties.conservation.momentum.details", 1]
-    ],
-    "QC_STATUS": "draft"
+    ]
 }

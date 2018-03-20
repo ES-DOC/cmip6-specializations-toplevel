@@ -22,11 +22,6 @@ CONTACT = 'Eric Guilyardi'
 AUTHORS = 'Eric Guilyardi, David Hassell'
 
 # --------------------------------------------------------------------
-# QUALITY CONTROL STATUS: Set to 'draft' or 'complete'
-# --------------------------------------------------------------------
-QC_STATUS = 'draft'
-
-# --------------------------------------------------------------------
 # DESCRIPTION: Short description of the specialization.
 # --------------------------------------------------------------------
 DESCRIPTION = 'Key properties of the model'
@@ -125,13 +120,7 @@ DETAILS['tuning_applied'] = {
 # CONSERVATION PROPERTIES: Global conservation properties of the model.
 # --------------------------------------------------------------------
 DETAILS['conservation'] = {
-    'description': 'Global convervation properties of the model',
-    'detail_sets':[
-        'heat',
-        'fresh_water',
-        'salt',
-        'momentum'
-        ]
+    'description': 'Global convervation properties of the model'
     }
 
 DETAILS['conservation:heat'] = {

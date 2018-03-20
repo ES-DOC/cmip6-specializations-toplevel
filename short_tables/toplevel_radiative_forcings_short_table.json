@@ -33,6 +33,5 @@
         ["cmip6.toplevel.radiative_forcings.aerosols.sea_salt.provision", 1],
         ["cmip6.toplevel.radiative_forcings.other.land_use.provision", 1],
         ["cmip6.toplevel.radiative_forcings.other.solar.provision", 1]
-    ],
-    "QC_STATUS": "draft"
+    ]
 }

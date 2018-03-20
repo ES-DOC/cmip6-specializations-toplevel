@@ -22,11 +22,6 @@ CONTACT = 'David Hassell'
 AUTHORS = 'David Hassell, Eric Guilyardi'
 
 # --------------------------------------------------------------------
-# QUALITY CONTROL STATUS: Set to 'draft' or 'complete'
-# --------------------------------------------------------------------
-QC_STATUS = 'draft'
-
-# --------------------------------------------------------------------
 # DESCRIPTION: Short description of the specialization.
 # --------------------------------------------------------------------
 DESCRIPTION = 'Radiative forcings of the model for historical and scenario (aka Table 12.1 IPCC AR5)'

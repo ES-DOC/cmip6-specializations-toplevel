@@ -2,7 +2,7 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Top level model</dd><dt><b>QC status</b></dt><dd>draft</dd><dt><b>Contact</b></dt><dd>Eric Guilyardi</dd><dt><b>Authors</b></dt><dd>Eric Guilyardi</dd><dt><b>Contributors</b></dt><dd>Roland Seferian (CNRM), Tim Johns (UKMO)</dd>
+        <dt><b>Description</b></dt><dd>Model top level</dd><dt><b>QC status</b></dt><dd>None</dd><dt><b>Contact</b></dt><dd>None</dd><dt><b>Authors</b></dt><dd>Eric Guilyardi</dd><dt><b>Contributors</b></dt><dd>Roland Seferian (CNRM), Tim Johns (UKMO)</dd>
     </dl>
   </body>
 </html></richcontent><node FOLDED="true" POSITION="left" STYLE="bubble" TEXT="CHANGE HISTORY"><node STYLE="bubble" TEXT="0.1.0"><richcontent TYPE="NOTE"><html>
@@ -100,10 +100,38 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Key properties of the model</dd><dt><b>QC status</b></dt><dd>draft</dd><dt><b>Contact</b></dt><dd>Eric Guilyardi</dd><dt><b>Authors</b></dt><dd>Eric Guilyardi, David Hassell</dd><dt><b>Contributors</b></dt><dd>Roland Seferian (CNRM), Tim Johns (UKMO)</dd>
+        <dt><b>Description</b></dt><dd>Key properties of the model</dd><dt><b>QC status</b></dt><dd>None</dd><dt><b>Contact</b></dt><dd>None</dd><dt><b>Authors</b></dt><dd>Eric Guilyardi</dd><dt><b>Contributors</b></dt><dd>Roland Seferian (CNRM), Tim Johns (UKMO)</dd>
     </dl>
   </body>
-</html></richcontent><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="model_overview"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
+</html></richcontent><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="name"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
+  <head />
+  <body>
+    <dl>
+        <dt><b>Description</b></dt><dd>Name of coupled model</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.name</dd>
+    </dl>
+  </body>
+</html></richcontent><richcontent TYPE="NOTE"><html>
+  <head />
+  <body>
+    <dl>
+        <dt><b>Description</b></dt><dd>Name of coupled model</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.name</dd>
+    </dl>
+  </body>
+</html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="overview"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
+  <head />
+  <body>
+    <dl>
+        <dt><b>Description</b></dt><dd>Top level overview of coupled model</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.overview</dd>
+    </dl>
+  </body>
+</html></richcontent><richcontent TYPE="NOTE"><html>
+  <head />
+  <body>
+    <dl>
+        <dt><b>Description</b></dt><dd>Top level overview of coupled model</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.overview</dd>
+    </dl>
+  </body>
+</html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="model_overview"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
@@ -345,7 +373,7 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd /><dt><b>QC status</b></dt><dd>draft</dd><dt><b>Contact</b></dt><dd>Eric Guilyardi</dd><dt><b>Authors</b></dt><dd>Eric Guilyardi, David Hassell</dd><dt><b>Contributors</b></dt><dd>Roland Seferian (CNRM), Tim Johns (UKMO)</dd>
+        <dt><b>Description</b></dt><dd /><dt><b>QC status</b></dt><dd>None</dd><dt><b>Contact</b></dt><dd>None</dd><dt><b>Authors</b></dt><dd>Eric Guilyardi</dd><dt><b>Contributors</b></dt><dd>Roland Seferian (CNRM), Tim Johns (UKMO)</dd>
     </dl>
   </body>
 </html></richcontent><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="overview"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
@@ -429,7 +457,7 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Tuning methodology for model</dd><dt><b>QC status</b></dt><dd>draft</dd><dt><b>Contact</b></dt><dd>Eric Guilyardi</dd><dt><b>Authors</b></dt><dd>Eric Guilyardi, David Hassell</dd><dt><b>Contributors</b></dt><dd>Roland Seferian (CNRM), Tim Johns (UKMO)</dd>
+        <dt><b>Description</b></dt><dd>Tuning methodology for model</dd><dt><b>QC status</b></dt><dd>None</dd><dt><b>Contact</b></dt><dd>None</dd><dt><b>Authors</b></dt><dd>Eric Guilyardi</dd><dt><b>Contributors</b></dt><dd>Roland Seferian (CNRM), Tim Johns (UKMO)</dd>
     </dl>
   </body>
 </html></richcontent><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="description"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
@@ -520,7 +548,7 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Global convervation properties of the model</dd><dt><b>QC status</b></dt><dd>draft</dd><dt><b>Contact</b></dt><dd>Eric Guilyardi</dd><dt><b>Authors</b></dt><dd>Eric Guilyardi, David Hassell</dd><dt><b>Contributors</b></dt><dd>Roland Seferian (CNRM), Tim Johns (UKMO)</dd>
+        <dt><b>Description</b></dt><dd>Global convervation properties of the model</dd><dt><b>QC status</b></dt><dd>None</dd><dt><b>Contact</b></dt><dd>None</dd><dt><b>Authors</b></dt><dd>Eric Guilyardi</dd><dt><b>Contributors</b></dt><dd>Roland Seferian (CNRM), Tim Johns (UKMO)</dd>
     </dl>
   </body>
 </html></richcontent><node BACKGROUND_COLOR="#F3FFE2" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="heat"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
@@ -793,14 +821,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Radiative forcings of the model for historical and scenario (aka Table 12.1 IPCC AR5)</dd><dt><b>QC status</b></dt><dd>draft</dd><dt><b>Contact</b></dt><dd>David Hassell</dd><dt><b>Authors</b></dt><dd>David Hassell, Eric Guilyardi</dd><dt><b>Contributors</b></dt><dd>Roland Seferian (CNRM), Tim Johns (UKMO)</dd>
+        <dt><b>Description</b></dt><dd>Radiative forcings of the model for historical and scenario (aka Table 12.1 IPCC AR5)</dd><dt><b>QC status</b></dt><dd>None</dd><dt><b>Contact</b></dt><dd>None</dd><dt><b>Authors</b></dt><dd>David Hassell</dd><dt><b>Contributors</b></dt><dd>Roland Seferian (CNRM), Tim Johns (UKMO)</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Radiative forcings of the model for historical and scenario (aka Table 12.1 IPCC AR5)</dd><dt><b>QC status</b></dt><dd>draft</dd><dt><b>Contact</b></dt><dd>David Hassell</dd><dt><b>Authors</b></dt><dd>David Hassell, Eric Guilyardi</dd><dt><b>Contributors</b></dt><dd>Roland Seferian (CNRM), Tim Johns (UKMO)</dd>
+        <dt><b>Description</b></dt><dd>Radiative forcings of the model for historical and scenario (aka Table 12.1 IPCC AR5)</dd><dt><b>QC status</b></dt><dd>None</dd><dt><b>Contact</b></dt><dd>None</dd><dt><b>Authors</b></dt><dd>David Hassell</dd><dt><b>Contributors</b></dt><dd>Roland Seferian (CNRM), Tim Johns (UKMO)</dd>
     </dl>
   </body>
 </html></richcontent><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="overview"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
@@ -821,7 +849,7 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Greenhouse gas forcing agents</dd><dt><b>QC status</b></dt><dd>draft</dd><dt><b>Contact</b></dt><dd>David Hassell</dd><dt><b>Authors</b></dt><dd>David Hassell, Eric Guilyardi</dd><dt><b>Contributors</b></dt><dd>Roland Seferian (CNRM), Tim Johns (UKMO)</dd>
+        <dt><b>Description</b></dt><dd>Greenhouse gas forcing agents</dd><dt><b>QC status</b></dt><dd>None</dd><dt><b>Contact</b></dt><dd>None</dd><dt><b>Authors</b></dt><dd>David Hassell</dd><dt><b>Contributors</b></dt><dd>Roland Seferian (CNRM), Tim Johns (UKMO)</dd>
     </dl>
   </body>
 </html></richcontent><node BACKGROUND_COLOR="#F3FFE2" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="CO2"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
@@ -1332,7 +1360,7 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Aerosol forcing agents</dd><dt><b>QC status</b></dt><dd>draft</dd><dt><b>Contact</b></dt><dd>David Hassell</dd><dt><b>Authors</b></dt><dd>David Hassell, Eric Guilyardi</dd><dt><b>Contributors</b></dt><dd>Roland Seferian (CNRM), Tim Johns (UKMO)</dd>
+        <dt><b>Description</b></dt><dd>Aerosol forcing agents</dd><dt><b>QC status</b></dt><dd>None</dd><dt><b>Contact</b></dt><dd>None</dd><dt><b>Authors</b></dt><dd>David Hassell</dd><dt><b>Contributors</b></dt><dd>Roland Seferian (CNRM), Tim Johns (UKMO)</dd>
     </dl>
   </body>
 </html></richcontent><node BACKGROUND_COLOR="#F3FFE2" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="SO4"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
@@ -2347,7 +2375,7 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Miscellaneous forcing agents</dd><dt><b>QC status</b></dt><dd>draft</dd><dt><b>Contact</b></dt><dd>David Hassell</dd><dt><b>Authors</b></dt><dd>David Hassell, Eric Guilyardi</dd><dt><b>Contributors</b></dt><dd>Roland Seferian (CNRM), Tim Johns (UKMO)</dd>
+        <dt><b>Description</b></dt><dd>Miscellaneous forcing agents</dd><dt><b>QC status</b></dt><dd>None</dd><dt><b>Contact</b></dt><dd>None</dd><dt><b>Authors</b></dt><dd>David Hassell</dd><dt><b>Contributors</b></dt><dd>Roland Seferian (CNRM), Tim Johns (UKMO)</dd>
     </dl>
   </body>
 </html></richcontent><node BACKGROUND_COLOR="#F3FFE2" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="land_use"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>

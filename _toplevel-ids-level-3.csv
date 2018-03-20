@@ -1,4 +1,6 @@
 cmip6-id, cmip6-label, cmip6-type
+cmip6.toplevel.key_properties.name, Toplevel > Key Properties > Name, property
+cmip6.toplevel.key_properties.overview, Toplevel > Key Properties > Overview, property
 cmip6.toplevel.key_properties.model_overview, Toplevel > Key Properties > Model Overview, property
 cmip6.toplevel.key_properties.model_name, Toplevel > Key Properties > Model Name, property
 cmip6.toplevel.key_properties.flux_correction.details, Toplevel > Key Properties > Flux Correction > Details, property
