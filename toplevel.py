@@ -40,14 +40,14 @@ CHANGE_HISTORY = [
 DESCRIPTION = 'Model top level'
 
 # --------------------------------------------------------------------
-# GRID: The grid used to layout the variables
-# --------------------------------------------------------------------
-GRID = None
-
-# --------------------------------------------------------------------
 # KEY PROPERTIES: File name (without the .py suffix) containing key properties of the top level model.
 # --------------------------------------------------------------------
 KEY_PROPERTIES = 'toplevel_key_properties'
+
+# --------------------------------------------------------------------
+# GRID: The grid used to layout the variables
+# --------------------------------------------------------------------
+GRID = None
 
 # --------------------------------------------------------------------
 # PROCESSES: Processes simulated within the model
