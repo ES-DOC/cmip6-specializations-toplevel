@@ -30,13 +30,7 @@ DESCRIPTION = 'Key properties of the model'
 # KEY PROPERTIES: top level
 # --------------------------------------------------------------------
 DETAILS['toplevel'] = {
-    'description': 'Top level properties of full coupled model',
-    'properties': [
-        ('model_overview', 'str', '1.1',
-            'Top level overview of coupled model'),
-        ('model_name', 'str', '1.1',
-            'Name of coupled model.')
-        ]
+    'description': 'Top level properties of full coupled model'
     }
 
 DETAILS['toplevel:flux_correction'] = {
