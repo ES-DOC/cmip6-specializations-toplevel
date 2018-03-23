@@ -15,6 +15,7 @@
     "CONTRIBUTORS": [],
     "LABEL": "Radiative Forcings",
     "PROPERTIES": [
+        ["cmip6.toplevel.key_properties.name", 1],
         ["cmip6.toplevel.radiative_forcings.greenhouse_gases.CO2.provision", 1],
         ["cmip6.toplevel.radiative_forcings.greenhouse_gases.CH4.provision", 1],
         ["cmip6.toplevel.radiative_forcings.greenhouse_gases.N2O.provision", 1],

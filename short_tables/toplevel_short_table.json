@@ -15,7 +15,7 @@
     "CONTRIBUTORS": [],
     "LABEL": "Top-Level",
     "PROPERTIES": [
-        ["cim.2.science.model.name", 1],
+        ["cmip6.toplevel.key_properties.name", 1],
         ["cmip6.toplevel.key_properties.flux_correction.details", 1],
         ["cmip6.toplevel.key_properties.genealogy.year_released", 1],
         ["cmip6.toplevel.key_properties.genealogy.CMIP5_parent", 1],
