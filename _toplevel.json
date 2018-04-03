@@ -23,7 +23,7 @@
                     "description": "Overview of radiative forcings of the model for historical and scenario (aka table 12.1 ipcc ar5) in toplevel model.", 
                     "id": "cmip6.toplevel.radiative_forcings.overview", 
                     "cardinality": "0.1", 
-                    "type": "str", 
+                    "type": "l", 
                     "uiOrdinal": 2
                 }
             ], 
@@ -1271,12 +1271,20 @@
                 "uiOrdinal": 1
             }, 
             {
+                "label": "Keywords", 
+                "description": "Keywords associated with coupled model", 
+                "id": "cmip6.toplevel.key_properties.keywords", 
+                "cardinality": "1.1", 
+                "type": "cs", 
+                "uiOrdinal": 2
+            }, 
+            {
                 "label": "Overview", 
                 "description": "Top level overview of coupled model", 
                 "id": "cmip6.toplevel.key_properties.overview", 
                 "cardinality": "1.1", 
-                "type": "str", 
-                "uiOrdinal": 2
+                "type": "l", 
+                "uiOrdinal": 3
             }
         ], 
         "propertySets": [
