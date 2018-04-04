@@ -93,7 +93,7 @@
                                     "description": "Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).", 
                                     "id": "cmip6.toplevel.radiative_forcings.greenhouse_gases.CO2.additional_information", 
                                     "cardinality": "0.1", 
-                                    "type": "str", 
+                                    "type": "l", 
                                     "uiOrdinal": 2
                                 }
                             ]
@@ -147,7 +147,7 @@
                                     "description": "Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).", 
                                     "id": "cmip6.toplevel.radiative_forcings.greenhouse_gases.CH4.additional_information", 
                                     "cardinality": "0.1", 
-                                    "type": "str", 
+                                    "type": "l", 
                                     "uiOrdinal": 2
                                 }
                             ]
@@ -201,7 +201,7 @@
                                     "description": "Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).", 
                                     "id": "cmip6.toplevel.radiative_forcings.greenhouse_gases.N2O.additional_information", 
                                     "cardinality": "0.1", 
-                                    "type": "str", 
+                                    "type": "l", 
                                     "uiOrdinal": 2
                                 }
                             ]
@@ -255,7 +255,7 @@
                                     "description": "Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).", 
                                     "id": "cmip6.toplevel.radiative_forcings.greenhouse_gases.tropospheric_O3.additional_information", 
                                     "cardinality": "0.1", 
-                                    "type": "str", 
+                                    "type": "l", 
                                     "uiOrdinal": 2
                                 }
                             ]
@@ -309,7 +309,7 @@
                                     "description": "Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).", 
                                     "id": "cmip6.toplevel.radiative_forcings.greenhouse_gases.stratospheric_O3.additional_information", 
                                     "cardinality": "0.1", 
-                                    "type": "str", 
+                                    "type": "l", 
                                     "uiOrdinal": 2
                                 }
                             ]
@@ -394,7 +394,7 @@
                                     "description": "Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).", 
                                     "id": "cmip6.toplevel.radiative_forcings.greenhouse_gases.CFC.additional_information", 
                                     "cardinality": "0.1", 
-                                    "type": "str", 
+                                    "type": "l", 
                                     "uiOrdinal": 3
                                 }
                             ]
@@ -466,7 +466,7 @@
                                     "description": "Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).", 
                                     "id": "cmip6.toplevel.radiative_forcings.aerosols.SO4.additional_information", 
                                     "cardinality": "0.1", 
-                                    "type": "str", 
+                                    "type": "l", 
                                     "uiOrdinal": 2
                                 }
                             ]
@@ -520,7 +520,7 @@
                                     "description": "Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).", 
                                     "id": "cmip6.toplevel.radiative_forcings.aerosols.black_carbon.additional_information", 
                                     "cardinality": "0.1", 
-                                    "type": "str", 
+                                    "type": "l", 
                                     "uiOrdinal": 2
                                 }
                             ]
@@ -574,7 +574,7 @@
                                     "description": "Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).", 
                                     "id": "cmip6.toplevel.radiative_forcings.aerosols.organic_carbon.additional_information", 
                                     "cardinality": "0.1", 
-                                    "type": "str", 
+                                    "type": "l", 
                                     "uiOrdinal": 2
                                 }
                             ]
@@ -628,7 +628,7 @@
                                     "description": "Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).", 
                                     "id": "cmip6.toplevel.radiative_forcings.aerosols.nitrate.additional_information", 
                                     "cardinality": "0.1", 
-                                    "type": "str", 
+                                    "type": "l", 
                                     "uiOrdinal": 2
                                 }
                             ]
@@ -690,7 +690,7 @@
                                     "description": "Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).", 
                                     "id": "cmip6.toplevel.radiative_forcings.aerosols.cloud_albedo_effect.additional_information", 
                                     "cardinality": "0.1", 
-                                    "type": "str", 
+                                    "type": "l", 
                                     "uiOrdinal": 3
                                 }
                             ]
@@ -760,7 +760,7 @@
                                     "description": "Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).", 
                                     "id": "cmip6.toplevel.radiative_forcings.aerosols.cloud_lifetime_effect.additional_information", 
                                     "cardinality": "0.1", 
-                                    "type": "str", 
+                                    "type": "l", 
                                     "uiOrdinal": 4
                                 }
                             ]
@@ -814,7 +814,7 @@
                                     "description": "Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).", 
                                     "id": "cmip6.toplevel.radiative_forcings.aerosols.dust.additional_information", 
                                     "cardinality": "0.1", 
-                                    "type": "str", 
+                                    "type": "l", 
                                     "uiOrdinal": 2
                                 }
                             ]
@@ -938,7 +938,7 @@
                                     "description": "Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).", 
                                     "id": "cmip6.toplevel.radiative_forcings.aerosols.tropospheric_volcanic.additional_information", 
                                     "cardinality": "0.1", 
-                                    "type": "str", 
+                                    "type": "l", 
                                     "uiOrdinal": 4
                                 }
                             ]
@@ -1062,7 +1062,7 @@
                                     "description": "Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).", 
                                     "id": "cmip6.toplevel.radiative_forcings.aerosols.stratospheric_volcanic.additional_information", 
                                     "cardinality": "0.1", 
-                                    "type": "str", 
+                                    "type": "l", 
                                     "uiOrdinal": 4
                                 }
                             ]
@@ -1116,7 +1116,7 @@
                                     "description": "Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).", 
                                     "id": "cmip6.toplevel.radiative_forcings.aerosols.sea_salt.additional_information", 
                                     "cardinality": "0.1", 
-                                    "type": "str", 
+                                    "type": "l", 
                                     "uiOrdinal": 2
                                 }
                             ]
@@ -1196,7 +1196,7 @@
                                     "description": "Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).", 
                                     "id": "cmip6.toplevel.radiative_forcings.other.land_use.additional_information", 
                                     "cardinality": "0.1", 
-                                    "type": "str", 
+                                    "type": "l", 
                                     "uiOrdinal": 3
                                 }
                             ]
@@ -1246,7 +1246,7 @@
                                     "description": "Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).", 
                                     "id": "cmip6.toplevel.radiative_forcings.other.solar.additional_information", 
                                     "cardinality": "0.1", 
-                                    "type": "str", 
+                                    "type": "l", 
                                     "uiOrdinal": 2
                                 }
                             ]
@@ -1298,7 +1298,7 @@
                         "description": "Describe if/how flux corrections are applied in the model", 
                         "id": "cmip6.toplevel.key_properties.flux_correction.details", 
                         "cardinality": "1.1", 
-                        "type": "str", 
+                        "type": "l", 
                         "uiOrdinal": 1
                     }
                 ]
@@ -1367,8 +1367,8 @@
                         "label": "Code Languages", 
                         "description": "Code language(s).", 
                         "id": "cmip6.toplevel.key_properties.software_properties.code_languages", 
-                        "cardinality": "0.N", 
-                        "type": "str", 
+                        "cardinality": "0.1", 
+                        "type": "cs", 
                         "uiOrdinal": 3
                     }, 
                     {
@@ -1376,7 +1376,7 @@
                         "description": "Describe how model realms are structured into independent software components (coupled via a coupler) and internal software components.", 
                         "id": "cmip6.toplevel.key_properties.software_properties.components_structure", 
                         "cardinality": "0.1", 
-                        "type": "str", 
+                        "type": "l", 
                         "uiOrdinal": 4
                     }, 
                     {
@@ -1445,7 +1445,7 @@
                         "description": "Overview of coupling in the model", 
                         "id": "cmip6.toplevel.key_properties.coupling.overview", 
                         "cardinality": "1.1", 
-                        "type": "str", 
+                        "type": "l", 
                         "uiOrdinal": 2
                     }, 
                     {
@@ -1512,31 +1512,31 @@
                         "description": "General overview description of tuning: explain and motivate the main targets and metrics/diagnostics retained. Document the relative weight given to climate performance metrics/diagnostics versus process oriented metrics/diagnostics, and on the possible conflicts with parameterization level tuning. In particular describe any struggle with a parameter value that required pushing it to its limits to solve a particular model deficiency.", 
                         "id": "cmip6.toplevel.key_properties.tuning_applied.description", 
                         "cardinality": "1.1", 
-                        "type": "str", 
+                        "type": "l", 
                         "uiOrdinal": 2
                     }, 
                     {
                         "label": "Global Mean Metrics Used", 
                         "description": "List set of metrics/diagnostics of the global mean state used in tuning model", 
                         "id": "cmip6.toplevel.key_properties.tuning_applied.global_mean_metrics_used", 
-                        "cardinality": "0.N", 
-                        "type": "str", 
+                        "cardinality": "0.1", 
+                        "type": "cs", 
                         "uiOrdinal": 3
                     }, 
                     {
                         "label": "Regional Metrics Used", 
                         "description": "List of regional metrics/diagnostics of mean state (e.g THC, AABW, regional means etc) used in tuning model/component", 
                         "id": "cmip6.toplevel.key_properties.tuning_applied.regional_metrics_used", 
-                        "cardinality": "0.N", 
-                        "type": "str", 
+                        "cardinality": "0.1", 
+                        "type": "cs", 
                         "uiOrdinal": 4
                     }, 
                     {
                         "label": "Trend Metrics Used", 
                         "description": "List observed trend metrics/diagnostics used in tuning model/component (such as 20th century)", 
                         "id": "cmip6.toplevel.key_properties.tuning_applied.trend_metrics_used", 
-                        "cardinality": "0.N", 
-                        "type": "str", 
+                        "cardinality": "0.1", 
+                        "type": "cs", 
                         "uiOrdinal": 5
                     }, 
                     {
@@ -1544,7 +1544,7 @@
                         "description": "Describe how energy balance was obtained in the full system: in the various components independently or at the components coupling stage?", 
                         "id": "cmip6.toplevel.key_properties.tuning_applied.energy_balance", 
                         "cardinality": "1.1", 
-                        "type": "str", 
+                        "type": "l", 
                         "uiOrdinal": 6
                     }, 
                     {
@@ -1552,7 +1552,7 @@
                         "description": "Describe how fresh_water balance was obtained in the full system: in the various components independently or at the components coupling stage?", 
                         "id": "cmip6.toplevel.key_properties.tuning_applied.fresh_water_balance", 
                         "cardinality": "1.1", 
-                        "type": "str", 
+                        "type": "l", 
                         "uiOrdinal": 7
                     }
                 ]
@@ -1583,7 +1583,7 @@
                                 "description": "Describe if/how heat is conserved globally", 
                                 "id": "cmip6.toplevel.key_properties.conservation.heat.global", 
                                 "cardinality": "1.1", 
-                                "type": "str", 
+                                "type": "l", 
                                 "uiOrdinal": 1
                             }, 
                             {
@@ -1591,7 +1591,7 @@
                                 "description": "Describe if/how heat is conserved at the atmosphere/ocean coupling interface", 
                                 "id": "cmip6.toplevel.key_properties.conservation.heat.atmos_ocean_interface", 
                                 "cardinality": "0.1", 
-                                "type": "str", 
+                                "type": "l", 
                                 "uiOrdinal": 2
                             }, 
                             {
@@ -1599,7 +1599,7 @@
                                 "description": "Describe if/how heat is conserved at the atmosphere/land coupling interface", 
                                 "id": "cmip6.toplevel.key_properties.conservation.heat.atmos_land_interface", 
                                 "cardinality": "1.1", 
-                                "type": "str", 
+                                "type": "l", 
                                 "uiOrdinal": 3
                             }, 
                             {
@@ -1607,7 +1607,7 @@
                                 "description": "Describe if/how heat is conserved at the atmosphere/sea-ice coupling interface", 
                                 "id": "cmip6.toplevel.key_properties.conservation.heat.atmos_sea-ice_interface", 
                                 "cardinality": "0.1", 
-                                "type": "str", 
+                                "type": "l", 
                                 "uiOrdinal": 4
                             }, 
                             {
@@ -1615,7 +1615,7 @@
                                 "description": "Describe if/how heat is conserved at the ocean/sea-ice coupling interface", 
                                 "id": "cmip6.toplevel.key_properties.conservation.heat.ocean_seaice_interface", 
                                 "cardinality": "0.1", 
-                                "type": "str", 
+                                "type": "l", 
                                 "uiOrdinal": 5
                             }, 
                             {
@@ -1623,7 +1623,7 @@
                                 "description": "Describe if/how heat is conserved at the land/ocean coupling interface", 
                                 "id": "cmip6.toplevel.key_properties.conservation.heat.land_ocean_interface", 
                                 "cardinality": "0.1", 
-                                "type": "str", 
+                                "type": "l", 
                                 "uiOrdinal": 6
                             }
                         ]
@@ -1638,7 +1638,7 @@
                                 "description": "Describe if/how fresh_water is conserved globally", 
                                 "id": "cmip6.toplevel.key_properties.conservation.fresh_water.global", 
                                 "cardinality": "1.1", 
-                                "type": "str", 
+                                "type": "l", 
                                 "uiOrdinal": 1
                             }, 
                             {
@@ -1646,7 +1646,7 @@
                                 "description": "Describe if/how fresh_water is conserved at the atmosphere/ocean coupling interface", 
                                 "id": "cmip6.toplevel.key_properties.conservation.fresh_water.atmos_ocean_interface", 
                                 "cardinality": "0.1", 
-                                "type": "str", 
+                                "type": "l", 
                                 "uiOrdinal": 2
                             }, 
                             {
@@ -1654,7 +1654,7 @@
                                 "description": "Describe if/how fresh water is conserved at the atmosphere/land coupling interface", 
                                 "id": "cmip6.toplevel.key_properties.conservation.fresh_water.atmos_land_interface", 
                                 "cardinality": "1.1", 
-                                "type": "str", 
+                                "type": "l", 
                                 "uiOrdinal": 3
                             }, 
                             {
@@ -1662,7 +1662,7 @@
                                 "description": "Describe if/how fresh water is conserved at the atmosphere/sea-ice coupling interface", 
                                 "id": "cmip6.toplevel.key_properties.conservation.fresh_water.atmos_sea-ice_interface", 
                                 "cardinality": "0.1", 
-                                "type": "str", 
+                                "type": "l", 
                                 "uiOrdinal": 4
                             }, 
                             {
@@ -1670,7 +1670,7 @@
                                 "description": "Describe if/how fresh water is conserved at the ocean/sea-ice coupling interface", 
                                 "id": "cmip6.toplevel.key_properties.conservation.fresh_water.ocean_seaice_interface", 
                                 "cardinality": "0.1", 
-                                "type": "str", 
+                                "type": "l", 
                                 "uiOrdinal": 5
                             }, 
                             {
@@ -1678,7 +1678,7 @@
                                 "description": "Describe how runoff is distributed and conserved", 
                                 "id": "cmip6.toplevel.key_properties.conservation.fresh_water.runoff", 
                                 "cardinality": "0.1", 
-                                "type": "str", 
+                                "type": "l", 
                                 "uiOrdinal": 6
                             }, 
                             {
@@ -1686,7 +1686,7 @@
                                 "description": "Describe if/how iceberg calving is modeled and conserved", 
                                 "id": "cmip6.toplevel.key_properties.conservation.fresh_water.iceberg_calving", 
                                 "cardinality": "0.1", 
-                                "type": "str", 
+                                "type": "l", 
                                 "uiOrdinal": 7
                             }, 
                             {
@@ -1694,7 +1694,7 @@
                                 "description": "Describe if/how endoreic basins (no ocean access) are treated", 
                                 "id": "cmip6.toplevel.key_properties.conservation.fresh_water.endoreic_basins", 
                                 "cardinality": "0.1", 
-                                "type": "str", 
+                                "type": "l", 
                                 "uiOrdinal": 8
                             }, 
                             {
@@ -1702,7 +1702,7 @@
                                 "description": "Describe how snow accumulation over land and over sea-ice is treated", 
                                 "id": "cmip6.toplevel.key_properties.conservation.fresh_water.snow_accumulation", 
                                 "cardinality": "0.1", 
-                                "type": "str", 
+                                "type": "l", 
                                 "uiOrdinal": 9
                             }
                         ]
@@ -1717,7 +1717,7 @@
                                 "description": "Describe if/how salt is conserved at the ocean/sea-ice coupling interface", 
                                 "id": "cmip6.toplevel.key_properties.conservation.salt.ocean_seaice_interface", 
                                 "cardinality": "0.1", 
-                                "type": "str", 
+                                "type": "l", 
                                 "uiOrdinal": 1
                             }
                         ]
@@ -1732,7 +1732,7 @@
                                 "description": "Describe if/how momentum is conserved in the model", 
                                 "id": "cmip6.toplevel.key_properties.conservation.momentum.details", 
                                 "cardinality": "0.1", 
-                                "type": "str", 
+                                "type": "l", 
                                 "uiOrdinal": 1
                             }
                         ]

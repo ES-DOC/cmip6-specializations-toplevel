@@ -36,7 +36,7 @@ DETAILS['toplevel'] = {
 DETAILS['toplevel:flux_correction'] = {
     'description': 'Flux correction properties of the model',
     'properties':[
-        ('details', 'str', '1.1',
+        ('details', 'l-str', '1.1',
             'Describe if/how flux corrections are applied in the model'),
         ]
     }
@@ -62,9 +62,9 @@ DETAILS['toplevel:software_properties'] = {
             "Location of code for this component."),
         ('code_version','str', '0.1',
             "Code version identifier."),
-        ('code_languages','str', '0.N',
+        ('code_languages','cs-str', '0.1',
             "Code language(s)."),
-        ('components_structure','str', '0.1',
+        ('components_structure','l-str', '0.1',
             "Describe how model realms are structured into independent software components (coupled via a coupler) and internal software components."),
         ('coupler','ENUM:coupler_framework', '0.1',
             "Overarching coupling framework for model."),
@@ -77,7 +77,7 @@ DETAILS['toplevel:software_properties'] = {
 DETAILS['coupling'] = {
     'description': '',
     'properties':[
-        ('overview', 'str', '1.1',
+        ('overview', 'l-str', '1.1',
             'Overview of coupling in the model'),
         ('atmosphere_double_flux', 'bool', '1.1',
              'Is the atmosphere passing a double flux to the ocean and sea ice (as opposed to a single one)?'),
@@ -94,17 +94,17 @@ DETAILS['coupling'] = {
 DETAILS['tuning_applied'] = {
     'description': 'Tuning methodology for model',
     'properties': [
-        ('description', 'str', '1.1',
+        ('description', 'l-str', '1.1',
             "General overview description of tuning: explain and motivate the main targets and metrics/diagnostics retained. Document the relative weight given to climate performance metrics/diagnostics versus process oriented metrics/diagnostics, and on the possible conflicts with parameterization level tuning. In particular describe any struggle with a parameter value that required pushing it to its limits to solve a particular model deficiency."),
-        ('global_mean_metrics_used', 'str', '0.N',
+        ('global_mean_metrics_used', 'cs-str', '0.1',
             "List set of metrics/diagnostics of the global mean state used in tuning model"),
-        ('regional_metrics_used', 'str', '0.N',
+        ('regional_metrics_used', 'cs-str', '0.1',
             "List of regional metrics/diagnostics of mean state (e.g THC, AABW, regional means etc) used in tuning model/component"),
-        ('trend_metrics_used', 'str', '0.N',
+        ('trend_metrics_used', 'cs-str', '0.1',
             "List observed trend metrics/diagnostics used in tuning model/component (such as 20th century)"),
-        ('energy_balance','str', '1.1',
+        ('energy_balance','l-str', '1.1',
             "Describe how energy balance was obtained in the full system: in the various components independently or at the components coupling stage?"),
-        ('fresh_water_balance','str', '1.1',
+        ('fresh_water_balance','l-str', '1.1',
             "Describe how fresh_water balance was obtained in the full system: in the various components independently or at the components coupling stage?")
         ]
     }
@@ -120,17 +120,17 @@ DETAILS['conservation'] = {
 DETAILS['conservation:heat'] = {
     'description':'Global heat convervation properties of the model',
     'properties': [
-        ('global', 'str', '1.1',
+        ('global', 'l-str', '1.1',
             'Describe if/how heat is conserved globally'),
-        ('atmos_ocean_interface', 'str', '0.1',
+        ('atmos_ocean_interface', 'l-str', '0.1',
             'Describe if/how heat is conserved at the atmosphere/ocean coupling interface'),
-        ('atmos_land_interface', 'str', '1.1',
+        ('atmos_land_interface', 'l-str', '1.1',
             'Describe if/how heat is conserved at the atmosphere/land coupling interface'),
-        ('atmos_sea-ice_interface', 'str', '0.1',
+        ('atmos_sea-ice_interface', 'l-str', '0.1',
             'Describe if/how heat is conserved at the atmosphere/sea-ice coupling interface'),
-        ('ocean_seaice_interface', 'str', '0.1',
+        ('ocean_seaice_interface', 'l-str', '0.1',
             'Describe if/how heat is conserved at the ocean/sea-ice coupling interface'),
-        ('land_ocean_interface', 'str', '0.1',
+        ('land_ocean_interface', 'l-str', '0.1',
             'Describe if/how heat is conserved at the land/ocean coupling interface'),
         ]
     }
@@ -138,23 +138,23 @@ DETAILS['conservation:heat'] = {
 DETAILS['conservation:fresh_water'] = {
     'description':'Global fresh water convervation properties of the model',
     'properties': [
-        ('global', 'str', '1.1',
+        ('global', 'l-str', '1.1',
             'Describe if/how fresh_water is conserved globally'),
-        ('atmos_ocean_interface', 'str', '0.1',
+        ('atmos_ocean_interface', 'l-str', '0.1',
             'Describe if/how fresh_water is conserved at the atmosphere/ocean coupling interface'),
-        ('atmos_land_interface', 'str', '1.1',
+        ('atmos_land_interface', 'l-str', '1.1',
             'Describe if/how fresh water is conserved at the atmosphere/land coupling interface'),
-        ('atmos_sea-ice_interface', 'str', '0.1',
+        ('atmos_sea-ice_interface', 'l-str', '0.1',
             'Describe if/how fresh water is conserved at the atmosphere/sea-ice coupling interface'),
-        ('ocean_seaice_interface', 'str', '0.1',
+        ('ocean_seaice_interface', 'l-str', '0.1',
             'Describe if/how fresh water is conserved at the ocean/sea-ice coupling interface'),
-        ('runoff', 'str', '0.1',
+        ('runoff', 'l-str', '0.1',
             'Describe how runoff is distributed and conserved'),
-        ('iceberg_calving', 'str', '0.1',
+        ('iceberg_calving', 'l-str', '0.1',
             'Describe if/how iceberg calving is modeled and conserved'),
-        ('endoreic_basins', 'str', '0.1',
+        ('endoreic_basins', 'l-str', '0.1',
             'Describe if/how endoreic basins (no ocean access) are treated'),
-        ('snow_accumulation', 'str', '0.1',
+        ('snow_accumulation', 'l-str', '0.1',
             'Describe how snow accumulation over land and over sea-ice is treated'),
         ]
     }
@@ -162,7 +162,7 @@ DETAILS['conservation:fresh_water'] = {
 DETAILS['conservation:salt'] = {
     'description':'Global salt convervation properties of the model',
     'properties': [
-        ('ocean_seaice_interface', 'str', '0.1',
+        ('ocean_seaice_interface', 'l-str', '0.1',
             'Describe if/how salt is conserved at the ocean/sea-ice coupling interface'),
         ]
     }
@@ -170,7 +170,7 @@ DETAILS['conservation:salt'] = {
 DETAILS['conservation:momentum'] = {
     'description':'Global momentum convervation properties of the model',
     'properties': [
-        ('details', 'str', '0.1',
+        ('details', 'l-str', '0.1',
             'Describe if/how momentum is conserved in the model'),
         ]
     }

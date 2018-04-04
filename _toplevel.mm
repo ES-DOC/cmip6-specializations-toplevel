@@ -40,6 +40,13 @@
         <dt><b>Version</b></dt><dd>0.5.0</dd><dt><b>Date</b></dt><dd>2017-11-22</dd><dt><b>Person</b></dt><dd>David Hassell</dd><dt><b>Comment</b></dt><dd>Updates from community review: Alistair Sellar (MOHC), Oyvind Seland (MET-Norway)</dd>
     </dl>
   </body>
+</html></richcontent></node><node STYLE="bubble" TEXT="0.6.0"><richcontent TYPE="NOTE"><html>
+  <head />
+  <body>
+    <dl>
+        <dt><b>Version</b></dt><dd>0.6.0</dd><dt><b>Date</b></dt><dd>2018-04-04</dd><dt><b>Person</b></dt><dd>David Hassell</dd><dt><b>Comment</b></dt><dd>Replaced some occurences of 'str' with 'cs-str' and 'l-str'</dd>
+    </dl>
+  </body>
 </html></richcontent></node></node><node FOLDED="true" POSITION="left" STYLE="bubble" TEXT="LEGEND"><node BACKGROUND_COLOR="#FFFFFF" COLOR="#000000" STYLE="bubble" TEXT="enum-choice"><richcontent TYPE="NOTE"><html>
   <head />
   <body>
@@ -156,14 +163,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe if/how flux corrections are applied in the model</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.flux_correction.details</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.flux_correction.details</dd>
+        <dt><b>Description</b></dt><dd>Describe if/how flux corrections are applied in the model</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.flux_correction.details</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.flux_correction.details</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe if/how flux corrections are applied in the model</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.flux_correction.details</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.flux_correction.details</dd>
+        <dt><b>Description</b></dt><dd>Describe if/how flux corrections are applied in the model</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.flux_correction.details</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.flux_correction.details</dd>
     </dl>
   </body>
 </html></richcontent></node></node><node BACKGROUND_COLOR="#F3FFE2" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="genealogy"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
@@ -268,28 +275,28 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Code language(s).</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.software_properties.code_languages</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.software_properties.code_languages</dd>
+        <dt><b>Description</b></dt><dd>Code language(s).</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.software_properties.code_languages</dd><dt><b>Type</b></dt><dd>cs-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.software_properties.code_languages</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Code language(s).</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.software_properties.code_languages</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.software_properties.code_languages</dd>
+        <dt><b>Description</b></dt><dd>Code language(s).</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.software_properties.code_languages</dd><dt><b>Type</b></dt><dd>cs-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.software_properties.code_languages</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="components_structure"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe how model realms are structured into independent software components (coupled via a coupler) and internal software components.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.software_properties.components_structure</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.software_properties.components_structure</dd>
+        <dt><b>Description</b></dt><dd>Describe how model realms are structured into independent software components (coupled via a coupler) and internal software components.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.software_properties.components_structure</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.software_properties.components_structure</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe how model realms are structured into independent software components (coupled via a coupler) and internal software components.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.software_properties.components_structure</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.software_properties.components_structure</dd>
+        <dt><b>Description</b></dt><dd>Describe how model realms are structured into independent software components (coupled via a coupler) and internal software components.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.software_properties.components_structure</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.software_properties.components_structure</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="coupler"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
@@ -380,14 +387,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Overview of coupling in the model</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.coupling.overview</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.coupling.overview</dd>
+        <dt><b>Description</b></dt><dd>Overview of coupling in the model</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.coupling.overview</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.coupling.overview</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Overview of coupling in the model</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.coupling.overview</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.coupling.overview</dd>
+        <dt><b>Description</b></dt><dd>Overview of coupling in the model</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.coupling.overview</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.coupling.overview</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="atmosphere_double_flux"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
@@ -478,84 +485,84 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>General overview description of tuning: explain and motivate the main targets and metrics/diagnostics retained. Document the relative weight given to climate performance metrics/diagnostics versus process oriented metrics/diagnostics, and on the possible conflicts with parameterization level tuning. In particular describe any struggle with a parameter value that required pushing it to its limits to solve a particular model deficiency.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.tuning_applied.description</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.tuning_applied.description</dd>
+        <dt><b>Description</b></dt><dd>General overview description of tuning: explain and motivate the main targets and metrics/diagnostics retained. Document the relative weight given to climate performance metrics/diagnostics versus process oriented metrics/diagnostics, and on the possible conflicts with parameterization level tuning. In particular describe any struggle with a parameter value that required pushing it to its limits to solve a particular model deficiency.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.tuning_applied.description</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.tuning_applied.description</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>General overview description of tuning: explain and motivate the main targets and metrics/diagnostics retained. Document the relative weight given to climate performance metrics/diagnostics versus process oriented metrics/diagnostics, and on the possible conflicts with parameterization level tuning. In particular describe any struggle with a parameter value that required pushing it to its limits to solve a particular model deficiency.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.tuning_applied.description</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.tuning_applied.description</dd>
+        <dt><b>Description</b></dt><dd>General overview description of tuning: explain and motivate the main targets and metrics/diagnostics retained. Document the relative weight given to climate performance metrics/diagnostics versus process oriented metrics/diagnostics, and on the possible conflicts with parameterization level tuning. In particular describe any struggle with a parameter value that required pushing it to its limits to solve a particular model deficiency.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.tuning_applied.description</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.tuning_applied.description</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="global_mean_metrics_used"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>List set of metrics/diagnostics of the global mean state used in tuning model</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.tuning_applied.global_mean_metrics_used</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.tuning_applied.global_mean_metrics_used</dd>
+        <dt><b>Description</b></dt><dd>List set of metrics/diagnostics of the global mean state used in tuning model</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.tuning_applied.global_mean_metrics_used</dd><dt><b>Type</b></dt><dd>cs-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.tuning_applied.global_mean_metrics_used</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>List set of metrics/diagnostics of the global mean state used in tuning model</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.tuning_applied.global_mean_metrics_used</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.tuning_applied.global_mean_metrics_used</dd>
+        <dt><b>Description</b></dt><dd>List set of metrics/diagnostics of the global mean state used in tuning model</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.tuning_applied.global_mean_metrics_used</dd><dt><b>Type</b></dt><dd>cs-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.tuning_applied.global_mean_metrics_used</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="regional_metrics_used"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>List of regional metrics/diagnostics of mean state (e.g THC, AABW, regional means etc) used in tuning model/component</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.tuning_applied.regional_metrics_used</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.tuning_applied.regional_metrics_used</dd>
+        <dt><b>Description</b></dt><dd>List of regional metrics/diagnostics of mean state (e.g THC, AABW, regional means etc) used in tuning model/component</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.tuning_applied.regional_metrics_used</dd><dt><b>Type</b></dt><dd>cs-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.tuning_applied.regional_metrics_used</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>List of regional metrics/diagnostics of mean state (e.g THC, AABW, regional means etc) used in tuning model/component</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.tuning_applied.regional_metrics_used</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.tuning_applied.regional_metrics_used</dd>
+        <dt><b>Description</b></dt><dd>List of regional metrics/diagnostics of mean state (e.g THC, AABW, regional means etc) used in tuning model/component</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.tuning_applied.regional_metrics_used</dd><dt><b>Type</b></dt><dd>cs-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.tuning_applied.regional_metrics_used</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="trend_metrics_used"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>List observed trend metrics/diagnostics used in tuning model/component (such as 20th century)</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.tuning_applied.trend_metrics_used</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.tuning_applied.trend_metrics_used</dd>
+        <dt><b>Description</b></dt><dd>List observed trend metrics/diagnostics used in tuning model/component (such as 20th century)</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.tuning_applied.trend_metrics_used</dd><dt><b>Type</b></dt><dd>cs-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.tuning_applied.trend_metrics_used</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>List observed trend metrics/diagnostics used in tuning model/component (such as 20th century)</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.tuning_applied.trend_metrics_used</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.tuning_applied.trend_metrics_used</dd>
+        <dt><b>Description</b></dt><dd>List observed trend metrics/diagnostics used in tuning model/component (such as 20th century)</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.tuning_applied.trend_metrics_used</dd><dt><b>Type</b></dt><dd>cs-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.tuning_applied.trend_metrics_used</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="energy_balance"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe how energy balance was obtained in the full system: in the various components independently or at the components coupling stage?</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.tuning_applied.energy_balance</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.tuning_applied.energy_balance</dd>
+        <dt><b>Description</b></dt><dd>Describe how energy balance was obtained in the full system: in the various components independently or at the components coupling stage?</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.tuning_applied.energy_balance</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.tuning_applied.energy_balance</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe how energy balance was obtained in the full system: in the various components independently or at the components coupling stage?</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.tuning_applied.energy_balance</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.tuning_applied.energy_balance</dd>
+        <dt><b>Description</b></dt><dd>Describe how energy balance was obtained in the full system: in the various components independently or at the components coupling stage?</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.tuning_applied.energy_balance</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.tuning_applied.energy_balance</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="fresh_water_balance"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe how fresh_water balance was obtained in the full system: in the various components independently or at the components coupling stage?</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.tuning_applied.fresh_water_balance</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.tuning_applied.fresh_water_balance</dd>
+        <dt><b>Description</b></dt><dd>Describe how fresh_water balance was obtained in the full system: in the various components independently or at the components coupling stage?</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.tuning_applied.fresh_water_balance</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.tuning_applied.fresh_water_balance</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe how fresh_water balance was obtained in the full system: in the various components independently or at the components coupling stage?</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.tuning_applied.fresh_water_balance</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.tuning_applied.fresh_water_balance</dd>
+        <dt><b>Description</b></dt><dd>Describe how fresh_water balance was obtained in the full system: in the various components independently or at the components coupling stage?</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.tuning_applied.fresh_water_balance</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.tuning_applied.fresh_water_balance</dd>
     </dl>
   </body>
 </html></richcontent></node></node><node BACKGROUND_COLOR="#ACF0F2" COLOR="#000000" FOLDED="false" STYLE="bubble" TEXT="conservation"><font BOLD="True" NAME="courier" SIZE="12" /><richcontent TYPE="NOTE"><html>
@@ -590,84 +597,84 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe if/how heat is conserved globally</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.heat.global</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.heat.global</dd>
+        <dt><b>Description</b></dt><dd>Describe if/how heat is conserved globally</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.heat.global</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.heat.global</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe if/how heat is conserved globally</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.heat.global</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.heat.global</dd>
+        <dt><b>Description</b></dt><dd>Describe if/how heat is conserved globally</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.heat.global</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.heat.global</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="atmos_ocean_interface"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe if/how heat is conserved at the atmosphere/ocean coupling interface</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.heat.atmos_ocean_interface</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.heat.atmos_ocean_interface</dd>
+        <dt><b>Description</b></dt><dd>Describe if/how heat is conserved at the atmosphere/ocean coupling interface</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.heat.atmos_ocean_interface</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.heat.atmos_ocean_interface</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe if/how heat is conserved at the atmosphere/ocean coupling interface</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.heat.atmos_ocean_interface</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.heat.atmos_ocean_interface</dd>
+        <dt><b>Description</b></dt><dd>Describe if/how heat is conserved at the atmosphere/ocean coupling interface</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.heat.atmos_ocean_interface</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.heat.atmos_ocean_interface</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="atmos_land_interface"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe if/how heat is conserved at the atmosphere/land coupling interface</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.heat.atmos_land_interface</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.heat.atmos_land_interface</dd>
+        <dt><b>Description</b></dt><dd>Describe if/how heat is conserved at the atmosphere/land coupling interface</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.heat.atmos_land_interface</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.heat.atmos_land_interface</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe if/how heat is conserved at the atmosphere/land coupling interface</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.heat.atmos_land_interface</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.heat.atmos_land_interface</dd>
+        <dt><b>Description</b></dt><dd>Describe if/how heat is conserved at the atmosphere/land coupling interface</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.heat.atmos_land_interface</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.heat.atmos_land_interface</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="atmos_sea-ice_interface"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe if/how heat is conserved at the atmosphere/sea-ice coupling interface</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.heat.atmos_sea-ice_interface</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.heat.atmos_sea-ice_interface</dd>
+        <dt><b>Description</b></dt><dd>Describe if/how heat is conserved at the atmosphere/sea-ice coupling interface</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.heat.atmos_sea-ice_interface</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.heat.atmos_sea-ice_interface</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe if/how heat is conserved at the atmosphere/sea-ice coupling interface</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.heat.atmos_sea-ice_interface</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.heat.atmos_sea-ice_interface</dd>
+        <dt><b>Description</b></dt><dd>Describe if/how heat is conserved at the atmosphere/sea-ice coupling interface</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.heat.atmos_sea-ice_interface</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.heat.atmos_sea-ice_interface</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="ocean_seaice_interface"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe if/how heat is conserved at the ocean/sea-ice coupling interface</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.heat.ocean_seaice_interface</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.heat.ocean_seaice_interface</dd>
+        <dt><b>Description</b></dt><dd>Describe if/how heat is conserved at the ocean/sea-ice coupling interface</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.heat.ocean_seaice_interface</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.heat.ocean_seaice_interface</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe if/how heat is conserved at the ocean/sea-ice coupling interface</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.heat.ocean_seaice_interface</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.heat.ocean_seaice_interface</dd>
+        <dt><b>Description</b></dt><dd>Describe if/how heat is conserved at the ocean/sea-ice coupling interface</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.heat.ocean_seaice_interface</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.heat.ocean_seaice_interface</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="land_ocean_interface"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe if/how heat is conserved at the land/ocean coupling interface</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.heat.land_ocean_interface</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.heat.land_ocean_interface</dd>
+        <dt><b>Description</b></dt><dd>Describe if/how heat is conserved at the land/ocean coupling interface</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.heat.land_ocean_interface</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.heat.land_ocean_interface</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe if/how heat is conserved at the land/ocean coupling interface</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.heat.land_ocean_interface</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.heat.land_ocean_interface</dd>
+        <dt><b>Description</b></dt><dd>Describe if/how heat is conserved at the land/ocean coupling interface</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.heat.land_ocean_interface</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.heat.land_ocean_interface</dd>
     </dl>
   </body>
 </html></richcontent></node></node><node BACKGROUND_COLOR="#F3FFE2" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="fresh_water"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
@@ -681,126 +688,126 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe if/how fresh_water is conserved globally</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.fresh_water.global</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.fresh_water.global</dd>
+        <dt><b>Description</b></dt><dd>Describe if/how fresh_water is conserved globally</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.fresh_water.global</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.fresh_water.global</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe if/how fresh_water is conserved globally</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.fresh_water.global</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.fresh_water.global</dd>
+        <dt><b>Description</b></dt><dd>Describe if/how fresh_water is conserved globally</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.fresh_water.global</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.fresh_water.global</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="atmos_ocean_interface"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe if/how fresh_water is conserved at the atmosphere/ocean coupling interface</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.fresh_water.atmos_ocean_interface</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.fresh_water.atmos_ocean_interface</dd>
+        <dt><b>Description</b></dt><dd>Describe if/how fresh_water is conserved at the atmosphere/ocean coupling interface</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.fresh_water.atmos_ocean_interface</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.fresh_water.atmos_ocean_interface</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe if/how fresh_water is conserved at the atmosphere/ocean coupling interface</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.fresh_water.atmos_ocean_interface</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.fresh_water.atmos_ocean_interface</dd>
+        <dt><b>Description</b></dt><dd>Describe if/how fresh_water is conserved at the atmosphere/ocean coupling interface</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.fresh_water.atmos_ocean_interface</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.fresh_water.atmos_ocean_interface</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="atmos_land_interface"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe if/how fresh water is conserved at the atmosphere/land coupling interface</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.fresh_water.atmos_land_interface</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.fresh_water.atmos_land_interface</dd>
+        <dt><b>Description</b></dt><dd>Describe if/how fresh water is conserved at the atmosphere/land coupling interface</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.fresh_water.atmos_land_interface</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.fresh_water.atmos_land_interface</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe if/how fresh water is conserved at the atmosphere/land coupling interface</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.fresh_water.atmos_land_interface</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.fresh_water.atmos_land_interface</dd>
+        <dt><b>Description</b></dt><dd>Describe if/how fresh water is conserved at the atmosphere/land coupling interface</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.fresh_water.atmos_land_interface</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.fresh_water.atmos_land_interface</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="atmos_sea-ice_interface"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe if/how fresh water is conserved at the atmosphere/sea-ice coupling interface</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.fresh_water.atmos_sea-ice_interface</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.fresh_water.atmos_sea-ice_interface</dd>
+        <dt><b>Description</b></dt><dd>Describe if/how fresh water is conserved at the atmosphere/sea-ice coupling interface</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.fresh_water.atmos_sea-ice_interface</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.fresh_water.atmos_sea-ice_interface</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe if/how fresh water is conserved at the atmosphere/sea-ice coupling interface</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.fresh_water.atmos_sea-ice_interface</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.fresh_water.atmos_sea-ice_interface</dd>
+        <dt><b>Description</b></dt><dd>Describe if/how fresh water is conserved at the atmosphere/sea-ice coupling interface</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.fresh_water.atmos_sea-ice_interface</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.fresh_water.atmos_sea-ice_interface</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="ocean_seaice_interface"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe if/how fresh water is conserved at the ocean/sea-ice coupling interface</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.fresh_water.ocean_seaice_interface</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.fresh_water.ocean_seaice_interface</dd>
+        <dt><b>Description</b></dt><dd>Describe if/how fresh water is conserved at the ocean/sea-ice coupling interface</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.fresh_water.ocean_seaice_interface</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.fresh_water.ocean_seaice_interface</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe if/how fresh water is conserved at the ocean/sea-ice coupling interface</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.fresh_water.ocean_seaice_interface</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.fresh_water.ocean_seaice_interface</dd>
+        <dt><b>Description</b></dt><dd>Describe if/how fresh water is conserved at the ocean/sea-ice coupling interface</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.fresh_water.ocean_seaice_interface</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.fresh_water.ocean_seaice_interface</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="runoff"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe how runoff is distributed and conserved</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.fresh_water.runoff</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.fresh_water.runoff</dd>
+        <dt><b>Description</b></dt><dd>Describe how runoff is distributed and conserved</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.fresh_water.runoff</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.fresh_water.runoff</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe how runoff is distributed and conserved</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.fresh_water.runoff</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.fresh_water.runoff</dd>
+        <dt><b>Description</b></dt><dd>Describe how runoff is distributed and conserved</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.fresh_water.runoff</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.fresh_water.runoff</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="iceberg_calving"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe if/how iceberg calving is modeled and conserved</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.fresh_water.iceberg_calving</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.fresh_water.iceberg_calving</dd>
+        <dt><b>Description</b></dt><dd>Describe if/how iceberg calving is modeled and conserved</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.fresh_water.iceberg_calving</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.fresh_water.iceberg_calving</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe if/how iceberg calving is modeled and conserved</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.fresh_water.iceberg_calving</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.fresh_water.iceberg_calving</dd>
+        <dt><b>Description</b></dt><dd>Describe if/how iceberg calving is modeled and conserved</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.fresh_water.iceberg_calving</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.fresh_water.iceberg_calving</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="endoreic_basins"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe if/how endoreic basins (no ocean access) are treated</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.fresh_water.endoreic_basins</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.fresh_water.endoreic_basins</dd>
+        <dt><b>Description</b></dt><dd>Describe if/how endoreic basins (no ocean access) are treated</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.fresh_water.endoreic_basins</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.fresh_water.endoreic_basins</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe if/how endoreic basins (no ocean access) are treated</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.fresh_water.endoreic_basins</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.fresh_water.endoreic_basins</dd>
+        <dt><b>Description</b></dt><dd>Describe if/how endoreic basins (no ocean access) are treated</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.fresh_water.endoreic_basins</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.fresh_water.endoreic_basins</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="snow_accumulation"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe how snow accumulation over land and over sea-ice is treated</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.fresh_water.snow_accumulation</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.fresh_water.snow_accumulation</dd>
+        <dt><b>Description</b></dt><dd>Describe how snow accumulation over land and over sea-ice is treated</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.fresh_water.snow_accumulation</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.fresh_water.snow_accumulation</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe how snow accumulation over land and over sea-ice is treated</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.fresh_water.snow_accumulation</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.fresh_water.snow_accumulation</dd>
+        <dt><b>Description</b></dt><dd>Describe how snow accumulation over land and over sea-ice is treated</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.fresh_water.snow_accumulation</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.fresh_water.snow_accumulation</dd>
     </dl>
   </body>
 </html></richcontent></node></node><node BACKGROUND_COLOR="#F3FFE2" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="salt"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
@@ -814,14 +821,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe if/how salt is conserved at the ocean/sea-ice coupling interface</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.salt.ocean_seaice_interface</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.salt.ocean_seaice_interface</dd>
+        <dt><b>Description</b></dt><dd>Describe if/how salt is conserved at the ocean/sea-ice coupling interface</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.salt.ocean_seaice_interface</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.salt.ocean_seaice_interface</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe if/how salt is conserved at the ocean/sea-ice coupling interface</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.salt.ocean_seaice_interface</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.salt.ocean_seaice_interface</dd>
+        <dt><b>Description</b></dt><dd>Describe if/how salt is conserved at the ocean/sea-ice coupling interface</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.salt.ocean_seaice_interface</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.salt.ocean_seaice_interface</dd>
     </dl>
   </body>
 </html></richcontent></node></node><node BACKGROUND_COLOR="#F3FFE2" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="momentum"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
@@ -835,14 +842,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe if/how momentum is conserved in the model</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.momentum.details</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.momentum.details</dd>
+        <dt><b>Description</b></dt><dd>Describe if/how momentum is conserved in the model</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.momentum.details</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.momentum.details</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe if/how momentum is conserved in the model</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.momentum.details</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.momentum.details</dd>
+        <dt><b>Description</b></dt><dd>Describe if/how momentum is conserved in the model</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.momentum.details</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.conservation.momentum.details</dd>
     </dl>
   </body>
 </html></richcontent></node></node></node></node><node BACKGROUND_COLOR="#FFFFFF" COLOR="#000000" FOLDED="false" STYLE="bubble" TEXT="radiative_forcings"><font BOLD="True" NAME="courier" SIZE="12" /><richcontent TYPE="NOTE"><html>
@@ -975,14 +982,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.radiative_forcings.greenhouse_gases.CO2.additional_information</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.radiative_forcings.greenhouse_gases.CO2.additional_information</dd>
+        <dt><b>Description</b></dt><dd>Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.radiative_forcings.greenhouse_gases.CO2.additional_information</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.radiative_forcings.greenhouse_gases.CO2.additional_information</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.radiative_forcings.greenhouse_gases.CO2.additional_information</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.radiative_forcings.greenhouse_gases.CO2.additional_information</dd>
+        <dt><b>Description</b></dt><dd>Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.radiative_forcings.greenhouse_gases.CO2.additional_information</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.radiative_forcings.greenhouse_gases.CO2.additional_information</dd>
     </dl>
   </body>
 </html></richcontent></node></node><node BACKGROUND_COLOR="#F3FFE2" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="CH4"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
@@ -1052,14 +1059,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.radiative_forcings.greenhouse_gases.CH4.additional_information</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.radiative_forcings.greenhouse_gases.CH4.additional_information</dd>
+        <dt><b>Description</b></dt><dd>Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.radiative_forcings.greenhouse_gases.CH4.additional_information</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.radiative_forcings.greenhouse_gases.CH4.additional_information</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.radiative_forcings.greenhouse_gases.CH4.additional_information</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.radiative_forcings.greenhouse_gases.CH4.additional_information</dd>
+        <dt><b>Description</b></dt><dd>Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.radiative_forcings.greenhouse_gases.CH4.additional_information</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.radiative_forcings.greenhouse_gases.CH4.additional_information</dd>
     </dl>
   </body>
 </html></richcontent></node></node><node BACKGROUND_COLOR="#F3FFE2" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="N2O"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
@@ -1129,14 +1136,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.radiative_forcings.greenhouse_gases.N2O.additional_information</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.radiative_forcings.greenhouse_gases.N2O.additional_information</dd>
+        <dt><b>Description</b></dt><dd>Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.radiative_forcings.greenhouse_gases.N2O.additional_information</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.radiative_forcings.greenhouse_gases.N2O.additional_information</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.radiative_forcings.greenhouse_gases.N2O.additional_information</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.radiative_forcings.greenhouse_gases.N2O.additional_information</dd>
+        <dt><b>Description</b></dt><dd>Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.radiative_forcings.greenhouse_gases.N2O.additional_information</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.radiative_forcings.greenhouse_gases.N2O.additional_information</dd>
     </dl>
   </body>
 </html></richcontent></node></node><node BACKGROUND_COLOR="#F3FFE2" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="tropospheric_O3"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
@@ -1206,14 +1213,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.radiative_forcings.greenhouse_gases.tropospheric_O3.additional_information</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.radiative_forcings.greenhouse_gases.tropospheric_O3.additional_information</dd>
+        <dt><b>Description</b></dt><dd>Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.radiative_forcings.greenhouse_gases.tropospheric_O3.additional_information</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.radiative_forcings.greenhouse_gases.tropospheric_O3.additional_information</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.radiative_forcings.greenhouse_gases.tropospheric_O3.additional_information</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.radiative_forcings.greenhouse_gases.tropospheric_O3.additional_information</dd>
+        <dt><b>Description</b></dt><dd>Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.radiative_forcings.greenhouse_gases.tropospheric_O3.additional_information</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.radiative_forcings.greenhouse_gases.tropospheric_O3.additional_information</dd>
     </dl>
   </body>
 </html></richcontent></node></node><node BACKGROUND_COLOR="#F3FFE2" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="stratospheric_O3"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
@@ -1283,14 +1290,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.radiative_forcings.greenhouse_gases.stratospheric_O3.additional_information</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.radiative_forcings.greenhouse_gases.stratospheric_O3.additional_information</dd>
+        <dt><b>Description</b></dt><dd>Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.radiative_forcings.greenhouse_gases.stratospheric_O3.additional_information</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.radiative_forcings.greenhouse_gases.stratospheric_O3.additional_information</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.radiative_forcings.greenhouse_gases.stratospheric_O3.additional_information</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.radiative_forcings.greenhouse_gases.stratospheric_O3.additional_information</dd>
+        <dt><b>Description</b></dt><dd>Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.radiative_forcings.greenhouse_gases.stratospheric_O3.additional_information</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.radiative_forcings.greenhouse_gases.stratospheric_O3.additional_information</dd>
     </dl>
   </body>
 </html></richcontent></node></node><node BACKGROUND_COLOR="#F3FFE2" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="CFC"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
@@ -1402,14 +1409,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.radiative_forcings.greenhouse_gases.CFC.additional_information</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.radiative_forcings.greenhouse_gases.CFC.additional_information</dd>
+        <dt><b>Description</b></dt><dd>Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.radiative_forcings.greenhouse_gases.CFC.additional_information</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.radiative_forcings.greenhouse_gases.CFC.additional_information</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.radiative_forcings.greenhouse_gases.CFC.additional_information</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.radiative_forcings.greenhouse_gases.CFC.additional_information</dd>
+        <dt><b>Description</b></dt><dd>Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.radiative_forcings.greenhouse_gases.CFC.additional_information</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.radiative_forcings.greenhouse_gases.CFC.additional_information</dd>
     </dl>
   </body>
 </html></richcontent></node></node></node><node BACKGROUND_COLOR="#ACF0F2" COLOR="#000000" FOLDED="false" STYLE="bubble" TEXT="aerosols"><font BOLD="True" NAME="courier" SIZE="12" /><richcontent TYPE="NOTE"><html>
@@ -1500,14 +1507,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.radiative_forcings.aerosols.SO4.additional_information</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.radiative_forcings.aerosols.SO4.additional_information</dd>
+        <dt><b>Description</b></dt><dd>Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.radiative_forcings.aerosols.SO4.additional_information</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.radiative_forcings.aerosols.SO4.additional_information</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.radiative_forcings.aerosols.SO4.additional_information</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.radiative_forcings.aerosols.SO4.additional_information</dd>
+        <dt><b>Description</b></dt><dd>Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.radiative_forcings.aerosols.SO4.additional_information</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.radiative_forcings.aerosols.SO4.additional_information</dd>
     </dl>
   </body>
 </html></richcontent></node></node><node BACKGROUND_COLOR="#F3FFE2" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="black_carbon"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
@@ -1577,14 +1584,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.radiative_forcings.aerosols.black_carbon.additional_information</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.radiative_forcings.aerosols.black_carbon.additional_information</dd>
+        <dt><b>Description</b></dt><dd>Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.radiative_forcings.aerosols.black_carbon.additional_information</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.radiative_forcings.aerosols.black_carbon.additional_information</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.radiative_forcings.aerosols.black_carbon.additional_information</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.radiative_forcings.aerosols.black_carbon.additional_information</dd>
+        <dt><b>Description</b></dt><dd>Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.radiative_forcings.aerosols.black_carbon.additional_information</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.radiative_forcings.aerosols.black_carbon.additional_information</dd>
     </dl>
   </body>
 </html></richcontent></node></node><node BACKGROUND_COLOR="#F3FFE2" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="organic_carbon"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
@@ -1654,14 +1661,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.radiative_forcings.aerosols.organic_carbon.additional_information</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.radiative_forcings.aerosols.organic_carbon.additional_information</dd>
+        <dt><b>Description</b></dt><dd>Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.radiative_forcings.aerosols.organic_carbon.additional_information</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.radiative_forcings.aerosols.organic_carbon.additional_information</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.radiative_forcings.aerosols.organic_carbon.additional_information</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.radiative_forcings.aerosols.organic_carbon.additional_information</dd>
+        <dt><b>Description</b></dt><dd>Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.radiative_forcings.aerosols.organic_carbon.additional_information</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.radiative_forcings.aerosols.organic_carbon.additional_information</dd>
     </dl>
   </body>
 </html></richcontent></node></node><node BACKGROUND_COLOR="#F3FFE2" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="nitrate"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
@@ -1731,14 +1738,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.radiative_forcings.aerosols.nitrate.additional_information</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.radiative_forcings.aerosols.nitrate.additional_information</dd>
+        <dt><b>Description</b></dt><dd>Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.radiative_forcings.aerosols.nitrate.additional_information</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.radiative_forcings.aerosols.nitrate.additional_information</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.radiative_forcings.aerosols.nitrate.additional_information</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.radiative_forcings.aerosols.nitrate.additional_information</dd>
+        <dt><b>Description</b></dt><dd>Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.radiative_forcings.aerosols.nitrate.additional_information</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.radiative_forcings.aerosols.nitrate.additional_information</dd>
     </dl>
   </body>
 </html></richcontent></node></node><node BACKGROUND_COLOR="#F3FFE2" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="cloud_albedo_effect"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
@@ -1822,14 +1829,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.radiative_forcings.aerosols.cloud_albedo_effect.additional_information</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.radiative_forcings.aerosols.cloud_albedo_effect.additional_information</dd>
+        <dt><b>Description</b></dt><dd>Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.radiative_forcings.aerosols.cloud_albedo_effect.additional_information</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.radiative_forcings.aerosols.cloud_albedo_effect.additional_information</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.radiative_forcings.aerosols.cloud_albedo_effect.additional_information</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.radiative_forcings.aerosols.cloud_albedo_effect.additional_information</dd>
+        <dt><b>Description</b></dt><dd>Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.radiative_forcings.aerosols.cloud_albedo_effect.additional_information</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.radiative_forcings.aerosols.cloud_albedo_effect.additional_information</dd>
     </dl>
   </body>
 </html></richcontent></node></node><node BACKGROUND_COLOR="#F3FFE2" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="cloud_lifetime_effect"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
@@ -1927,14 +1934,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.radiative_forcings.aerosols.cloud_lifetime_effect.additional_information</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.radiative_forcings.aerosols.cloud_lifetime_effect.additional_information</dd>
+        <dt><b>Description</b></dt><dd>Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.radiative_forcings.aerosols.cloud_lifetime_effect.additional_information</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.radiative_forcings.aerosols.cloud_lifetime_effect.additional_information</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.radiative_forcings.aerosols.cloud_lifetime_effect.additional_information</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.radiative_forcings.aerosols.cloud_lifetime_effect.additional_information</dd>
+        <dt><b>Description</b></dt><dd>Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.radiative_forcings.aerosols.cloud_lifetime_effect.additional_information</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.radiative_forcings.aerosols.cloud_lifetime_effect.additional_information</dd>
     </dl>
   </body>
 </html></richcontent></node></node><node BACKGROUND_COLOR="#F3FFE2" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="dust"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
@@ -2004,14 +2011,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.radiative_forcings.aerosols.dust.additional_information</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.radiative_forcings.aerosols.dust.additional_information</dd>
+        <dt><b>Description</b></dt><dd>Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.radiative_forcings.aerosols.dust.additional_information</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.radiative_forcings.aerosols.dust.additional_information</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.radiative_forcings.aerosols.dust.additional_information</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.radiative_forcings.aerosols.dust.additional_information</dd>
+        <dt><b>Description</b></dt><dd>Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.radiative_forcings.aerosols.dust.additional_information</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.radiative_forcings.aerosols.dust.additional_information</dd>
     </dl>
   </body>
 </html></richcontent></node></node><node BACKGROUND_COLOR="#F3FFE2" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="tropospheric_volcanic"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
@@ -2179,14 +2186,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.radiative_forcings.aerosols.tropospheric_volcanic.additional_information</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.radiative_forcings.aerosols.tropospheric_volcanic.additional_information</dd>
+        <dt><b>Description</b></dt><dd>Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.radiative_forcings.aerosols.tropospheric_volcanic.additional_information</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.radiative_forcings.aerosols.tropospheric_volcanic.additional_information</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.radiative_forcings.aerosols.tropospheric_volcanic.additional_information</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.radiative_forcings.aerosols.tropospheric_volcanic.additional_information</dd>
+        <dt><b>Description</b></dt><dd>Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.radiative_forcings.aerosols.tropospheric_volcanic.additional_information</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.radiative_forcings.aerosols.tropospheric_volcanic.additional_information</dd>
     </dl>
   </body>
 </html></richcontent></node></node><node BACKGROUND_COLOR="#F3FFE2" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="stratospheric_volcanic"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
@@ -2354,14 +2361,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.radiative_forcings.aerosols.stratospheric_volcanic.additional_information</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.radiative_forcings.aerosols.stratospheric_volcanic.additional_information</dd>
+        <dt><b>Description</b></dt><dd>Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.radiative_forcings.aerosols.stratospheric_volcanic.additional_information</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.radiative_forcings.aerosols.stratospheric_volcanic.additional_information</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.radiative_forcings.aerosols.stratospheric_volcanic.additional_information</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.radiative_forcings.aerosols.stratospheric_volcanic.additional_information</dd>
+        <dt><b>Description</b></dt><dd>Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.radiative_forcings.aerosols.stratospheric_volcanic.additional_information</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.radiative_forcings.aerosols.stratospheric_volcanic.additional_information</dd>
     </dl>
   </body>
 </html></richcontent></node></node><node BACKGROUND_COLOR="#F3FFE2" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="sea_salt"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
@@ -2431,14 +2438,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.radiative_forcings.aerosols.sea_salt.additional_information</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.radiative_forcings.aerosols.sea_salt.additional_information</dd>
+        <dt><b>Description</b></dt><dd>Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.radiative_forcings.aerosols.sea_salt.additional_information</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.radiative_forcings.aerosols.sea_salt.additional_information</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.radiative_forcings.aerosols.sea_salt.additional_information</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.radiative_forcings.aerosols.sea_salt.additional_information</dd>
+        <dt><b>Description</b></dt><dd>Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.radiative_forcings.aerosols.sea_salt.additional_information</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.radiative_forcings.aerosols.sea_salt.additional_information</dd>
     </dl>
   </body>
 </html></richcontent></node></node></node><node BACKGROUND_COLOR="#ACF0F2" COLOR="#000000" FOLDED="false" STYLE="bubble" TEXT="other"><font BOLD="True" NAME="courier" SIZE="12" /><richcontent TYPE="NOTE"><html>
@@ -2543,14 +2550,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.radiative_forcings.other.land_use.additional_information</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.radiative_forcings.other.land_use.additional_information</dd>
+        <dt><b>Description</b></dt><dd>Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.radiative_forcings.other.land_use.additional_information</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.radiative_forcings.other.land_use.additional_information</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.radiative_forcings.other.land_use.additional_information</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.radiative_forcings.other.land_use.additional_information</dd>
+        <dt><b>Description</b></dt><dd>Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.radiative_forcings.other.land_use.additional_information</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.radiative_forcings.other.land_use.additional_information</dd>
     </dl>
   </body>
 </html></richcontent></node></node><node BACKGROUND_COLOR="#F3FFE2" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="solar"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
@@ -2613,14 +2620,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.radiative_forcings.other.solar.additional_information</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.radiative_forcings.other.solar.additional_information</dd>
+        <dt><b>Description</b></dt><dd>Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.radiative_forcings.other.solar.additional_information</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.radiative_forcings.other.solar.additional_information</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.radiative_forcings.other.solar.additional_information</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.radiative_forcings.other.solar.additional_information</dd>
+        <dt><b>Description</b></dt><dd>Additional information relating to the provision and implementation of this forcing agent (e.g. citations, use of non-standard datasets, explaining how multiple provisions are used, etc.).</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.radiative_forcings.other.solar.additional_information</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.radiative_forcings.other.solar.additional_information</dd>
     </dl>
   </body>
 </html></richcontent></node></node></node></node><node FOLDED="true" POSITION="left" STYLE="bubble" TEXT="SHORT TABLES"><node BACKGROUND_COLOR="#FFFFFF" COLOR="#000000" STYLE="bubble" TEXT="toplevel"><node BACKGROUND_COLOR="#FFFFFF" COLOR="#000000" STYLE="bubble" TEXT="cmip6.toplevel.key_properties.name"><richcontent TYPE="NOTE"><html>
