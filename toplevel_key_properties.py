@@ -64,7 +64,7 @@ DETAILS['toplevel:software_properties'] = {
             "Code version identifier."),
         ('code_languages','cs-str', '0.1',
             "Code language(s)."),
-        ('components_structure','l-str', '0.1',
+        ('components_structure','str', '0.1',
             "Describe how model realms are structured into independent software components (coupled via a coupler) and internal software components."),
         ('coupler','ENUM:coupler_framework', '0.1',
             "Overarching coupling framework for model."),
@@ -102,9 +102,9 @@ DETAILS['tuning_applied'] = {
             "List of regional metrics/diagnostics of mean state (e.g THC, AABW, regional means etc) used in tuning model/component"),
         ('trend_metrics_used', 'cs-str', '0.1',
             "List observed trend metrics/diagnostics used in tuning model/component (such as 20th century)"),
-        ('energy_balance','l-str', '1.1',
+        ('energy_balance','str', '1.1',
             "Describe how energy balance was obtained in the full system: in the various components independently or at the components coupling stage?"),
-        ('fresh_water_balance','l-str', '1.1',
+        ('fresh_water_balance','str', '1.1',
             "Describe how fresh_water balance was obtained in the full system: in the various components independently or at the components coupling stage?")
         ]
     }
