@@ -1390,13 +1390,22 @@
                         "uiOrdinal": 3
                     }, 
                     {
+                        "label": "CMIP5 Differences", 
+                        "description": "Briefly summarize the differences between this model and its CMIP5 parent, if applicable", 
+                        "id": "cmip6.toplevel.key_properties.genealogy.CMIP5_differences", 
+                        "cardinality": "0.1", 
+                        "type": "l-str", 
+                        "is_cim_property": false, 
+                        "uiOrdinal": 4
+                    }, 
+                    {
                         "label": "Previous Name", 
                         "description": "Previously known as", 
                         "id": "cmip6.toplevel.key_properties.genealogy.previous_name", 
                         "cardinality": "0.1", 
                         "type": "str", 
                         "is_cim_property": false, 
-                        "uiOrdinal": 4
+                        "uiOrdinal": 5
                     }
                 ]
             }, 

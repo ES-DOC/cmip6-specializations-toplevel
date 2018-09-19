@@ -50,6 +50,8 @@ DETAILS['toplevel:genealogy'] = {
             'CMIP3 parent if any'),
         ('CMIP5_parent', 'str', '0.1',
             'CMIP5 parent if any'),
+        ('CMIP5_differences', 'l-str', '0.1',
+            'Briefly summarize the differences between this model and its CMIP5 parent, if applicable'),
         ('previous_name', 'str', '0.1',
             'Previously known as'),
         ]

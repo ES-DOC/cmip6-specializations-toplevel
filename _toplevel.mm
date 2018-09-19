@@ -187,6 +187,20 @@
         <dt><b>Description</b></dt><dd>CMIP5 parent if any</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.genealogy.CMIP5_parent</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.genealogy.CMIP5_parent</dd>
     </dl>
   </body>
+</html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="CMIP5_differences"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
+  <head />
+  <body>
+    <dl>
+        <dt><b>Description</b></dt><dd>Briefly summarize the differences between this model and its CMIP5 parent, if applicable</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.genealogy.CMIP5_differences</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.genealogy.CMIP5_differences</dd>
+    </dl>
+  </body>
+</html></richcontent><richcontent TYPE="NOTE"><html>
+  <head />
+  <body>
+    <dl>
+        <dt><b>Description</b></dt><dd>Briefly summarize the differences between this model and its CMIP5 parent, if applicable</dd><dt><b>Spec. ID</b></dt><dd>cmip6.toplevel.key_properties.genealogy.CMIP5_differences</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.toplevel.key_properties.genealogy.CMIP5_differences</dd>
+    </dl>
+  </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="previous_name"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>

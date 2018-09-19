@@ -6,6 +6,7 @@ cmip6.toplevel.key_properties.flux_correction.details, Toplevel > Key Properties
 cmip6.toplevel.key_properties.genealogy.year_released, Toplevel > Key Properties > Genealogy > Year Released, property
 cmip6.toplevel.key_properties.genealogy.CMIP3_parent, Toplevel > Key Properties > Genealogy > CMIP3 Parent, property
 cmip6.toplevel.key_properties.genealogy.CMIP5_parent, Toplevel > Key Properties > Genealogy > CMIP5 Parent, property
+cmip6.toplevel.key_properties.genealogy.CMIP5_differences, Toplevel > Key Properties > Genealogy > CMIP5 Differences, property
 cmip6.toplevel.key_properties.genealogy.previous_name, Toplevel > Key Properties > Genealogy > Previous Name, property
 cmip6.toplevel.key_properties.software_properties.repository, Toplevel > Key Properties > Software Properties > Repository, property
 cmip6.toplevel.key_properties.software_properties.code_version, Toplevel > Key Properties > Software Properties > Code Version, property
