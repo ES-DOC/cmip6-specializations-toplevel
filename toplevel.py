@@ -38,6 +38,8 @@ CHANGE_HISTORY = [
         "Removed some l-str"),
     ("1.1.0", "2018-09-19", "David Hassell",
         "Added CMIP5_differences"),
+    ("1.1.1", "2018-09-20", "David Hassell",
+        "removed duplicate 'overview'"),
     ]
 
 # --------------------------------------------------------------------

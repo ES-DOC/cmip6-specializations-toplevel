@@ -80,8 +80,6 @@ DETAILS['toplevel:software_properties'] = {
 DETAILS['coupling'] = {
     'description': '',
     'properties':[
-        ('overview', 'l-str', '1.1',
-            'Overview of coupling in the model'),
         ('atmosphere_double_flux', 'bool', '1.1',
              'Is the atmosphere passing a double flux to the ocean and sea ice (as opposed to a single one)?'),
         ('atmosphere_fluxes_calculation_grid', 'ENUM:atmosphere_fluxes_calculation_grid', '0.1',
